@@ -263,3 +263,26 @@ body:before{
   .login-copy{padding:26px 22px}
   .signal-team{grid-template-columns:78px 1fr 42px}
 }
+
+/* Mini teaching moments after practice answers */
+.feedback-head{display:flex;align-items:flex-start;gap:10px}
+.feedback-symbol{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;font-weight:900;flex:0 0 auto}
+.feedback-symbol.good{background:#dcefe5;color:#286348}
+.feedback-symbol.bad{background:#f4dfdc;color:#91433d}
+.feedback-answer{margin-top:2px;color:#45545f}
+.micro-lesson{
+  margin-top:12px;
+  padding:12px 14px;
+  border-left:3px solid var(--gold);
+  border-radius:0 10px 10px 0;
+  background:linear-gradient(90deg,#fff8e9,#f8faf8);
+}
+.lesson-label{
+  display:block;
+  font-size:10px;
+  letter-spacing:.13em;
+  font-weight:900;
+  color:#9a6e2d;
+  margin-bottom:4px;
+}
+.micro-lesson p{margin:0;line-height:1.45;color:#34444e}
