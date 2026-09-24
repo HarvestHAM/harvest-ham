@@ -286,3 +286,6 @@ body:before{
   margin-bottom:4px;
 }
 .micro-lesson p{margin:0;line-height:1.45;color:#34444e}
+
+.subbtn.danger{color:#8f3e37;border-color:#e5c6c2;background:#fff8f7}
+.subbtn.danger:hover{border-color:#c36e65;background:#fff1ef}
