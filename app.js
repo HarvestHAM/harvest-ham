@@ -738,7 +738,9 @@
         <div class="learner-metrics"><span>${la.length} answered</span><span>${accuracy}% accuracy</span><span>Best exam: ${best===null ? "-" : best+"/35"}</span><span>Last practice: ${latest}</span></div>
         <div class="subnav">
           <button class="subbtn bonusBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">+ Bonus</button>
-          <button class="subbtn pinBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Reset PIN</button>
+          <button class="subbtn pinBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Change PIN</button>
+          <button class="subbtn resetBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Reset Progress</button>
+          <button class="subbtn danger deleteBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Delete</button>
         </div>
       </div>`;
     }).join("");
@@ -802,6 +804,24 @@
       if(pin===null)return;
       const r=await db.rpc("teacher_reset_pin",{p_learner_id:b.dataset.id,p_new_pin:pin.trim()});
       if(r.error) alert(r.error.message); else alert("PIN updated.");
+    });
+
+    root.querySelectorAll(".resetBtn").forEach(b=>b.onclick=async()=>{
+      const ok=confirm("Reset ALL progress for "+b.dataset.name+"?\n\nThis keeps their name, PIN, and team, but removes practice history, points, streaks, mastery, and practice exam results.");
+      if(!ok)return;
+      const r=await db.rpc("teacher_reset_learner_progress",{p_learner_id:b.dataset.id});
+      if(r.error) alert(r.error.message);
+      else { alert(b.dataset.name+"'s progress was reset."); renderTeacher(); }
+    });
+
+    root.querySelectorAll(".deleteBtn").forEach(b=>b.onclick=async()=>{
+      const ok=confirm("Delete "+b.dataset.name+" completely?\n\nTheir account, practice history, points, and exam results will be removed. This cannot be undone.");
+      if(!ok)return;
+      const typed=prompt('Type DELETE to permanently remove '+b.dataset.name+':','');
+      if(typed!=="DELETE")return;
+      const r=await db.rpc("teacher_delete_learner",{p_learner_id:b.dataset.id});
+      if(r.error) alert(r.error.message);
+      else { alert(b.dataset.name+" was deleted."); renderTeacher(); }
     });
   }
 
