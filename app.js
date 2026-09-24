@@ -204,6 +204,40 @@
     return `<div class="figure-wrap"><img src="${esc(q.figure)}" alt="Diagram for ${esc(q.id)}" class="question-figure"></div>`;
   }
 
+  function teachingMoment(q) {
+    const notes = {
+      T5A01: "Current is the flow of electric charge, and it is measured in amperes (amps). A useful memory set is: volts = electrical pressure, amperes = current, ohms = resistance, and watts = power.",
+      T5A02: "Electrical power is the rate at which electrical energy is used, and it is measured in watts. Volts measure electrical pressure, while amperes measure current.",
+      T5A03: "Current means the flow of electric charge through a circuit. Voltage is the push that causes the flow; resistance opposes the flow.",
+      T5A04: "Resistance is measured in ohms. Resistance tells you how strongly a material or component opposes current flow.",
+      T5A05: "Voltage is the electrical 'push' or potential difference that causes current to flow. Current is the flow itself, not the force causing it.",
+      T5A06: "Frequency is measured in hertz (Hz), meaning cycles per second. A henry measures inductance and a farad measures capacitance.",
+      T5A07: "Metals conduct well because they have many electrons that can move freely through the material. Their density is not what makes them good conductors.",
+      T5A08: "Glass is an insulator because its electrons are not free to move easily. Copper, aluminum, and mercury are conductors.",
+      T5A09: "Alternating current repeatedly reverses direction, moving positive and negative over each cycle. Direct current keeps the same overall direction.",
+      T5A10: "Power describes how fast electrical energy is being used or delivered. It is measured in watts; current, voltage, and resistance describe different electrical properties.",
+      T5A11: "Resistance opposes current flow whether the current is DC, ordinary AC, or radio-frequency current. That is why 'all these choices' is correct.",
+      T5A12: "Frequency is the number of complete cycles that occur each second. One cycle per second equals one hertz."
+    };
+
+    if (notes[q.id]) return notes[q.id];
+
+    const correct = q.a[q.correct];
+    const section = pool.sections.find(s => q.group.startsWith(s.id));
+    const unitNotes = {
+      "Amperes":"Amperes measure electrical current — the flow of charge.",
+      "Volts":"Volts measure electrical potential or 'pressure.'",
+      "Watts":"Watts measure power — the rate energy is used or delivered.",
+      "Ohms":"Ohms measure resistance to current flow.",
+      "Hertz":"Hertz measure frequency, or cycles per second.",
+      "Farads":"Farads measure capacitance.",
+      "Henrys":"Henrys measure inductance."
+    };
+    if (unitNotes[correct]) return unitNotes[correct];
+
+    return `This is a ${section ? section.id + " " + section.title : "Technician"} concept. The key exam idea is “${correct}.” Watch for answer choices that describe a related term but do not match exactly what the question is asking.`;
+  }
+
   async function syncRewards(subgroup=null, groupTotal=null, sessionScore=null, sessionTotal=null) {
     const payload = {
       p_subgroup: subgroup,
@@ -453,9 +487,15 @@
 
     const fb = document.getElementById("fb");
     fb.className = "feedback";
-    fb.innerHTML = `<b>${correct ? "Correct!" : "Not quite."}</b> ${esc(q.explain)}
-      ${save.error ? '<div class="notice">Your answer could not be saved: '+esc(save.error.message)+'</div>' : ''}
-      <div style="margin-top:10px"><button id="next" class="btn">${state.qIndex+1 < state.session.length ? "Next question" : "Finish practice"}</button></div>`;
+    fb.innerHTML = correct
+      ? `<div class="feedback-head"><span class="feedback-symbol good">✓</span><div><b>Correct!</b><div class="feedback-answer">${String.fromCharCode(65+q.correct)}. ${esc(q.a[q.correct])}</div></div></div>
+         <div class="micro-lesson"><span class="lesson-label">WHY IT WORKS</span><p>${esc(teachingMoment(q))}</p></div>
+         ${save.error ? '<div class="notice">Your answer could not be saved: '+esc(save.error.message)+'</div>' : ''}
+         <div style="margin-top:10px"><button id="next" class="btn">${state.qIndex+1 < state.session.length ? "Next question" : "Finish practice"}</button></div>`
+      : `<div class="feedback-head"><span class="feedback-symbol bad">×</span><div><b>Not quite.</b><div class="feedback-answer">Correct answer: ${String.fromCharCode(65+q.correct)}. ${esc(q.a[q.correct])}</div></div></div>
+         <div class="micro-lesson"><span class="lesson-label">QUICK TEACHING MOMENT</span><p>${esc(teachingMoment(q))}</p></div>
+         ${save.error ? '<div class="notice">Your answer could not be saved: '+esc(save.error.message)+'</div>' : ''}
+         <div style="margin-top:10px"><button id="next" class="btn">${state.qIndex+1 < state.session.length ? "Next question" : "Finish practice"}</button></div>`;
 
     document.getElementById("next").onclick = async () => {
       if (state.qIndex+1 < state.session.length) {
