@@ -31,3 +31,5 @@ h2,h3{margin-top:0}.muted{color:var(--muted)}.btn,.ghost{border:0;border-radius:
 .review-item{padding:14px 0;border-bottom:1px solid var(--line);line-height:1.4}
 .review-item:last-child{border-bottom:0}
 .btn:disabled{opacity:.48;cursor:not-allowed}
+
+.learner-metrics{display:grid;gap:4px;color:var(--muted);font-size:13px}
