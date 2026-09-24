@@ -319,23 +319,52 @@
   }
 
 
+  function startGroup(group) {
+    state.group = group;
+    state.mode = "practice";
+    state.session = shuffle(groupQuestions(group));
+    state.qIndex = 0;
+    state.sessionCorrect = 0;
+    state.view = "practice";
+    render();
+  }
+
+  function startMissed(missed=currentMissedQuestions()) {
+    if (!missed.length) return;
+    state.group = "MISSED";
+    state.mode = "missed";
+    state.session = shuffle(missed);
+    state.qIndex = 0;
+    state.sessionCorrect = 0;
+    state.view = "practice";
+    render();
+  }
+
   function renderPractice() {
     const q = state.session[state.qIndex], total = state.session.length;
-    root.innerHTML = `<div class="toolbar"><button id="back" class="btn alt">← ${state.section}</button>
-      <div><b>${state.group}</b> <span class="muted">Question ${state.qIndex+1} of ${total}</span></div></div>
+    const label = state.mode === "missed" ? "Missed Question Rescue" : state.group;
+    root.innerHTML = `<div class="toolbar"><button id="back" class="btn alt"><- ${state.mode === "missed" ? "Home" : state.section}</button>
+      <div><b>${esc(label)}</b> <span class="muted">Question ${state.qIndex+1} of ${total}</span></div></div>
       <div class="progress"><span style="width:${((state.qIndex)/total)*100}%"></span></div>
       <div class="panel" style="margin-top:14px">
+        <div class="question-id">${esc(q.id)}${q.refs ? ` - ${esc(q.refs)}` : ""}</div>
         <div class="question">${esc(q.q)}</div>
+        ${questionFigure(q)}
         <div id="answers" class="answer-list">${q.a.map((a,i) => `<button class="answer" data-i="${i}"><b>${String.fromCharCode(65+i)}.</b> ${esc(a)}</button>`).join("")}</div>
         <div id="fb"></div>
       </div>`;
 
-    document.getElementById("back").onclick = () => { state.view = "section"; render(); };
-    root.querySelectorAll(".answer").forEach(btn => btn.onclick = () => answerQuestion(q, Number(btn.dataset.i)));
+    document.getElementById("back").onclick = () => {
+      state.view = state.mode === "missed" ? "home" : "section";
+      render();
+    };
+    root.querySelectorAll(".answer").forEach(btn => btn.onclick = () => answerPractice(q, Number(btn.dataset.i)));
   }
 
-  async function answerQuestion(q, choice) {
+  async function answerPractice(q, choice) {
     const correct = choice === q.correct;
+    if (correct) state.sessionCorrect++;
+
     root.querySelectorAll(".answer").forEach((b,i) => {
       b.disabled = true;
       if (i === q.correct) b.classList.add("correct");
@@ -348,33 +377,185 @@
       section: q.group.slice(0,2),
       subgroup: q.group,
       correct,
-      mode: "practice"
+      mode: state.mode === "missed" ? "missed" : "practice"
     });
 
     if (!save.error) {
       state.attempts.unshift({
-        question_id:q.id, section:q.group.slice(0,2), subgroup:q.group,
-        correct, mode:"practice", attempted_at:new Date().toISOString()
+        question_id:q.id,
+        section:q.group.slice(0,2),
+        subgroup:q.group,
+        correct,
+        mode:state.mode === "missed" ? "missed" : "practice",
+        attempted_at:new Date().toISOString()
       });
+      await syncRewards(q.group, groupQuestions(q.group).length, null, null);
     }
 
     const fb = document.getElementById("fb");
     fb.className = "feedback";
-    fb.innerHTML = `<b>${correct ? "✓ Correct!" : "Not quite."}</b> ${esc(q.explain)}
+    fb.innerHTML = `<b>${correct ? "Correct!" : "Not quite."}</b> ${esc(q.explain)}
       ${save.error ? '<div class="notice">Your answer could not be saved: '+esc(save.error.message)+'</div>' : ''}
-      <div style="margin-top:10px"><button id="next" class="btn">${state.qIndex+1 < state.session.length ? "Next question" : "Finish subgroup"}</button></div>`;
+      <div style="margin-top:10px"><button id="next" class="btn">${state.qIndex+1 < state.session.length ? "Next question" : "Finish practice"}</button></div>`;
 
     document.getElementById("next").onclick = async () => {
       if (state.qIndex+1 < state.session.length) {
         state.qIndex++;
         render();
       } else {
+        let rewardMessages = [];
+        if (state.mode === "practice") {
+          rewardMessages = await syncRewards(state.group, groupQuestions(state.group).length, state.sessionCorrect, state.session.length);
+        }
         await loadLearnerStats();
-        state.view = "section";
+        state.examResult = {
+          practiceSummary: true,
+          title: state.mode === "missed" ? "Missed Question Rescue Complete" : `${state.group} Practice Complete`,
+          score: state.sessionCorrect,
+          total: state.session.length,
+          rewards: rewardMessages
+        };
+        state.view = "practiceResult";
         render();
       }
     };
   }
+
+  function renderPracticeResult() {
+    const r = state.examResult;
+    const pct = r.total ? Math.round(100*r.score/r.total) : 0;
+    root.innerHTML = `<div class="result-card panel">
+      <span class="badge">Practice Complete</span>
+      <h2>${esc(r.title)}</h2>
+      <div class="big-score">${r.score}/${r.total}</div>
+      <p class="muted">${pct}% correct this round</p>
+      ${r.rewards?.length ? `<div class="reward-box"><b>Rewards earned</b>${r.rewards.map(x=>`<div>${esc(x)}</div>`).join("")}</div>` : ""}
+      <div class="mission-actions"><button id="home" class="btn">Back to Mission Control</button>${state.mode === "practice" ? '<button id="again" class="btn alt">Practice this subgroup again</button>' : ""}</div>
+    </div>`;
+    document.getElementById("home").onclick = () => { state.view="home"; render(); };
+    const again = document.getElementById("again");
+    if (again) again.onclick = () => startGroup(state.group);
+  }
+
+  function startExam() {
+    state.mode = "exam";
+    state.session = allGroups().map(g => {
+      const qs = groupQuestions(g);
+      return qs[Math.floor(Math.random()*qs.length)];
+    });
+    state.qIndex = 0;
+    state.examAnswers = [];
+    state.view = "exam";
+    render();
+  }
+
+  function renderExam() {
+    const q = state.session[state.qIndex];
+    const total = state.session.length;
+    root.innerHTML = `<div class="toolbar"><button id="quit" class="btn alt">Quit exam</button>
+      <div><b>Technician Practice Exam</b> <span class="muted">Question ${state.qIndex+1} of ${total}</span></div></div>
+      <div class="progress"><span style="width:${(state.qIndex/total)*100}%"></span></div>
+      <div class="panel" style="margin-top:14px">
+        <div class="exam-note">No answers are shown until the exam is finished.</div>
+        <div class="question-id">${esc(q.id)}</div>
+        <div class="question">${esc(q.q)}</div>
+        ${questionFigure(q)}
+        <div class="answer-list">${q.a.map((a,i) => `<button class="answer exam-answer" data-i="${i}"><b>${String.fromCharCode(65+i)}.</b> ${esc(a)}</button>`).join("")}</div>
+      </div>`;
+
+    document.getElementById("quit").onclick = () => {
+      if (confirm("Quit this practice exam? Your unfinished exam will not be saved.")) {
+        state.view="home";
+        render();
+      }
+    };
+    root.querySelectorAll(".exam-answer").forEach(btn => btn.onclick = () => answerExam(q, Number(btn.dataset.i)));
+  }
+
+  function answerExam(q, choice) {
+    state.examAnswers.push({q, choice, correct: choice === q.correct});
+    state.qIndex++;
+    if (state.qIndex >= state.session.length) finishExam();
+    else render();
+  }
+
+  async function finishExam() {
+    state.view = "loading";
+    render();
+    const score = state.examAnswers.filter(x=>x.correct).length;
+    const passed = score >= pool.meta.passingScore;
+    const rows = state.examAnswers.map(x => ({
+      learner_id: state.learner.learner_id,
+      question_id: x.q.id,
+      section: x.q.group.slice(0,2),
+      subgroup: x.q.group,
+      correct: x.correct,
+      mode: "exam"
+    }));
+
+    const attemptsSave = await db.from("attempts").insert(rows);
+    let examId = null;
+    let examError = attemptsSave.error;
+    if (!attemptsSave.error) {
+      const examSave = await db.from("exam_results").insert({
+        learner_id: state.learner.learner_id,
+        score,
+        total: pool.meta.examLength,
+        passed
+      }).select("id").single();
+      examId = examSave.data?.id || null;
+      examError = examSave.error || null;
+      await syncRewards(null, null, null, null);
+    }
+
+    const breakdown = {};
+    for (const x of state.examAnswers) {
+      const s = x.q.group.slice(0,2);
+      breakdown[s] ||= {correct:0,total:0};
+      breakdown[s].total++;
+      if (x.correct) breakdown[s].correct++;
+    }
+
+    state.examResult = {
+      practiceSummary:false,
+      score,
+      total:pool.meta.examLength,
+      passed,
+      answers:[...state.examAnswers],
+      breakdown,
+      saveError:examError?.message || null,
+      examId
+    };
+    await loadLearnerStats();
+    state.view="examResult";
+    render();
+  }
+
+  function renderExamResult() {
+    const r = state.examResult;
+    const missed = r.answers.filter(x=>!x.correct);
+    const rows = pool.sections.map(s => {
+      const b = r.breakdown[s.id] || {correct:0,total:0};
+      return `<div class="breakdown-row"><span>${s.id} - ${esc(s.title)}</span><b>${b.correct}/${b.total}</b></div>`;
+    }).join("");
+
+    root.innerHTML = `<div class="result-card panel ${r.passed ? "pass" : "not-pass"}">
+      <span class="badge">35-Question Practice Exam</span>
+      <h2>${r.passed ? "PASS" : "Keep Practicing"}</h2>
+      <div class="big-score">${r.score}/${r.total}</div>
+      <p>${r.passed ? "You reached the Technician passing score of 26/35." : `You need 26/35 to pass. You are ${Math.max(0,26-r.score)} question(s) away.`}</p>
+      ${r.saveError ? `<div class="feedback">Your exam result could not be saved: ${esc(r.saveError)}</div>` : ""}
+      <div class="breakdown"><h3>Section Breakdown</h3>${rows}</div>
+      <div class="mission-actions"><button id="home" class="btn">Mission Control</button><button id="again" class="btn alt">Take Another Exam</button>${missed.length ? `<button id="fix" class="btn alt">Practice These ${missed.length} Missed</button>` : ""}</div>
+    </div>
+    ${missed.length ? `<div class="panel" style="margin-top:18px"><h3>Questions Missed</h3>${missed.map(x=>`<div class="review-item"><b>${esc(x.q.id)}</b> ${esc(x.q.q)}<div class="muted">Correct: ${String.fromCharCode(65+x.q.correct)}. ${esc(x.q.a[x.q.correct])}</div></div>`).join("")}</div>` : ""}`;
+
+    document.getElementById("home").onclick = () => { state.view="home"; render(); };
+    document.getElementById("again").onclick = startExam;
+    const fix = document.getElementById("fix");
+    if (fix) fix.onclick = () => startMissed(missed.map(x=>x.q));
+  }
+
 
   function renderTeacherLogin() {
     root.innerHTML = `<div class="login panel">
@@ -535,6 +716,9 @@
     else if (state.view==="home") renderHome();
     else if (state.view==="section") renderSection();
     else if (state.view==="practice") renderPractice();
+    else if (state.view==="practiceResult") renderPracticeResult();
+    else if (state.view==="exam") renderExam();
+    else if (state.view==="examResult") renderExamResult();
     else if (state.view==="teacherLogin") renderTeacherLogin();
     else if (state.view==="teacher") renderTeacher();
   }
