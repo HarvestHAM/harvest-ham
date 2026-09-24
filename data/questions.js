@@ -3433,7 +3433,7 @@ window.HAM_POOL = {
         "Double-pole double-throw"
       ],
       "correct": 0,
-      "figure": "assets/t-2.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: A. Single-pole single-throw"
     },
     {
@@ -3673,7 +3673,7 @@ window.HAM_POOL = {
         "Connector"
       ],
       "correct": 0,
-      "figure": "assets/t-1.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: A. Resistor"
     },
     {
@@ -3688,7 +3688,7 @@ window.HAM_POOL = {
         "Connector"
       ],
       "correct": 1,
-      "figure": "assets/t-1.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: B. Transistor"
     },
     {
@@ -3703,7 +3703,7 @@ window.HAM_POOL = {
         "Ground symbol"
       ],
       "correct": 2,
-      "figure": "assets/t-1.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: C. Lamp"
     },
     {
@@ -3718,7 +3718,7 @@ window.HAM_POOL = {
         "Battery"
       ],
       "correct": 3,
-      "figure": "assets/t-1.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: D. Battery"
     },
     {
@@ -3733,7 +3733,7 @@ window.HAM_POOL = {
         "Transistor"
       ],
       "correct": 1,
-      "figure": "assets/t-2.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: B. Capacitor"
     },
     {
@@ -3748,7 +3748,7 @@ window.HAM_POOL = {
         "Light emitting diode"
       ],
       "correct": 3,
-      "figure": "assets/t-2.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: D. Light emitting diode"
     },
     {
@@ -3763,7 +3763,7 @@ window.HAM_POOL = {
         "Variable transformer"
       ],
       "correct": 2,
-      "figure": "assets/t-2.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: C. Variable resistor"
     },
     {
@@ -3778,7 +3778,7 @@ window.HAM_POOL = {
         "Transformer"
       ],
       "correct": 3,
-      "figure": "assets/t-2.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: D. Transformer"
     },
     {
@@ -3793,7 +3793,7 @@ window.HAM_POOL = {
         "Variable inductor"
       ],
       "correct": 3,
-      "figure": "assets/t-3.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-3.png",
       "explain": "Correct answer: D. Variable inductor"
     },
     {
@@ -3808,7 +3808,7 @@ window.HAM_POOL = {
         "Ground"
       ],
       "correct": 0,
-      "figure": "assets/t-3.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-3.png",
       "explain": "Correct answer: A. Antenna"
     },
     {
@@ -3973,7 +3973,7 @@ window.HAM_POOL = {
         "Convert electrical energy into radio waves"
       ],
       "correct": 2,
-      "figure": "assets/t-1.png",
+      "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: C. Control the flow of current"
     },
     {
