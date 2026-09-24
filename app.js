@@ -9,19 +9,34 @@
     learner: null,
     teacher: false,
     attempts: [],
+    examResults: [],
     points: 0,
     teamScores: [],
     view: "loading",
     section: null,
     group: null,
+    mode: "practice",
     qIndex: 0,
-    session: []
+    session: [],
+    sessionCorrect: 0,
+    examAnswers: [],
+    examResult: null
   };
 
   const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
   }[m]));
+  const shuffle = list => {
+    const a = [...list];
+    for (let i=a.length-1;i>0;i--) {
+      const j = Math.floor(Math.random()*(i+1));
+      [a[i],a[j]]=[a[j],a[i]];
+    }
+    return a;
+  };
   const groupQuestions = g => pool.questions.filter(x => x.group === g);
+  const questionById = id => pool.questions.find(x => x.id === id);
+  const allGroups = () => pool.sections.flatMap(x => x.groups);
 
   function showMessage(text, type="info") {
     const box = document.getElementById("message");
@@ -68,46 +83,101 @@
 
   async function loadLearnerStats() {
     if (!state.learner) return;
-    const [attemptsRes, pointsRes, scoresRes] = await Promise.all([
+    const [attemptsRes, pointsRes, scoresRes, examsRes] = await Promise.all([
       db.from("attempts").select("question_id,subgroup,section,correct,mode,attempted_at").eq("learner_id", state.learner.learner_id).order("attempted_at", {ascending:false}),
       db.from("points_ledger").select("points,reason,created_at").eq("learner_id", state.learner.learner_id),
-      db.rpc("get_team_scores")
+      db.rpc("get_team_scores"),
+      db.from("exam_results").select("id,score,total,passed,completed_at").eq("learner_id", state.learner.learner_id).order("completed_at", {ascending:false})
     ]);
     state.attempts = attemptsRes.data || [];
     state.points = (pointsRes.data || []).reduce((n, x) => n + Number(x.points || 0), 0);
     state.teamScores = scoresRes.data || [];
+    state.examResults = examsRes.data || [];
+  }
+
+
+  function latestAttemptMap(filterGroup=null) {
+    const map = new Map();
+    for (const a of state.attempts) {
+      if (filterGroup && a.subgroup !== filterGroup) continue;
+      if (!map.has(a.question_id)) map.set(a.question_id, a);
+    }
+    return map;
+  }
+
+  function groupProgress(group) {
+    const total = groupQuestions(group).length;
+    const latest = latestAttemptMap(group);
+    let correct = 0;
+    for (const a of latest.values()) if (a.correct) correct++;
+    const attempted = latest.size;
+    const percent = total ? Math.round(100 * correct / total) : 0;
+    return {
+      total,
+      attempted,
+      correct,
+      percent,
+      complete: total > 0 && attempted >= total,
+      mastered: total > 0 && attempted >= total && percent >= 80,
+      perfect: total > 0 && attempted >= total && correct >= total
+    };
+  }
+
+  function masteredCount() {
+    return allGroups().filter(g => groupProgress(g).mastered).length;
+  }
+
+  function currentMissedQuestions() {
+    const latest = latestAttemptMap();
+    return [...latest.entries()]
+      .filter(([,a]) => !a.correct)
+      .map(([id]) => questionById(id))
+      .filter(Boolean);
   }
 
   function streakDays() {
     const days = [...new Set(state.attempts.map(a => new Date(a.attempted_at).toISOString().slice(0,10)))].sort().reverse();
     if (!days.length) return 0;
-    let streak = 0;
+    const dayMs = 86400000;
     const today = new Date();
-    today.setHours(0,0,0,0);
-    for (let i=0;i<days.length;i++) {
-      const d = new Date(days[i] + "T00:00:00");
-      const expected = new Date(today);
-      expected.setDate(today.getDate() - i);
-      const diff = Math.abs(d - expected);
-      if (diff <= 36e5) streak++;
-      else if (i===0) {
-        expected.setDate(expected.getDate()-1);
-        if (Math.abs(d-expected)<=36e5) { streak++; today.setDate(today.getDate()-1); }
-        else break;
-      } else break;
+    today.setUTCHours(0,0,0,0);
+    const first = new Date(days[0] + "T00:00:00Z");
+    const firstGap = Math.round((today - first) / dayMs);
+    if (firstGap > 1) return 0;
+    let streak = 1;
+    let prev = first;
+    for (let i=1;i<days.length;i++) {
+      const d = new Date(days[i] + "T00:00:00Z");
+      const gap = Math.round((prev - d) / dayMs);
+      if (gap === 1) { streak++; prev = d; }
+      else break;
     }
     return streak;
   }
 
-  function masteredCount() {
-    const by = {};
-    state.attempts.forEach(a => {
-      by[a.subgroup] ||= {c:0,n:0};
-      by[a.subgroup].n++;
-      if (a.correct) by[a.subgroup].c++;
-    });
-    return Object.values(by).filter(x => x.n >= 3 && x.c/x.n >= .8).length;
+  function bestExam() {
+    if (!state.examResults.length) return null;
+    return Math.max(...state.examResults.map(x => Number(x.score || 0)));
   }
+
+  function questionFigure(q) {
+    if (!q.figure) return "";
+    return `<div class="figure-wrap"><img src="${esc(q.figure)}" alt="Diagram for ${esc(q.id)}" class="question-figure"></div>`;
+  }
+
+  async function syncRewards(subgroup=null, groupTotal=null, sessionScore=null, sessionTotal=null) {
+    const payload = {
+      p_subgroup: subgroup,
+      p_group_total: groupTotal,
+      p_session_score: sessionScore,
+      p_session_total: sessionTotal
+    };
+    const r = await db.rpc("sync_rewards", payload);
+    if (r.error) return [];
+    const row = Array.isArray(r.data) ? r.data[0] : r.data;
+    return row?.messages || [];
+  }
+
 
   function renderLoading() {
     root.innerHTML = '<div class="login panel"><h2>Connecting to Mission Control…</h2><p class="muted">Loading your account.</p></div>';
@@ -179,25 +249,36 @@
 
   function renderHome() {
     const teamLabel = ({boys:"Boys",girls:"Girls",parents:"Parents"})[state.learner.team] || state.learner.team;
+    const missed = currentMissedQuestions();
+    const best = bestExam();
+
     root.innerHTML = `<div class="hero">
       <div class="panel"><div class="toolbar"><span class="badge">${esc(teamLabel)} Team</span><button id="logout" class="btn alt">Log out</button></div>
         <h2>Welcome, ${esc(state.learner.first_name)}!</h2>
-        <p class="muted">Choose a section, practice a smaller subgroup, or work toward your Technician exam.</p>
+        <p class="muted">Choose a section, fix missed questions, or take a full Technician practice exam.</p>
         <div class="stats">
           <div class="stat"><b>${state.points}</b>Points</div>
           <div class="stat"><b>${streakDays()}</b>Day streak</div>
           <div class="stat"><b>${state.attempts.length}</b>Answered</div>
           <div class="stat"><b>${masteredCount()}</b>Mastered</div>
         </div>
+        <div class="mission-actions">
+          <button id="examBtn" class="btn">35-Question Practice Exam</button>
+          <button id="missedBtn" class="btn alt" ${missed.length ? "" : "disabled"}>Practice Missed (${missed.length})</button>
+        </div>
+        <div class="notice">${best === null ? "No full practice exam yet." : `Best practice exam: ${best}/35`}</div>
       </div>${scoreboard()}</div>
 
       <div class="toolbar" style="margin-top:24px">
         <div><h2 style="margin:0">Choose Your Mission</h2><span class="muted">Current 2026-2030 pool: ${pool.meta.totalQuestions} questions</span></div>
-        <button id="examBtn" class="btn">35-Question Practice Exam</button>
       </div>
-      <div class="grid">${pool.sections.map(s => `<article class="card section-card" data-section="${s.id}">
-        <div class="section-code">${s.id}</div><div class="section-title">${s.title}</div><span class="chip">${s.groups.length} groups</span>
-      </article>`).join("")}</div>`;
+      <div class="grid">${pool.sections.map(s => {
+        const mastered = s.groups.filter(g => groupProgress(g).mastered).length;
+        return `<article class="card section-card" data-section="${s.id}">
+          <div class="section-code">${s.id}</div><div class="section-title">${s.title}</div>
+          <span class="chip">${mastered}/${s.groups.length} groups mastered</span>
+        </article>`;
+      }).join("")}</div>`;
 
     document.getElementById("logout").onclick = async () => {
       await db.auth.signOut();
@@ -207,45 +288,36 @@
       state.view = "login";
       render();
     };
+
+    document.getElementById("examBtn").onclick = startExam;
+    document.getElementById("missedBtn").onclick = () => startMissed(missed);
     root.querySelectorAll("[data-section]").forEach(el => el.addEventListener("click", () => {
       state.section = el.dataset.section;
       state.view = "section";
       render();
     }));
-    document.getElementById("examBtn").addEventListener("click", () => {
-      alert("The real 35-question exam activates after the complete official 409-question pool is imported.");
-    });
   }
+
 
   function renderSection() {
     const sec = pool.sections.find(s => s.id === state.section);
-    root.innerHTML = `<div class="toolbar"><button id="back" class="btn alt">← All sections</button><span class="badge">${sec.id}</span></div>
-      <div class="panel"><h2>${sec.id} — ${sec.title}</h2><p class="muted">Choose one smaller subgroup to practice.</p>
+    root.innerHTML = `<div class="toolbar"><button id="back" class="btn alt"><- All sections</button><span class="badge">${sec.id}</span></div>
+      <div class="panel"><h2>${sec.id} - ${sec.title}</h2><p class="muted">Choose one smaller subgroup to practice. Mastery requires every question in the subgroup to be attempted and at least 80% correct on the latest attempt.</p>
       <div class="grid">${sec.groups.map(g => {
-        const n = groupQuestions(g).length;
-        const mine = state.attempts.filter(a => a.subgroup === g);
-        const accuracy = mine.length ? Math.round(100 * mine.filter(a => a.correct).length / mine.length) : null;
+        const p = groupProgress(g);
+        const status = p.perfect ? "Perfect" : p.mastered ? "Mastered" : p.attempted ? "In progress" : "Not started";
         return `<article class="card section-card" data-group="${g}">
-          <div class="section-code">${g}</div>
-          <div class="section-title">${n ? n+" questions loaded" : "Question import pending"}</div>
-          <span class="chip">${accuracy===null ? "Not started" : accuracy+"% practice accuracy"}</span>
+          <div class="toolbar compact"><div class="section-code">${g}</div><span class="badge ${p.mastered ? "mastered" : ""}">${status}</span></div>
+          <div class="section-title">${p.total} questions</div>
+          <div class="mini-progress"><span style="width:${p.total ? Math.round(100*p.attempted/p.total) : 0}%"></span></div>
+          <div class="card-meta">${p.attempted}/${p.total} attempted${p.attempted ? ` - ${p.percent}% latest accuracy` : ""}</div>
         </article>`;
       }).join("")}</div></div>`;
 
     document.getElementById("back").onclick = () => { state.view = "home"; render(); };
-    root.querySelectorAll("[data-group]").forEach(el => el.onclick = () => {
-      const qs = groupQuestions(el.dataset.group);
-      if (!qs.length) {
-        alert("This subgroup is ready in the menu; its official questions are being imported next.");
-        return;
-      }
-      state.group = el.dataset.group;
-      state.session = [...qs].sort(() => Math.random() - .5);
-      state.qIndex = 0;
-      state.view = "practice";
-      render();
-    });
+    root.querySelectorAll("[data-group]").forEach(el => el.onclick = () => startGroup(el.dataset.group));
   }
+
 
   function renderPractice() {
     const q = state.session[state.qIndex], total = state.session.length;
