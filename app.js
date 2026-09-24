@@ -38,6 +38,45 @@
   const questionById = id => pool.questions.find(x => x.id === id);
   const allGroups = () => pool.sections.flatMap(x => x.groups);
 
+  function sectionIcon(id) {
+    const common='viewBox="0 0 48 48" aria-hidden="true" class="section-icon-svg"';
+    const icons = {
+      T1: `<svg ${common}><path d="M24 5l14 6v10c0 10-5.8 17.3-14 22-8.2-4.7-14-12-14-22V11l14-6z"/><path d="M18 20h12M18 26h12M21 14h6"/></svg>`,
+      T2: `<svg ${common}><rect x="16" y="7" width="16" height="25" rx="8"/><path d="M11 24c0 7.2 5.8 13 13 13s13-5.8 13-13M24 37v6M17 43h14"/></svg>`,
+      T3: `<svg ${common}><path d="M5 24c4-8 8-8 12 0s8 8 12 0 8-8 14 0"/><path d="M8 13c3-4 6-4 9 0M31 35c3-4 6-4 9 0"/></svg>`,
+      T4: `<svg ${common}><rect x="7" y="9" width="34" height="30" rx="4"/><circle cx="16" cy="20" r="4"/><circle cx="32" cy="20" r="4"/><path d="M13 31h22M18 31v5M30 31v5"/></svg>`,
+      T5: `<svg ${common}><path d="M28 4L14 26h10l-4 18 14-24H24l4-16z"/></svg>`,
+      T6: `<svg ${common}><rect x="12" y="12" width="24" height="24" rx="3"/><path d="M18 18h12v12H18zM12 7v5M20 7v5M28 7v5M36 7v5M12 36v5M20 36v5M28 36v5M36 36v5M7 12h5M7 20h5M7 28h5M7 36h5M36 12h5M36 20h5M36 28h5M36 36h5"/></svg>`,
+      T7: `<svg ${common}><path d="M7 14h10l4 7h8l4-7h8M7 34h10l4-7h8l4 7h8"/><circle cx="7" cy="14" r="2"/><circle cx="41" cy="14" r="2"/><circle cx="7" cy="34" r="2"/><circle cx="41" cy="34" r="2"/></svg>`,
+      T8: `<svg ${common}><path d="M5 25h6l3-9 5 18 5-25 5 31 5-15h9"/><path d="M7 8h34M7 40h34"/></svg>`,
+      T9: `<svg ${common}><path d="M24 10v33M17 43h14M14 18l10-8 10 8"/><path d="M11 13c-6 6-6 16 0 22M37 13c6 6 6 16 0 22M7 8c-10 10-10 24 0 34M41 8c10 10 10 24 0 34"/></svg>`,
+      T0: `<svg ${common}><path d="M24 5l15 6v11c0 10-6 17-15 21C15 39 9 32 9 22V11l15-6z"/><path d="M24 14v12M24 33v1"/></svg>`
+    };
+    return icons[id] || icons.T4;
+  }
+
+  function radioHeroGraphic() {
+    return `<div class="radio-hero-art" aria-hidden="true">
+      <svg viewBox="0 0 320 210">
+        <g class="tower-lines">
+          <path d="M160 30v142M138 172h44M146 172l14-54 14 54M148 112h24"/>
+          <path d="M132 54c-26 24-26 58 0 82M188 54c26 24 26 58 0 82"/>
+          <path d="M112 34c-40 38-40 88 0 126M208 34c40 38 40 88 0 126"/>
+        </g>
+        <g class="console-lines">
+          <rect x="48" y="150" width="84" height="42" rx="6"/>
+          <circle cx="65" cy="171" r="8"/>
+          <path d="M82 165h34M82 173h24M82 181h29"/>
+          <rect x="188" y="150" width="84" height="42" rx="6"/>
+          <path d="M202 171h13l5-10 8 20 8-17 7 7h15"/>
+        </g>
+        <circle class="signal-node" cx="160" cy="30" r="5"/>
+      </svg>
+      <div class="hero-frequency">146.520 MHz</div>
+      <div class="hero-caption">LEARN • PRACTICE • TRANSMIT</div>
+    </div>`;
+  }
+
   function showMessage(text, type="info") {
     const box = document.getElementById("message");
     if (!box) return;
@@ -184,16 +223,26 @@
   }
 
   function renderLogin() {
-    root.innerHTML = `<div class="login panel">
-      <span class="badge">Student / Parent Login</span>
-      <h2 style="margin-top:10px">Enter Mission Control</h2>
-      <p class="muted">Enter the first name and PIN your teacher gave you.</p>
-      <form id="loginForm">
-        <label class="field">First name<input id="name" autocomplete="given-name" required maxlength="30"></label>
-        <label class="field">PIN<input id="pin" inputmode="numeric" pattern="[0-9]{4,6}" placeholder="4-6 digits" required></label>
-        <button class="btn" type="submit">Start practicing</button>
-      </form>
-      <div id="message" class="notice">Your practice progress will be saved automatically.</div>
+    root.innerHTML = `<div class="login-shell">
+      <div class="login panel mission-panel">
+        <div class="login-copy">
+          <span class="eyebrow">HARVEST HAM • TECHNICIAN TRAINING</span>
+          <h2>Enter Mission Control</h2>
+          <p class="muted">Build your radio knowledge one mission at a time. Enter the first name and PIN your teacher gave you.</p>
+          <form id="loginForm">
+            <label class="field">First name<input id="name" autocomplete="given-name" required maxlength="30"></label>
+            <label class="field">PIN<input id="pin" inputmode="numeric" pattern="[0-9]{4,6}" placeholder="4-6 digits" required></label>
+            <button class="btn mission-btn" type="submit"><span>Start Mission</span><span aria-hidden="true">→</span></button>
+          </form>
+          <div id="message" class="notice">Your practice progress will be saved automatically.</div>
+        </div>
+        <div class="login-visual">
+          ${radioHeroGraphic()}
+        </div>
+      </div>
+      <div class="login-footer-marks">
+        <span>⌁ RADIO</span><span>◫ ELECTRONICS</span><span>⌁ SIGNALS</span><span>△ ANTENNAS</span>
+      </div>
     </div>`;
 
     document.getElementById("loginForm").addEventListener("submit", async e => {
@@ -234,17 +283,26 @@
     const kidsTotal = Number(lookup.boys?.total_points || 0) + Number(lookup.girls?.total_points || 0);
     const kidsAvg = kidsMembers ? kidsTotal / kidsMembers : 0;
     const parentsAvg = score("parents");
+    const maxScore = Math.max(score("boys"),score("girls"),score("parents"),1);
+    const row = (team,label,icon) => `<div class="signal-team team-${team}">
+      <div class="team-label"><span class="team-icon">${icon}</span><span>${label}</span></div>
+      <div class="signal-meter"><span style="width:${Math.max(6,Math.round(score(team)/maxScore*100))}%"></span></div>
+      <strong>${score(team).toFixed(1)}</strong>
+    </div>`;
 
-    return `<div class="panel"><h3>Team Challenge</h3><div class="scoreboard">
-      <div class="team"><span>Boys</span><strong>${score("boys").toFixed(1)}</strong></div>
-      <div class="team"><span>Girls</span><strong>${score("girls").toFixed(1)}</strong></div>
-      <div class="team"><span>Parents</span><strong>${score("parents").toFixed(1)}</strong></div>
-      <div class="kids-vs-parents"><b>Kids vs. Parents</b>
-        <div class="team"><span>Kids</span><strong>${kidsAvg.toFixed(1)}</strong></div>
-        <div class="team"><span>Parents</span><strong>${parentsAvg.toFixed(1)}</strong></div>
+    return `<div class="panel scoreboard-panel">
+      <div class="scoreboard-heading"><div><span class="eyebrow">LIVE TEAM SIGNAL</span><h3>Team Challenge</h3></div><span class="signal-live"><i></i> ON AIR</span></div>
+      <div class="scoreboard">
+        ${row("boys","Boys","B")}
+        ${row("girls","Girls","G")}
+        ${row("parents","Parents","P")}
+        <div class="kids-vs-parents">
+          <div class="versus-title"><span>KIDS</span><b>VS</b><span>PARENTS</span></div>
+          <div class="versus-scores"><strong>${kidsAvg.toFixed(1)}</strong><span class="radio-wave-mini">)))</span><strong>${parentsAvg.toFixed(1)}</strong></div>
+        </div>
+        <div class="notice">Scores are points per active team member, keeping the competition fair.</div>
       </div>
-      <div class="notice">Team score = points per active member, so larger teams do not get an automatic advantage.</div>
-    </div></div>`;
+    </div>`;
   }
 
   function renderHome() {
@@ -275,7 +333,8 @@
       <div class="grid">${pool.sections.map(s => {
         const mastered = s.groups.filter(g => groupProgress(g).mastered).length;
         return `<article class="card section-card" data-section="${s.id}">
-          <div class="section-code">${s.id}</div><div class="section-title">${s.title}</div>
+          <div class="section-card-top"><div class="section-icon">${sectionIcon(s.id)}</div><div class="section-code">${s.id}</div></div>
+          <div class="section-title">${s.title}</div>
           <span class="chip">${mastered}/${s.groups.length} groups mastered</span>
         </article>`;
       }).join("")}</div>`;
@@ -302,7 +361,7 @@
   function renderSection() {
     const sec = pool.sections.find(s => s.id === state.section);
     root.innerHTML = `<div class="toolbar"><button id="back" class="btn alt"><- All sections</button><span class="badge">${sec.id}</span></div>
-      <div class="panel"><h2>${sec.id} - ${sec.title}</h2><p class="muted">Choose one smaller subgroup to practice. Mastery requires every question in the subgroup to be attempted and at least 80% correct on the latest attempt.</p>
+      <div class="panel section-panel"><div class="section-heading"><div class="section-icon large">${sectionIcon(sec.id)}</div><div><span class="eyebrow">MISSION ${sec.id}</span><h2>${sec.id} - ${sec.title}</h2></div></div><p class="muted">Choose one smaller subgroup to practice. Mastery requires every question in the subgroup to be attempted and at least 80% correct on the latest attempt.</p>
       <div class="grid">${sec.groups.map(g => {
         const p = groupProgress(g);
         const status = p.perfect ? "Perfect" : p.mastered ? "Mastered" : p.attempted ? "In progress" : "Not started";
