@@ -604,11 +604,12 @@
   async function renderTeacher() {
     root.innerHTML = '<div class="login panel"><h2>Loading teacher dashboard…</h2></div>';
 
-    const [learnersRes, attemptsRes, pointsRes, scoresRes] = await Promise.all([
+    const [learnersRes, attemptsRes, pointsRes, scoresRes, examsRes] = await Promise.all([
       db.from("learners").select("id,first_name,team,active,created_at").order("team").order("first_name"),
-      db.from("attempts").select("learner_id,correct,attempted_at"),
+      db.from("attempts").select("learner_id,question_id,subgroup,correct,mode,attempted_at"),
       db.from("points_ledger").select("learner_id,points,reason,source,created_at"),
-      db.rpc("get_team_scores")
+      db.rpc("get_team_scores"),
+      db.from("exam_results").select("learner_id,score,total,passed,completed_at")
     ]);
 
     if (learnersRes.error) {
@@ -620,6 +621,7 @@
     const learners = learnersRes.data || [];
     const attempts = attemptsRes.data || [];
     const ledger = pointsRes.data || [];
+    const exams = examsRes.data || [];
     state.teamScores = scoresRes.data || [];
 
     const counts = team => learners.filter(l => l.team===team && l.active).length;
@@ -628,10 +630,13 @@
     const learnerRows = learners.map(l => {
       const la = attempts.filter(a => a.learner_id===l.id);
       const lp = ledger.filter(p => p.learner_id===l.id).reduce((n,p)=>n+Number(p.points||0),0);
+      const le = exams.filter(e => e.learner_id===l.id);
       const accuracy = la.length ? Math.round(100*la.filter(a=>a.correct).length/la.length) : 0;
+      const best = le.length ? Math.max(...le.map(e=>Number(e.score))) : null;
+      const latest = la.length ? new Date(Math.max(...la.map(a=>new Date(a.attempted_at).getTime()))).toLocaleDateString() : "Not yet";
       return `<div class="card">
         <div class="toolbar"><div><b>${esc(l.first_name)}</b><div class="muted">${esc(l.team)}</div></div><span class="badge">${lp} pts</span></div>
-        <div class="muted">${la.length} answered • ${accuracy}% accuracy</div>
+        <div class="learner-metrics"><span>${la.length} answered</span><span>${accuracy}% accuracy</span><span>Best exam: ${best===null ? "-" : best+"/35"}</span><span>Last practice: ${latest}</span></div>
         <div class="subnav">
           <button class="subbtn bonusBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">+ Bonus</button>
           <button class="subbtn pinBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Reset PIN</button>
