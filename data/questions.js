@@ -119,7 +119,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Advancing skills in the technical and communication phases of the radio art"
+      "explain": "Correct answer: C. Advancing skills in the technical and communication phases of the radio art",
+      "explanation": "Amateur radio exists partly to develop radio communication and technical skills, rather than to provide a general-purpose personal messaging service."
     },
     {
       "id": "T1A02",
@@ -134,7 +135,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The FCC"
+      "explain": "Correct answer: C. The FCC",
+      "explanation": "The Federal Communications Commission is the U.S. government agency that writes and enforces amateur radio rules."
     },
     {
       "id": "T1A03",
@@ -149,7 +151,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. It is encouraged when using phone emissions"
+      "explain": "Correct answer: B. It is encouraged when using phone emissions",
+      "explanation": "Phonetic words make spoken call signs clearer, so the FCC encourages their use for voice identification without requiring them."
     },
     {
       "id": "T1A04",
@@ -164,7 +167,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Email from the FCC with a link to download the license grant"
+      "explain": "Correct answer: A. Email from the FCC with a link to download the license grant",
+      "explanation": "The FCC sends an email with a download link after your amateur license grant is issued."
     },
     {
       "id": "T1A05",
@@ -179,7 +183,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The license appears in the FCC ULS database"
+      "explain": "Correct answer: C. The license appears in the FCC ULS database",
+      "explanation": "An amateur license becomes official when its grant appears in the FCC Universal Licensing System database."
     },
     {
       "id": "T1A06",
@@ -194,7 +199,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. On ten meters, between 28.200 MHz and 28.300 MHz"
+      "explain": "Correct answer: D. On ten meters, between 28.200 MHz and 28.300 MHz",
+      "explanation": "Automatically controlled HF propagation beacons occupy the designated 28.200–28.300 MHz portion of the 10-meter band."
     },
     {
       "id": "T1A07",
@@ -209,7 +215,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. An amateur station located more than 50 km above Earth's surface"
+      "explain": "Correct answer: C. An amateur station located more than 50 km above Earth's surface",
+      "explanation": "Under Part 97, a space station is an amateur station located more than 50 kilometers above Earth's surface."
     },
     {
       "id": "T1A08",
@@ -224,7 +231,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. A Volunteer Frequency Coordinator recognized by local amateurs"
+      "explain": "Correct answer: B. A Volunteer Frequency Coordinator recognized by local amateurs",
+      "explanation": "Local volunteer frequency coordinators recommend repeater channel assignments to reduce interference between nearby systems."
     },
     {
       "id": "T1A09",
@@ -239,7 +247,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations"
+      "explain": "Correct answer: C. Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations",
+      "explanation": "Eligible local or regional amateur operators select their frequency coordinator to coordinate shared repeater frequencies."
     },
     {
       "id": "T1A10",
@@ -254,7 +263,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Certification of current enrollment by a civil defense organization"
+      "explain": "Correct answer: C. Certification of current enrollment by a civil defense organization",
+      "explanation": "A RACES control operator must also have current enrollment certified by a civil defense organization."
     },
     {
       "id": "T1A11",
@@ -269,7 +279,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Willful or malicious interference"
+      "explain": "Correct answer: B. Willful or malicious interference",
+      "explanation": "Deliberately interfering with another radio transmission violates amateur radio operating rules."
     },
     {
       "id": "T1B01",
@@ -284,7 +295,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 28.300 MHz to 28.500 MHz"
+      "explain": "Correct answer: C. 28.300 MHz to 28.500 MHz",
+      "explanation": "Technicians may use phone emissions from 28.300 to 28.500 MHz in the 10-meter band, not the adjacent CW and data segments."
     },
     {
       "id": "T1B02",
@@ -299,7 +311,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Any amateur with a Technician class or higher license"
+      "explain": "Correct answer: B. Any amateur with a Technician class or higher license",
+      "explanation": "A Technician license includes privileges on the VHF amateur bands used for contacts with the ISS."
     },
     {
       "id": "T1B03",
@@ -314,7 +327,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 52.525 MHz"
+      "explain": "Correct answer: B. 52.525 MHz",
+      "explanation": "The 6-meter amateur band covers 50–54 MHz, which includes 52.525 MHz."
     },
     {
       "id": "T1B04",
@@ -329,7 +343,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 2 meters"
+      "explain": "Correct answer: D. 2 meters",
+      "explanation": "The 2-meter amateur band spans 144–148 MHz, so 146.52 MHz lies within it."
     },
     {
       "id": "T1B05",
@@ -344,7 +359,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Technician operators have digital-mode privileges on 10 meters, 6 meters, and 2 meters in their authorized segments."
     },
     {
       "id": "T1B06",
@@ -359,7 +375,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 10-meter band only"
+      "explain": "Correct answer: B. 10-meter band only",
+      "explanation": "On HF, Technician class phone privileges are limited to a segment of the 10-meter band."
     },
     {
       "id": "T1B07",
@@ -374,7 +391,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz"
+      "explain": "Correct answer: A. 50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz",
+      "explanation": "The lowest 100 kHz of the 6-meter and 2-meter bands is reserved for CW-only operation."
     },
     {
       "id": "T1B08",
@@ -389,7 +407,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them"
+      "explain": "Correct answer: A. U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them",
+      "explanation": "When amateurs share a band as secondary users, they must avoid harmful interference to primary users."
     },
     {
       "id": "T1B09",
@@ -404,7 +423,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Frequency-display error, drift, and modulation sidebands can push a transmission outside the legal band edge."
     },
     {
       "id": "T1B10",
@@ -419,7 +439,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. In at least some segment of all these bands"
+      "explain": "Correct answer: C. In at least some segment of all these bands",
+      "explanation": "SSB phone operation is permitted in at least part of each amateur band above 50 MHz."
     },
     {
       "id": "T1B11",
@@ -434,7 +455,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 200 watts"
+      "explain": "Correct answer: A. 200 watts",
+      "explanation": "Technician HF segments have a 200-watt peak envelope power limit."
     },
     {
       "id": "T1B12",
@@ -449,7 +471,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 1500 watts"
+      "explain": "Correct answer: D. 1500 watts",
+      "explanation": "Above 30 MHz, the general amateur maximum is 1,500 watts PEP unless a specific restriction applies."
     },
     {
       "id": "T1C01",
@@ -464,7 +487,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Technician, General, Amateur Extra"
+      "explain": "Correct answer: D. Technician, General, Amateur Extra",
+      "explanation": "Technician, General, Amateur Extra meets the particular condition asked about in this question."
     },
     {
       "id": "T1C02",
@@ -479,7 +503,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Any licensed amateur"
+      "explain": "Correct answer: D. Any licensed amateur",
+      "explanation": "Any licensed amateur is the person, group, or agency responsible for the role described in this question."
     },
     {
       "id": "T1C03",
@@ -494,7 +519,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character"
+      "explain": "Correct answer: A. Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character",
+      "explanation": "Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1C04",
@@ -509,7 +535,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Revocation of the station license or suspension of the operator license"
+      "explain": "Correct answer: B. Revocation of the station license or suspension of the operator license",
+      "explanation": "Revocation of the station license or suspension of the operator license is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1C05",
@@ -524,7 +551,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. KF1XXX"
+      "explain": "Correct answer: A. KF1XXX",
+      "explanation": "KF1XXX meets the particular condition asked about in this question."
     },
     {
       "id": "T1C06",
@@ -539,7 +567,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. You may operate from a US-documented vessel with the master's permission"
+      "explain": "Correct answer: D. You may operate from a US-documented vessel with the master's permission",
+      "explanation": "You may operate from a US-documented vessel with the master's permission meets the particular condition asked about in this question."
     },
     {
       "id": "T1C07",
@@ -554,7 +583,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 90 days"
+      "explain": "Correct answer: B. 90 days",
+      "explanation": "90 days describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T1C08",
@@ -569,7 +599,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Ten years"
+      "explain": "Correct answer: C. Ten years",
+      "explanation": "Ten years is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T1C09",
@@ -584,7 +615,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Two years"
+      "explain": "Correct answer: A. Two years",
+      "explanation": "Two years is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T1C10",
@@ -599,7 +631,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. As soon as your operator/station license grant appears in the FCC’s license database"
+      "explain": "Correct answer: C. As soon as your operator/station license grant appears in the FCC’s license database",
+      "explanation": "As soon as your operator/station license grant appears in the FCC’s license database describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T1C11",
@@ -614,7 +647,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. No, you must wait until the license has been renewed"
+      "explain": "Correct answer: D. No, you must wait until the license has been renewed",
+      "explanation": "No, you must wait until the license has been renewed is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1D01",
@@ -629,7 +663,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications"
+      "explain": "Correct answer: A. Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications",
+      "explanation": "Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications meets the particular condition asked about in this question."
     },
     {
       "id": "T1D02",
@@ -644,7 +679,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Broadcasting"
+      "explain": "Correct answer: B. Broadcasting",
+      "explanation": "Broadcasting meets the particular condition asked about in this question."
     },
     {
       "id": "T1D03",
@@ -659,7 +695,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Only when transmitting control commands to space stations or model craft"
+      "explain": "Correct answer: C. Only when transmitting control commands to space stations or model craft",
+      "explanation": "Only when transmitting control commands to space stations or model craft is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1D04",
@@ -674,7 +711,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. When incidental to an authorized retransmission of manned spacecraft communications"
+      "explain": "Correct answer: A. When incidental to an authorized retransmission of manned spacecraft communications",
+      "explanation": "When incidental to an authorized retransmission of manned spacecraft communications is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1D05",
@@ -689,7 +727,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. When selling amateur radio equipment and not on a regular basis"
+      "explain": "Correct answer: D. When selling amateur radio equipment and not on a regular basis",
+      "explanation": "When selling amateur radio equipment and not on a regular basis is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1D06",
@@ -704,7 +743,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Any such language is prohibited"
+      "explain": "Correct answer: B. Any such language is prohibited",
+      "explanation": "Any such language is prohibited is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1D07",
@@ -719,7 +759,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter"
+      "explain": "Correct answer: A. A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter",
+      "explanation": "A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter meets the particular condition asked about in this question."
     },
     {
       "id": "T1D08",
@@ -734,7 +775,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. When the communication is a part of classroom instruction at an educational institution"
+      "explain": "Correct answer: B. When the communication is a part of classroom instruction at an educational institution",
+      "explanation": "When the communication is a part of classroom instruction at an educational institution meets the particular condition asked about in this question."
     },
     {
       "id": "T1D09",
@@ -749,7 +791,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. When such communications are directly related to the immediate safety of human life or protection of property"
+      "explain": "Correct answer: A. When such communications are directly related to the immediate safety of human life or protection of property",
+      "explanation": "When such communications are directly related to the immediate safety of human life or protection of property is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1D10",
@@ -764,7 +807,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Transmissions intended for reception by the general public"
+      "explain": "Correct answer: D. Transmissions intended for reception by the general public",
+      "explanation": "Transmissions intended for reception by the general public describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T1D11",
@@ -779,7 +823,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. When transmitting signals to control model craft"
+      "explain": "Correct answer: D. When transmitting signals to control model craft",
+      "explanation": "When transmitting signals to control model craft is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1D12",
@@ -794,7 +839,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Identify the transmitting station"
+      "explain": "Correct answer: A. Identify the transmitting station",
+      "explanation": "Identify the transmitting station meets the particular condition asked about in this question."
     },
     {
       "id": "T1E01",
@@ -809,7 +855,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Never"
+      "explain": "Correct answer: D. Never",
+      "explanation": "Never is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1E02",
@@ -824,7 +871,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Any amateur allowed to transmit on the satellite uplink frequency"
+      "explain": "Correct answer: D. Any amateur allowed to transmit on the satellite uplink frequency",
+      "explanation": "Any amateur allowed to transmit on the satellite uplink frequency is the person, group, or agency responsible for the role described in this question."
     },
     {
       "id": "T1E03",
@@ -839,7 +887,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The station licensee"
+      "explain": "Correct answer: A. The station licensee",
+      "explanation": "The station licensee is the person, group, or agency responsible for the role described in this question."
     },
     {
       "id": "T1E04",
@@ -854,7 +903,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. The class of operator license held by the control operator"
+      "explain": "Correct answer: D. The class of operator license held by the control operator",
+      "explanation": "The class of operator license held by the control operator is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1E05",
@@ -869,7 +919,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The location at which the control operator function is performed"
+      "explain": "Correct answer: C. The location at which the control operator function is performed",
+      "explanation": "The location at which the control operator function is performed is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T1E06",
@@ -884,7 +935,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. At no time"
+      "explain": "Correct answer: A. At no time",
+      "explanation": "At no time is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1E07",
@@ -899,7 +951,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. The control operator and the station licensee"
+      "explain": "Correct answer: D. The control operator and the station licensee",
+      "explanation": "The control operator and the station licensee is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1E08",
@@ -914,7 +967,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Repeater operation"
+      "explain": "Correct answer: A. Repeater operation",
+      "explanation": "Repeater operation meets the particular condition asked about in this question."
     },
     {
       "id": "T1E09",
@@ -929,7 +983,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Any station"
+      "explain": "Correct answer: D. Any station",
+      "explanation": "Any station meets the particular condition asked about in this question."
     },
     {
       "id": "T1E10",
@@ -944,7 +999,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Operating the station over the internet"
+      "explain": "Correct answer: B. Operating the station over the internet",
+      "explanation": "Operating the station over the internet meets the particular condition asked about in this question."
     },
     {
       "id": "T1E11",
@@ -959,7 +1015,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station"
+      "explain": "Correct answer: D. An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station",
+      "explanation": "An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T1F01",
@@ -974,7 +1031,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. At any time upon request by an FCC representative"
+      "explain": "Correct answer: B. At any time upon request by an FCC representative",
+      "explanation": "At any time upon request by an FCC representative is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1F02",
@@ -989,7 +1047,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. At least every 10 minutes during and at the end of a communication"
+      "explain": "Correct answer: C. At least every 10 minutes during and at the end of a communication",
+      "explanation": "At least every 10 minutes during and at the end of a communication describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T1F03",
@@ -1004,7 +1063,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. At least every 10 minutes during and at the end of a communication"
+      "explain": "Correct answer: D. At least every 10 minutes during and at the end of a communication",
+      "explanation": "At least every 10 minutes during and at the end of a communication is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1F04",
@@ -1019,7 +1079,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. English"
+      "explain": "Correct answer: C. English",
+      "explanation": "English is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1F05",
@@ -1034,7 +1095,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Send the call sign using a CW or phone emission"
+      "explain": "Correct answer: B. Send the call sign using a CW or phone emission",
+      "explanation": "Send the call sign using a CW or phone emission is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1F06",
@@ -1049,7 +1111,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following self-assigned indicators are acceptable when using a phone transmission, so “all these choices” is the complete answer."
     },
     {
       "id": "T1F07",
@@ -1064,7 +1127,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. The foreign station must be in a country with which the U.S. has a third-party agreement"
+      "explain": "Correct answer: B. The foreign station must be in a country with which the U.S. has a third-party agreement",
+      "explanation": "The foreign station must be in a country with which the U.S. has a third-party agreement meets the particular condition asked about in this question."
     },
     {
       "id": "T1F08",
@@ -1079,7 +1143,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A message from a control operator to another amateur station control operator on behalf of another person"
+      "explain": "Correct answer: A. A message from a control operator to another amateur station control operator on behalf of another person",
+      "explanation": "A message from a control operator to another amateur station control operator on behalf of another person is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T1F09",
@@ -1094,7 +1159,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Repeater station"
+      "explain": "Correct answer: C. Repeater station",
+      "explanation": "Repeater station is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T1F10",
@@ -1109,7 +1175,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The control operator of the originating station"
+      "explain": "Correct answer: A. The control operator of the originating station",
+      "explanation": "The control operator of the originating station is the person, group, or agency responsible for the role described in this question."
     },
     {
       "id": "T1F11",
@@ -1124,7 +1191,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. The club must have at least four members"
+      "explain": "Correct answer: B. The club must have at least four members",
+      "explanation": "The club must have at least four members meets the particular condition asked about in this question."
     },
     {
       "id": "T2A01",
@@ -1139,7 +1207,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Plus or minus 600 kHz"
+      "explain": "Correct answer: B. Plus or minus 600 kHz",
+      "explanation": "Plus or minus 600 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T2A02",
@@ -1154,7 +1223,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 146.520 MHz"
+      "explain": "Correct answer: A. 146.520 MHz",
+      "explanation": "146.520 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T2A03",
@@ -1169,7 +1239,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Plus or minus 5 MHz"
+      "explain": "Correct answer: A. Plus or minus 5 MHz",
+      "explanation": "Plus or minus 5 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T2A04",
@@ -1184,7 +1255,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Say the station's call sign, then identify with your call sign"
+      "explain": "Correct answer: B. Say the station's call sign, then identify with your call sign",
+      "explanation": "Say the station's call sign, then identify with your call sign is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2A05",
@@ -1199,7 +1271,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Transmit the other station’s call sign followed by your call sign"
+      "explain": "Correct answer: C. Transmit the other station’s call sign followed by your call sign",
+      "explanation": "Transmit the other station’s call sign followed by your call sign describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T2A06",
@@ -1214,7 +1287,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary"
+      "explain": "Correct answer: D. Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary",
+      "explanation": "Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2A07",
@@ -1229,7 +1303,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The difference between a repeater’s transmit and receive frequencies"
+      "explain": "Correct answer: A. The difference between a repeater’s transmit and receive frequencies",
+      "explanation": "The difference between a repeater’s transmit and receive frequencies is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2A08",
@@ -1244,7 +1319,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Calling any station"
+      "explain": "Correct answer: D. Calling any station",
+      "explanation": "Calling any station is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2A09",
@@ -1259,7 +1335,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. The station’s call sign followed by the word “listening”"
+      "explain": "Correct answer: B. The station’s call sign followed by the word “listening”",
+      "explanation": "The station’s call sign followed by the word “listening” meets the particular condition asked about in this question."
     },
     {
       "id": "T2A10",
@@ -1274,7 +1351,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A voluntary guideline for using different modes or activities within an amateur band"
+      "explain": "Correct answer: A. A voluntary guideline for using different modes or activities within an amateur band",
+      "explanation": "A voluntary guideline for using different modes or activities within an amateur band is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T2A11",
@@ -1289,7 +1367,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Simplex"
+      "explain": "Correct answer: C. Simplex",
+      "explanation": "Simplex is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T2B01",
@@ -1304,7 +1383,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. To listen on a repeater’s input frequency"
+      "explain": "Correct answer: C. To listen on a repeater’s input frequency",
+      "explanation": "To listen on a repeater’s input frequency is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2B02",
@@ -1319,7 +1399,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. CTCSS"
+      "explain": "Correct answer: D. CTCSS",
+      "explanation": "CTCSS is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T2B03",
@@ -1334,7 +1415,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network"
+      "explain": "Correct answer: A. A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network",
+      "explanation": "A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network meets the particular condition asked about in this question."
     },
     {
       "id": "T2B04",
@@ -1349,7 +1431,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following could be the reason you are unable to access a repeater whose output you can hear, so “all these choices” is the complete answer."
     },
     {
       "id": "T2B05",
@@ -1364,7 +1447,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. You are talking too loudly"
+      "explain": "Correct answer: C. You are talking too loudly",
+      "explanation": "You are talking too loudly meets the particular condition asked about in this question."
     },
     {
       "id": "T2B06",
@@ -1379,7 +1463,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. DTMF"
+      "explain": "Correct answer: A. DTMF",
+      "explanation": "DTMF is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T2B07",
@@ -1394,7 +1479,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Program your radio with the group’s ID or code"
+      "explain": "Correct answer: C. Program your radio with the group’s ID or code",
+      "explanation": "Program your radio with the group’s ID or code describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T2B08",
@@ -1409,7 +1495,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The stations should negotiate continued use of the frequency"
+      "explain": "Correct answer: A. The stations should negotiate continued use of the frequency",
+      "explanation": "The stations should negotiate continued use of the frequency meets the particular condition asked about in this question."
     },
     {
       "id": "T2B09",
@@ -1424,7 +1511,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. So stations within range of each other can communicate without tying up a repeater"
+      "explain": "Correct answer: A. So stations within range of each other can communicate without tying up a repeater",
+      "explanation": "So stations within range of each other can communicate without tying up a repeater explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T2B10",
@@ -1439,7 +1527,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. QRM"
+      "explain": "Correct answer: A. QRM",
+      "explanation": "QRM meets the particular condition asked about in this question."
     },
     {
       "id": "T2B11",
@@ -1454,7 +1543,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. QSY"
+      "explain": "Correct answer: B. QSY",
+      "explanation": "QSY meets the particular condition asked about in this question."
     },
     {
       "id": "T2B12",
@@ -1469,7 +1559,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. An access code which must be programmed into a DMR transmitter to access a specific repeater"
+      "explain": "Correct answer: A. An access code which must be programmed into a DMR transmitter to access a specific repeater",
+      "explanation": "An access code which must be programmed into a DMR transmitter to access a specific repeater is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2B13",
@@ -1484,7 +1575,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Mute the receiver audio when a signal is not present"
+      "explain": "Correct answer: B. Mute the receiver audio when a signal is not present",
+      "explanation": "Mute the receiver audio when a signal is not present is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2B14",
@@ -1499,7 +1591,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic"
+      "explain": "Correct answer: B. An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic",
+      "explanation": "An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic meets the particular condition asked about in this question."
     },
     {
       "id": "T2C01",
@@ -1514,7 +1607,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. FCC rules always apply"
+      "explain": "Correct answer: D. FCC rules always apply",
+      "explanation": "FCC rules always apply is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T2C02",
@@ -1529,7 +1623,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Call the net to order and direct communications between stations checking in"
+      "explain": "Correct answer: C. Call the net to order and direct communications between stations checking in",
+      "explanation": "Call the net to order and direct communications between stations checking in meets the particular condition asked about in this question."
     },
     {
       "id": "T2C03",
@@ -1544,7 +1639,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Spell the words using a standard phonetic alphabet"
+      "explain": "Correct answer: C. Spell the words using a standard phonetic alphabet",
+      "explanation": "Spell the words using a standard phonetic alphabet is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T2C04",
@@ -1559,7 +1655,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. An FCC Part 97 amateur radio service for civil defense communications during national emergencies"
+      "explain": "Correct answer: D. An FCC Part 97 amateur radio service for civil defense communications during national emergencies",
+      "explanation": "An FCC Part 97 amateur radio service for civil defense communications during national emergencies is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2C05",
@@ -1574,7 +1671,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Formal messages exchanged by net stations"
+      "explain": "Correct answer: A. Formal messages exchanged by net stations",
+      "explanation": "Formal messages exchanged by net stations is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2C06",
@@ -1589,7 +1687,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service"
+      "explain": "Correct answer: A. A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service",
+      "explanation": "A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2C07",
@@ -1604,7 +1703,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Unless you are reporting an emergency, transmit only when directed by the net control station"
+      "explain": "Correct answer: C. Unless you are reporting an emergency, transmit only when directed by the net control station",
+      "explanation": "Unless you are reporting an emergency, transmit only when directed by the net control station meets the particular condition asked about in this question."
     },
     {
       "id": "T2C08",
@@ -1619,7 +1719,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Winlink"
+      "explain": "Correct answer: A. Winlink",
+      "explanation": "Winlink meets the particular condition asked about in this question."
     },
     {
       "id": "T2C09",
@@ -1634,7 +1735,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Yes, but only in situations involving the immediate safety of human life or protection of property"
+      "explain": "Correct answer: D. Yes, but only in situations involving the immediate safety of human life or protection of property",
+      "explanation": "Yes, but only in situations involving the immediate safety of human life or protection of property is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T2C10",
@@ -1649,7 +1751,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Information needed to track the message"
+      "explain": "Correct answer: D. Information needed to track the message",
+      "explanation": "Information needed to track the message is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T2C11",
@@ -1664,7 +1767,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The number of words or word equivalents in the text portion of the message"
+      "explain": "Correct answer: A. The number of words or word equivalents in the text portion of the message",
+      "explanation": "The number of words or word equivalents in the text portion of the message is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T2C12",
@@ -1679,7 +1783,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. RACES"
+      "explain": "Correct answer: B. RACES",
+      "explanation": "RACES meets the particular condition asked about in this question."
     },
     {
       "id": "T3A01",
@@ -1694,7 +1799,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Multipath propagation cancels or reinforces signals"
+      "explain": "Correct answer: C. Multipath propagation cancels or reinforces signals",
+      "explanation": "Multipath propagation cancels or reinforces signals explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T3A02",
@@ -1709,7 +1815,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Absorbs signals, leading to poor reception of weak signals"
+      "explain": "Correct answer: B. Absorbs signals, leading to poor reception of weak signals",
+      "explanation": "Absorbs signals, leading to poor reception of weak signals describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T3A03",
@@ -1724,7 +1831,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Horizontal"
+      "explain": "Correct answer: C. Horizontal",
+      "explanation": "Horizontal is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T3A04",
@@ -1739,7 +1847,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Received signal strength is reduced"
+      "explain": "Correct answer: B. Received signal strength is reduced",
+      "explanation": "Received signal strength is reduced is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3A05",
@@ -1754,7 +1863,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Try to find a path that reflects signals to the repeater"
+      "explain": "Correct answer: B. Try to find a path that reflects signals to the repeater",
+      "explanation": "Try to find a path that reflects signals to the repeater describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T3A06",
@@ -1769,7 +1879,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Rapid flutter on mobile signals due to multipath propagation"
+      "explain": "Correct answer: B. Rapid flutter on mobile signals due to multipath propagation",
+      "explanation": "Rapid flutter on mobile signals due to multipath propagation is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3A07",
@@ -1784,7 +1895,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Precipitation"
+      "explain": "Correct answer: C. Precipitation",
+      "explanation": "Precipitation is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T3A08",
@@ -1799,7 +1911,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Random combining of signals arriving via different paths"
+      "explain": "Correct answer: D. Random combining of signals arriving via different paths",
+      "explanation": "Random combining of signals arriving via different paths is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3A09",
@@ -1814,7 +1927,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Either vertically or horizontally polarized antennas may be used for transmission or reception"
+      "explain": "Correct answer: B. Either vertically or horizontally polarized antennas may be used for transmission or reception",
+      "explanation": "Either vertically or horizontally polarized antennas may be used for transmission or reception meets the particular condition asked about in this question."
     },
     {
       "id": "T3A10",
@@ -1829,7 +1943,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Error rates are likely to increase"
+      "explain": "Correct answer: D. Error rates are likely to increase",
+      "explanation": "Error rates are likely to increase is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T3A11",
@@ -1844,7 +1959,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The ionosphere"
+      "explain": "Correct answer: C. The ionosphere",
+      "explanation": "The ionosphere meets the particular condition asked about in this question."
     },
     {
       "id": "T3A12",
@@ -1859,7 +1975,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Little effect"
+      "explain": "Correct answer: B. Little effect",
+      "explanation": "Little effect is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T3B01",
@@ -1874,7 +1991,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. They are at right angles"
+      "explain": "Correct answer: D. They are at right angles",
+      "explanation": "They are at right angles is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3B02",
@@ -1889,7 +2007,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The orientation of the electric field"
+      "explain": "Correct answer: A. The orientation of the electric field",
+      "explanation": "The orientation of the electric field is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T3B03",
@@ -1904,7 +2023,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Electric and magnetic fields"
+      "explain": "Correct answer: C. Electric and magnetic fields",
+      "explanation": "Electric and magnetic fields is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3B04",
@@ -1919,7 +2039,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Speed of light"
+      "explain": "Correct answer: A. Speed of light",
+      "explanation": "Speed of light is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3B05",
@@ -1934,7 +2055,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Wavelength gets shorter as frequency increases"
+      "explain": "Correct answer: B. Wavelength gets shorter as frequency increases",
+      "explanation": "Wavelength gets shorter as frequency increases is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3B06",
@@ -1949,7 +2071,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Wavelength in meters equals 300 divided by frequency in megahertz"
+      "explain": "Correct answer: D. Wavelength in meters equals 300 divided by frequency in megahertz",
+      "explanation": "Wavelength in meters equals 300 divided by frequency in megahertz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T3B07",
@@ -1964,7 +2087,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The approximate wavelength in meters"
+      "explain": "Correct answer: A. The approximate wavelength in meters",
+      "explanation": "The approximate wavelength in meters is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T3B08",
@@ -1979,7 +2103,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 30 MHz to 300 MHz"
+      "explain": "Correct answer: B. 30 MHz to 300 MHz",
+      "explanation": "30 MHz to 300 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T3B09",
@@ -1994,7 +2119,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 300 to 3000 MHz"
+      "explain": "Correct answer: D. 300 to 3000 MHz",
+      "explanation": "300 to 3000 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T3B10",
@@ -2009,7 +2135,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 3 to 30 MHz"
+      "explain": "Correct answer: C. 3 to 30 MHz",
+      "explanation": "3 to 30 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T3B11",
@@ -2024,7 +2151,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 300,000,000 meters per second"
+      "explain": "Correct answer: B. 300,000,000 meters per second",
+      "explanation": "300,000,000 meters per second is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3B12",
@@ -2039,7 +2167,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All radio frequencies travel at the same velocity"
+      "explain": "Correct answer: D. All radio frequencies travel at the same velocity",
+      "explanation": "All radio frequencies travel at the same velocity meets the particular condition asked about in this question."
     },
     {
       "id": "T3C01",
@@ -2054,7 +2183,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. UHF signals are usually not propagated by the ionosphere"
+      "explain": "Correct answer: C. UHF signals are usually not propagated by the ionosphere",
+      "explanation": "UHF signals are usually not propagated by the ionosphere explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T3C02",
@@ -2069,7 +2199,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Long-distance ionospheric propagation is far more common on HF"
+      "explain": "Correct answer: C. Long-distance ionospheric propagation is far more common on HF",
+      "explanation": "Long-distance ionospheric propagation is far more common on HF is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3C03",
@@ -2084,7 +2215,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. They are distorted, with a characteristic raspy sound"
+      "explain": "Correct answer: B. They are distorted, with a characteristic raspy sound",
+      "explanation": "They are distorted, with a characteristic raspy sound is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3C04",
@@ -2099,7 +2231,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Sporadic E"
+      "explain": "Correct answer: B. Sporadic E",
+      "explanation": "Sporadic E meets the particular condition asked about in this question."
     },
     {
       "id": "T3C05",
@@ -2114,7 +2247,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Knife-edge diffraction"
+      "explain": "Correct answer: A. Knife-edge diffraction",
+      "explanation": "Knife-edge diffraction meets the particular condition asked about in this question."
     },
     {
       "id": "T3C06",
@@ -2129,7 +2263,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Tropospheric ducting"
+      "explain": "Correct answer: A. Tropospheric ducting",
+      "explanation": "Tropospheric ducting is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T3C07",
@@ -2144,7 +2279,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 6 meters"
+      "explain": "Correct answer: B. 6 meters",
+      "explanation": "6 meters is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T3C08",
@@ -2159,7 +2295,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Temperature inversions in the atmosphere"
+      "explain": "Correct answer: D. Temperature inversions in the atmosphere",
+      "explanation": "Temperature inversions in the atmosphere is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T3C09",
@@ -2174,7 +2311,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. From dawn to shortly after sunset during periods of high sunspot activity"
+      "explain": "Correct answer: A. From dawn to shortly after sunset during periods of high sunspot activity",
+      "explanation": "From dawn to shortly after sunset during periods of high sunspot activity is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T3C10",
@@ -2189,7 +2327,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 6 and 10 meters"
+      "explain": "Correct answer: A. 6 and 10 meters",
+      "explanation": "6 and 10 meters is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T3C11",
@@ -2204,7 +2343,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The atmosphere refracts radio waves slightly"
+      "explain": "Correct answer: C. The atmosphere refracts radio waves slightly",
+      "explanation": "The atmosphere refracts radio waves slightly explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T4A01",
@@ -2219,7 +2359,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 13.8 volts at 12 amperes"
+      "explain": "Correct answer: D. 13.8 volts at 12 amperes",
+      "explanation": "13.8 volts at 12 amperes meets the particular condition asked about in this question."
     },
     {
       "id": "T4A02",
@@ -2234,7 +2375,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The frequency and power level at which the measurements will be made"
+      "explain": "Correct answer: A. The frequency and power level at which the measurements will be made",
+      "explanation": "The frequency and power level at which the measurements will be made meets the particular condition asked about in this question."
     },
     {
       "id": "T4A03",
@@ -2249,7 +2391,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. To minimize voltage drop when transmitting"
+      "explain": "Correct answer: A. To minimize voltage drop when transmitting",
+      "explanation": "To minimize voltage drop when transmitting explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T4A04",
@@ -2264,7 +2407,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. To the audio output and input of a computer running FT8 software"
+      "explain": "Correct answer: B. To the audio output and input of a computer running FT8 software",
+      "explanation": "To the audio output and input of a computer running FT8 software describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T4A05",
@@ -2279,7 +2423,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. In the feed line, between the transmitter and antenna"
+      "explain": "Correct answer: A. In the feed line, between the transmitter and antenna",
+      "explanation": "In the feed line, between the transmitter and antenna is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T4A06",
@@ -2294,7 +2439,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Receive audio, transmit audio, and transmitter keying"
+      "explain": "Correct answer: C. Receive audio, transmit audio, and transmitter keying",
+      "explanation": "Receive audio, transmit audio, and transmitter keying is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T4A07",
@@ -2309,7 +2455,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Computer “line in” to transceiver speaker connector"
+      "explain": "Correct answer: C. Computer “line in” to transceiver speaker connector",
+      "explanation": "Computer “line in” to transceiver speaker connector meets the particular condition asked about in this question."
     },
     {
       "id": "T4A08",
@@ -2324,7 +2471,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Flat copper strap"
+      "explain": "Correct answer: D. Flat copper strap",
+      "explanation": "Flat copper strap meets the particular condition asked about in this question."
     },
     {
       "id": "T4A09",
@@ -2339,7 +2487,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Divide the battery ampere-hour rating by the average current draw of the equipment"
+      "explain": "Correct answer: B. Divide the battery ampere-hour rating by the average current draw of the equipment",
+      "explanation": "Divide the battery ampere-hour rating by the average current draw of the equipment describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T4A10",
@@ -2354,7 +2503,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Communication with a digital voice or data network"
+      "explain": "Correct answer: A. Communication with a digital voice or data network",
+      "explanation": "Communication with a digital voice or data network is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T4A11",
@@ -2369,7 +2519,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. At the 12-volt battery chassis ground"
+      "explain": "Correct answer: A. At the 12-volt battery chassis ground",
+      "explanation": "At the 12-volt battery chassis ground is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T4A12",
@@ -2384,7 +2535,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. A device that assists in manual sending of Morse code"
+      "explain": "Correct answer: C. A device that assists in manual sending of Morse code",
+      "explanation": "A device that assists in manual sending of Morse code is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T4B01",
@@ -2399,7 +2551,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Distorted transmitted audio"
+      "explain": "Correct answer: B. Distorted transmitted audio",
+      "explanation": "Distorted transmitted audio is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T4B02",
@@ -2414,7 +2567,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The keypad or VFO knob"
+      "explain": "Correct answer: A. The keypad or VFO knob",
+      "explanation": "The keypad or VFO knob meets the particular condition asked about in this question."
     },
     {
       "id": "T4B03",
@@ -2429,7 +2583,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Set the squelch threshold so that receiver output audio is on all the time"
+      "explain": "Correct answer: A. Set the squelch threshold so that receiver output audio is on all the time",
+      "explanation": "Set the squelch threshold so that receiver output audio is on all the time describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T4B04",
@@ -2444,7 +2599,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. The audio becomes distorted"
+      "explain": "Correct answer: D. The audio becomes distorted",
+      "explanation": "The audio becomes distorted is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T4B05",
@@ -2459,7 +2615,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Tunes through a range of frequencies to check for activity"
+      "explain": "Correct answer: C. Tunes through a range of frequencies to check for activity",
+      "explanation": "Tunes through a range of frequencies to check for activity is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T4B06",
@@ -2474,7 +2631,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. The RIT or Clarifier"
+      "explain": "Correct answer: D. The RIT or Clarifier",
+      "explanation": "The RIT or Clarifier meets the particular condition asked about in this question."
     },
     {
       "id": "T4B07",
@@ -2489,7 +2647,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Configuration data loaded onto your radio to access repeaters and talkgroups"
+      "explain": "Correct answer: B. Configuration data loaded onto your radio to access repeaters and talkgroups",
+      "explanation": "Configuration data loaded onto your radio to access repeaters and talkgroups is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T4B08",
@@ -2504,7 +2663,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Permits noise or interference reduction by selecting a bandwidth matching the mode"
+      "explain": "Correct answer: B. Permits noise or interference reduction by selecting a bandwidth matching the mode",
+      "explanation": "Permits noise or interference reduction by selecting a bandwidth matching the mode is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T4B09",
@@ -2519,7 +2679,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. By entering the group’s identification code"
+      "explain": "Correct answer: C. By entering the group’s identification code",
+      "explanation": "By entering the group’s identification code describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T4B10",
@@ -2534,7 +2695,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 2400 Hz"
+      "explain": "Correct answer: C. 2400 Hz",
+      "explanation": "2400 Hz meets the particular condition asked about in this question."
     },
     {
       "id": "T4B11",
@@ -2549,7 +2711,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Your call sign"
+      "explain": "Correct answer: A. Your call sign",
+      "explanation": "Your call sign meets the particular condition asked about in this question."
     },
     {
       "id": "T5A01",
@@ -2564,7 +2727,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Amperes"
+      "explain": "Correct answer: D. Amperes",
+      "explanation": "Amperes meets the particular condition asked about in this question."
     },
     {
       "id": "T5A02",
@@ -2579,7 +2743,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Watts"
+      "explain": "Correct answer: B. Watts",
+      "explanation": "Watts meets the particular condition asked about in this question."
     },
     {
       "id": "T5A03",
@@ -2594,7 +2759,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Current"
+      "explain": "Correct answer: D. Current",
+      "explanation": "Current is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5A04",
@@ -2609,7 +2775,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Frequency"
+      "explain": "Correct answer: C. Frequency",
+      "explanation": "Frequency is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T5A05",
@@ -2624,7 +2791,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Voltage"
+      "explain": "Correct answer: A. Voltage",
+      "explanation": "Voltage meets the particular condition asked about in this question."
     },
     {
       "id": "T5A06",
@@ -2639,7 +2807,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Hertz"
+      "explain": "Correct answer: A. Hertz",
+      "explanation": "Hertz is the measurement unit for the electrical or radio quantity named in the question."
     },
     {
       "id": "T5A07",
@@ -2654,7 +2823,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. They have many free electrons"
+      "explain": "Correct answer: B. They have many free electrons",
+      "explanation": "They have many free electrons explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T5A08",
@@ -2669,7 +2839,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Glass"
+      "explain": "Correct answer: B. Glass",
+      "explanation": "Glass meets the particular condition asked about in this question."
     },
     {
       "id": "T5A09",
@@ -2684,7 +2855,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Current that alternates between positive and negative directions"
+      "explain": "Correct answer: C. Current that alternates between positive and negative directions",
+      "explanation": "Current that alternates between positive and negative directions meets the particular condition asked about in this question."
     },
     {
       "id": "T5A10",
@@ -2699,7 +2871,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Power"
+      "explain": "Correct answer: C. Power",
+      "explanation": "Power meets the particular condition asked about in this question."
     },
     {
       "id": "T5A11",
@@ -2714,7 +2887,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what type of current flow is opposed by resistance, so “all these choices” is the complete answer."
     },
     {
       "id": "T5B01",
@@ -2729,7 +2903,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 1500 milliamperes"
+      "explain": "Correct answer: C. 1500 milliamperes",
+      "explanation": "1500 milliamperes describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T5B02",
@@ -2744,7 +2919,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 1500 kHz"
+      "explain": "Correct answer: A. 1500 kHz",
+      "explanation": "1500 kHz meets the particular condition asked about in this question."
     },
     {
       "id": "T5B03",
@@ -2759,7 +2935,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. One thousand volts"
+      "explain": "Correct answer: C. One thousand volts",
+      "explanation": "One thousand volts meets the particular condition asked about in this question."
     },
     {
       "id": "T5B04",
@@ -2774,7 +2951,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. One one-millionth of a volt"
+      "explain": "Correct answer: A. One one-millionth of a volt",
+      "explanation": "One one-millionth of a volt meets the particular condition asked about in this question."
     },
     {
       "id": "T5B05",
@@ -2789,7 +2967,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 0.5 watts"
+      "explain": "Correct answer: B. 0.5 watts",
+      "explanation": "0.5 watts meets the particular condition asked about in this question."
     },
     {
       "id": "T5B06",
@@ -2804,7 +2983,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 3 amperes"
+      "explain": "Correct answer: D. 3 amperes",
+      "explanation": "3 amperes meets the particular condition asked about in this question."
     },
     {
       "id": "T5B07",
@@ -2819,7 +2999,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 3525 kHz"
+      "explain": "Correct answer: C. 3525 kHz",
+      "explanation": "3525 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T5B08",
@@ -2834,7 +3015,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 1 microfarad"
+      "explain": "Correct answer: B. 1 microfarad",
+      "explanation": "1 microfarad meets the particular condition asked about in this question."
     },
     {
       "id": "T5B09",
@@ -2849,7 +3031,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 3 dB"
+      "explain": "Correct answer: B. 3 dB",
+      "explanation": "3 dB meets the particular condition asked about in this question."
     },
     {
       "id": "T5B10",
@@ -2864,7 +3047,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. -6 dB"
+      "explain": "Correct answer: C. -6 dB",
+      "explanation": "-6 dB meets the particular condition asked about in this question."
     },
     {
       "id": "T5B11",
@@ -2879,7 +3063,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 10 dB"
+      "explain": "Correct answer: A. 10 dB",
+      "explanation": "10 dB meets the particular condition asked about in this question."
     },
     {
       "id": "T5B12",
@@ -2894,7 +3079,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 28.400 MHz"
+      "explain": "Correct answer: D. 28.400 MHz",
+      "explanation": "28.400 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T5B13",
@@ -2909,7 +3095,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 2.425 GHz"
+      "explain": "Correct answer: C. 2.425 GHz",
+      "explanation": "2.425 GHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T5C01",
@@ -2924,7 +3111,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Capacitance"
+      "explain": "Correct answer: D. Capacitance",
+      "explanation": "Capacitance is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T5C02",
@@ -2939,7 +3127,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Farad"
+      "explain": "Correct answer: A. Farad",
+      "explanation": "Farad is the measurement unit for the electrical or radio quantity named in the question."
     },
     {
       "id": "T5C03",
@@ -2954,7 +3143,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Inductance"
+      "explain": "Correct answer: D. Inductance",
+      "explanation": "Inductance is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T5C04",
@@ -2969,7 +3159,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Henry"
+      "explain": "Correct answer: C. Henry",
+      "explanation": "Henry is the measurement unit for the electrical or radio quantity named in the question."
     },
     {
       "id": "T5C05",
@@ -2984,7 +3175,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Ohm"
+      "explain": "Correct answer: D. Ohm",
+      "explanation": "Ohm is the measurement unit for the electrical or radio quantity named in the question."
     },
     {
       "id": "T5C06",
@@ -2999,7 +3191,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. kHz"
+      "explain": "Correct answer: A. kHz",
+      "explanation": "KHz is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5C07",
@@ -3014,7 +3207,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. MHz"
+      "explain": "Correct answer: D. MHz",
+      "explanation": "MHz is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5C08",
@@ -3029,7 +3223,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. P = I x E"
+      "explain": "Correct answer: A. P = I x E",
+      "explanation": "P = I x E is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T5C09",
@@ -3044,7 +3239,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 138 watts"
+      "explain": "Correct answer: A. 138 watts",
+      "explanation": "138 watts describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T5C10",
@@ -3059,7 +3255,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 30 watts"
+      "explain": "Correct answer: B. 30 watts",
+      "explanation": "30 watts describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T5C11",
@@ -3074,7 +3271,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 10 amperes"
+      "explain": "Correct answer: B. 10 amperes",
+      "explanation": "10 amperes describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T5C12",
@@ -3089,7 +3287,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The opposition to AC current flow"
+      "explain": "Correct answer: A. The opposition to AC current flow",
+      "explanation": "The opposition to AC current flow is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D01",
@@ -3104,7 +3303,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. I = E / R"
+      "explain": "Correct answer: B. I = E / R",
+      "explanation": "I = E / R is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T5D02",
@@ -3119,7 +3319,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. E = I x R"
+      "explain": "Correct answer: A. E = I x R",
+      "explanation": "E = I x R is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T5D03",
@@ -3134,7 +3335,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. R = E / I"
+      "explain": "Correct answer: B. R = E / I",
+      "explanation": "R = E / I is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T5D04",
@@ -3149,7 +3351,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 30 ohms"
+      "explain": "Correct answer: B. 30 ohms",
+      "explanation": "30 ohms is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D05",
@@ -3164,7 +3367,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 8 ohms"
+      "explain": "Correct answer: C. 8 ohms",
+      "explanation": "8 ohms is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D06",
@@ -3179,7 +3383,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 3 ohms"
+      "explain": "Correct answer: A. 3 ohms",
+      "explanation": "3 ohms is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D07",
@@ -3194,7 +3399,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 1.5 amperes"
+      "explain": "Correct answer: D. 1.5 amperes",
+      "explanation": "1.5 amperes is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D08",
@@ -3209,7 +3415,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 2 amperes"
+      "explain": "Correct answer: C. 2 amperes",
+      "explanation": "2 amperes is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D09",
@@ -3224,7 +3431,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 10 amperes"
+      "explain": "Correct answer: C. 10 amperes",
+      "explanation": "10 amperes is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D10",
@@ -3239,7 +3447,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. 1 volt"
+      "explain": "Correct answer: A. 1 volt",
+      "explanation": "1 volt is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D11",
@@ -3254,7 +3463,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 10 volts"
+      "explain": "Correct answer: B. 10 volts",
+      "explanation": "10 volts is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D12",
@@ -3269,7 +3479,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. 20 volts"
+      "explain": "Correct answer: D. 20 volts",
+      "explanation": "20 volts is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T5D13",
@@ -3284,7 +3495,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Series"
+      "explain": "Correct answer: A. Series",
+      "explanation": "Series meets the particular condition asked about in this question."
     },
     {
       "id": "T5D14",
@@ -3299,7 +3511,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Parallel"
+      "explain": "Correct answer: B. Parallel",
+      "explanation": "Parallel meets the particular condition asked about in this question."
     },
     {
       "id": "T6A01",
@@ -3314,7 +3527,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Resistor"
+      "explain": "Correct answer: B. Resistor",
+      "explanation": "Resistor is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A02",
@@ -3329,7 +3543,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Potentiometer"
+      "explain": "Correct answer: C. Potentiometer",
+      "explanation": "Potentiometer is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A03",
@@ -3344,7 +3559,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Resistance"
+      "explain": "Correct answer: B. Resistance",
+      "explanation": "Resistance is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A04",
@@ -3359,7 +3575,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Capacitor"
+      "explain": "Correct answer: B. Capacitor",
+      "explanation": "Capacitor is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A05",
@@ -3374,7 +3591,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Capacitor"
+      "explain": "Correct answer: D. Capacitor",
+      "explanation": "Capacitor is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A06",
@@ -3389,7 +3607,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Inductor"
+      "explain": "Correct answer: C. Inductor",
+      "explanation": "Inductor is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A07",
@@ -3404,7 +3623,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Inductor"
+      "explain": "Correct answer: D. Inductor",
+      "explanation": "Inductor is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A08",
@@ -3419,7 +3639,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. A single circuit is switched between one of two other circuits"
+      "explain": "Correct answer: C. A single circuit is switched between one of two other circuits",
+      "explanation": "A single circuit is switched between one of two other circuits is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6A09",
@@ -3434,7 +3655,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
-      "explain": "Correct answer: A. Single-pole single-throw"
+      "explain": "Correct answer: A. Single-pole single-throw",
+      "explanation": "Single-pole single-throw is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6A10",
@@ -3449,7 +3671,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following battery chemistries is rechargeable, so “all these choices” is the complete answer."
     },
     {
       "id": "T6A11",
@@ -3464,7 +3687,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Carbon-zinc"
+      "explain": "Correct answer: B. Carbon-zinc",
+      "explanation": "Carbon-zinc meets the particular condition asked about in this question."
     },
     {
       "id": "T6B01",
@@ -3479,7 +3703,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. It is lower in some diode types than in others"
+      "explain": "Correct answer: A. It is lower in some diode types than in others",
+      "explanation": "It is lower in some diode types than in others meets the particular condition asked about in this question."
     },
     {
       "id": "T6B02",
@@ -3494,7 +3719,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Diode"
+      "explain": "Correct answer: C. Diode",
+      "explanation": "Diode is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6B03",
@@ -3509,7 +3735,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Transistor"
+      "explain": "Correct answer: C. Transistor",
+      "explanation": "Transistor meets the particular condition asked about in this question."
     },
     {
       "id": "T6B04",
@@ -3524,7 +3751,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Transistor"
+      "explain": "Correct answer: B. Transistor",
+      "explanation": "Transistor meets the particular condition asked about in this question."
     },
     {
       "id": "T6B05",
@@ -3539,7 +3767,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Field-effect"
+      "explain": "Correct answer: B. Field-effect",
+      "explanation": "Field-effect is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6B06",
@@ -3554,7 +3783,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. With a stripe"
+      "explain": "Correct answer: B. With a stripe",
+      "explanation": "With a stripe describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T6B07",
@@ -3569,7 +3799,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Forward current"
+      "explain": "Correct answer: A. Forward current",
+      "explanation": "Forward current is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6B08",
@@ -3584,7 +3815,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Field Effect Transistor"
+      "explain": "Correct answer: D. Field Effect Transistor",
+      "explanation": "Field Effect Transistor is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6B09",
@@ -3599,7 +3831,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Anode and cathode"
+      "explain": "Correct answer: C. Anode and cathode",
+      "explanation": "Anode and cathode is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6B10",
@@ -3614,7 +3847,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Transistor"
+      "explain": "Correct answer: B. Transistor",
+      "explanation": "Transistor meets the particular condition asked about in this question."
     },
     {
       "id": "T6B11",
@@ -3629,7 +3863,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what does the term gain mean in amplifiers, so “all these choices” is the complete answer."
     },
     {
       "id": "T6B12",
@@ -3644,7 +3879,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Emitter, base, collector"
+      "explain": "Correct answer: B. Emitter, base, collector",
+      "explanation": "Emitter, base, collector is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C01",
@@ -3659,7 +3895,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Schematic"
+      "explain": "Correct answer: C. Schematic",
+      "explanation": "Schematic is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C02",
@@ -3674,7 +3911,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
-      "explain": "Correct answer: A. Resistor"
+      "explain": "Correct answer: A. Resistor",
+      "explanation": "Resistor is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C03",
@@ -3689,7 +3927,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
-      "explain": "Correct answer: B. Transistor"
+      "explain": "Correct answer: B. Transistor",
+      "explanation": "Transistor is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C04",
@@ -3704,7 +3943,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
-      "explain": "Correct answer: C. Lamp"
+      "explain": "Correct answer: C. Lamp",
+      "explanation": "Lamp is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C05",
@@ -3719,7 +3959,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
-      "explain": "Correct answer: D. Battery"
+      "explain": "Correct answer: D. Battery",
+      "explanation": "Battery is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C06",
@@ -3734,7 +3975,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
-      "explain": "Correct answer: B. Capacitor"
+      "explain": "Correct answer: B. Capacitor",
+      "explanation": "Capacitor is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C07",
@@ -3749,7 +3991,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
-      "explain": "Correct answer: D. Light emitting diode"
+      "explain": "Correct answer: D. Light emitting diode",
+      "explanation": "Light emitting diode is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C08",
@@ -3764,7 +4007,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
-      "explain": "Correct answer: C. Variable resistor"
+      "explain": "Correct answer: C. Variable resistor",
+      "explanation": "Variable resistor is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C09",
@@ -3779,7 +4023,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
-      "explain": "Correct answer: D. Transformer"
+      "explain": "Correct answer: D. Transformer",
+      "explanation": "Transformer is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C10",
@@ -3794,7 +4039,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-3.png",
-      "explain": "Correct answer: D. Variable inductor"
+      "explain": "Correct answer: D. Variable inductor",
+      "explanation": "Variable inductor is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C11",
@@ -3809,7 +4055,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-3.png",
-      "explain": "Correct answer: A. Antenna"
+      "explain": "Correct answer: A. Antenna",
+      "explanation": "Antenna is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6C12",
@@ -3824,7 +4071,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Component connections"
+      "explain": "Correct answer: C. Component connections",
+      "explanation": "Component connections meets the particular condition asked about in this question."
     },
     {
       "id": "T6D01",
@@ -3839,7 +4087,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Rectifier"
+      "explain": "Correct answer: B. Rectifier",
+      "explanation": "Rectifier meets the particular condition asked about in this question."
     },
     {
       "id": "T6D02",
@@ -3854,7 +4103,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. An electrically-controlled switch"
+      "explain": "Correct answer: A. An electrically-controlled switch",
+      "explanation": "An electrically-controlled switch is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6D03",
@@ -3869,7 +4119,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. To prevent coupling of unwanted signals to or from the wire"
+      "explain": "Correct answer: C. To prevent coupling of unwanted signals to or from the wire",
+      "explanation": "To prevent coupling of unwanted signals to or from the wire meets the particular condition asked about in this question."
     },
     {
       "id": "T6D04",
@@ -3884,7 +4135,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Meter"
+      "explain": "Correct answer: C. Meter",
+      "explanation": "Meter meets the particular condition asked about in this question."
     },
     {
       "id": "T6D05",
@@ -3899,7 +4151,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Regulator"
+      "explain": "Correct answer: A. Regulator",
+      "explanation": "Regulator is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6D06",
@@ -3914,7 +4167,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Transformer"
+      "explain": "Correct answer: B. Transformer",
+      "explanation": "Transformer is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T6D07",
@@ -3929,7 +4183,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. LED"
+      "explain": "Correct answer: A. LED",
+      "explanation": "LED meets the particular condition asked about in this question."
     },
     {
       "id": "T6D08",
@@ -3944,7 +4199,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Capacitor"
+      "explain": "Correct answer: D. Capacitor",
+      "explanation": "Capacitor meets the particular condition asked about in this question."
     },
     {
       "id": "T6D09",
@@ -3959,7 +4215,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Integrated circuit"
+      "explain": "Correct answer: C. Integrated circuit",
+      "explanation": "Integrated circuit is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6D10",
@@ -3974,7 +4231,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
-      "explain": "Correct answer: C. Control the flow of current"
+      "explain": "Correct answer: C. Control the flow of current",
+      "explanation": "Control the flow of current is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T6D11",
@@ -3989,7 +4247,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. An inductor and a capacitor in series or parallel"
+      "explain": "Correct answer: A. An inductor and a capacitor in series or parallel",
+      "explanation": "An inductor and a capacitor in series or parallel meets the particular condition asked about in this question."
     },
     {
       "id": "T7A01",
@@ -4004,7 +4263,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Sensitivity"
+      "explain": "Correct answer: B. Sensitivity",
+      "explanation": "Sensitivity meets the particular condition asked about in this question."
     },
     {
       "id": "T7A02",
@@ -4019,7 +4279,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A device that combines a receiver and transmitter"
+      "explain": "Correct answer: A. A device that combines a receiver and transmitter",
+      "explanation": "A device that combines a receiver and transmitter is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7A03",
@@ -4034,7 +4295,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Mixer"
+      "explain": "Correct answer: B. Mixer",
+      "explanation": "Mixer meets the particular condition asked about in this question."
     },
     {
       "id": "T7A04",
@@ -4049,7 +4311,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Selectivity"
+      "explain": "Correct answer: C. Selectivity",
+      "explanation": "Selectivity meets the particular condition asked about in this question."
     },
     {
       "id": "T7A05",
@@ -4064,7 +4327,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Oscillator"
+      "explain": "Correct answer: D. Oscillator",
+      "explanation": "Oscillator is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7A06",
@@ -4079,7 +4343,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Transverter"
+      "explain": "Correct answer: C. Transverter",
+      "explanation": "Transverter is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7A07",
@@ -4094,7 +4359,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Switches transceiver from receive to transmit when grounded"
+      "explain": "Correct answer: B. Switches transceiver from receive to transmit when grounded",
+      "explanation": "Switches transceiver from receive to transmit when grounded is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7A08",
@@ -4109,7 +4375,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Modulation"
+      "explain": "Correct answer: C. Modulation",
+      "explanation": "Modulation meets the particular condition asked about in this question."
     },
     {
       "id": "T7A09",
@@ -4124,7 +4391,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Set the amplifier for proper operation in the selected mode"
+      "explain": "Correct answer: B. Set the amplifier for proper operation in the selected mode",
+      "explanation": "Set the amplifier for proper operation in the selected mode is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7A10",
@@ -4139,7 +4407,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. An RF power amplifier"
+      "explain": "Correct answer: B. An RF power amplifier",
+      "explanation": "An RF power amplifier is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7A11",
@@ -4154,7 +4423,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Set the receive and transmit frequency"
+      "explain": "Correct answer: A. Set the receive and transmit frequency",
+      "explanation": "Set the receive and transmit frequency is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7B01",
@@ -4169,7 +4439,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Talk farther away from the microphone"
+      "explain": "Correct answer: D. Talk farther away from the microphone",
+      "explanation": "Talk farther away from the microphone is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7B02",
@@ -4184,7 +4455,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. The receiver is unable to reject strong signals outside the AM or FM band"
+      "explain": "Correct answer: A. The receiver is unable to reject strong signals outside the AM or FM band",
+      "explanation": "The receiver is unable to reject strong signals outside the AM or FM band is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7B03",
@@ -4199,7 +4471,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following can cause radio frequency interference, so “all these choices” is the complete answer."
     },
     {
       "id": "T7B04",
@@ -4214,7 +4487,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. High SWR"
+      "explain": "Correct answer: D. High SWR",
+      "explanation": "High SWR meets the particular condition asked about in this question."
     },
     {
       "id": "T7B05",
@@ -4229,7 +4503,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Block the amateur signal with a filter at the antenna input of the affected receiver"
+      "explain": "Correct answer: A. Block the amateur signal with a filter at the antenna input of the affected receiver",
+      "explanation": "Block the amateur signal with a filter at the antenna input of the affected receiver meets the particular condition asked about in this question."
     },
     {
       "id": "T7B06",
@@ -4244,7 +4519,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel"
+      "explain": "Correct answer: A. Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel",
+      "explanation": "Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel meets the particular condition asked about in this question."
     },
     {
       "id": "T7B07",
@@ -4259,7 +4535,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Installing a band-reject filter"
+      "explain": "Correct answer: D. Installing a band-reject filter",
+      "explanation": "Installing a band-reject filter is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T7B08",
@@ -4274,7 +4551,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what should you do if something in a neighbor’s home is causing harmful interference to your amateur station, so “all these choices” is the complete answer."
     },
     {
       "id": "T7B09",
@@ -4289,7 +4567,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Be sure all TV feed line coaxial connectors are installed properly"
+      "explain": "Correct answer: D. Be sure all TV feed line coaxial connectors are installed properly",
+      "explanation": "Be sure all TV feed line coaxial connectors are installed properly is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7B10",
@@ -4304,7 +4583,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what might be a problem if you receive a report that your audio signal through an FM repeater is distorted or unintelligible, so “all these choices” is the complete answer."
     },
     {
       "id": "T7B11",
@@ -4319,7 +4599,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter"
+      "explain": "Correct answer: C. Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter",
+      "explanation": "Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter meets the particular condition asked about in this question."
     },
     {
       "id": "T7C01",
@@ -4334,7 +4615,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. To prevent transmitting signals over the air when making tests"
+      "explain": "Correct answer: A. To prevent transmitting signals over the air when making tests",
+      "explanation": "To prevent transmitting signals over the air when making tests is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7C02",
@@ -4349,7 +4631,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. An antenna analyzer"
+      "explain": "Correct answer: B. An antenna analyzer",
+      "explanation": "An antenna analyzer meets the particular condition asked about in this question."
     },
     {
       "id": "T7C03",
@@ -4364,7 +4647,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. A 50-ohm non-inductive resistor mounted on a heat sink"
+      "explain": "Correct answer: B. A 50-ohm non-inductive resistor mounted on a heat sink",
+      "explanation": "A 50-ohm non-inductive resistor mounted on a heat sink is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7C04",
@@ -4379,7 +4663,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. 1:1"
+      "explain": "Correct answer: C. 1:1",
+      "explanation": "1:1 is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7C05",
@@ -4394,7 +4679,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. To protect the RF output amplifier transistors"
+      "explain": "Correct answer: A. To protect the RF output amplifier transistors",
+      "explanation": "To protect the RF output amplifier transistors explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T7C06",
@@ -4409,7 +4695,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Impedance mismatch"
+      "explain": "Correct answer: D. Impedance mismatch",
+      "explanation": "Impedance mismatch is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7C07",
@@ -4424,7 +4711,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. It is converted into heat"
+      "explain": "Correct answer: C. It is converted into heat",
+      "explanation": "It is converted into heat is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7C08",
@@ -4439,7 +4727,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Directional wattmeter"
+      "explain": "Correct answer: D. Directional wattmeter",
+      "explanation": "Directional wattmeter meets the particular condition asked about in this question."
     },
     {
       "id": "T7C09",
@@ -4454,7 +4743,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Moisture contamination"
+      "explain": "Correct answer: A. Moisture contamination",
+      "explanation": "Moisture contamination meets the particular condition asked about in this question."
     },
     {
       "id": "T7C10",
@@ -4469,7 +4759,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Ultraviolet light can damage the jacket and allow water to enter the cable"
+      "explain": "Correct answer: D. Ultraviolet light can damage the jacket and allow water to enter the cable",
+      "explanation": "Ultraviolet light can damage the jacket and allow water to enter the cable explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T7C11",
@@ -4484,7 +4775,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. It has less loss per foot"
+      "explain": "Correct answer: C. It has less loss per foot",
+      "explanation": "It has less loss per foot is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7D01",
@@ -4499,7 +4791,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. A voltmeter"
+      "explain": "Correct answer: B. A voltmeter",
+      "explanation": "A voltmeter meets the particular condition asked about in this question."
     },
     {
       "id": "T7D02",
@@ -4514,7 +4807,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. In parallel"
+      "explain": "Correct answer: B. In parallel",
+      "explanation": "In parallel describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T7D03",
@@ -4529,7 +4823,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. In series"
+      "explain": "Correct answer: A. In series",
+      "explanation": "In series describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T7D04",
@@ -4544,7 +4839,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. An ammeter"
+      "explain": "Correct answer: D. An ammeter",
+      "explanation": "An ammeter meets the particular condition asked about in this question."
     },
     {
       "id": "T7D05",
@@ -4559,7 +4855,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. By applying a small current and measuring the resulting voltage"
+      "explain": "Correct answer: A. By applying a small current and measuring the resulting voltage",
+      "explanation": "By applying a small current and measuring the resulting voltage describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T7D06",
@@ -4574,7 +4871,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Attempting to measure voltage when using the resistance setting"
+      "explain": "Correct answer: C. Attempting to measure voltage when using the resistance setting",
+      "explanation": "Attempting to measure voltage when using the resistance setting meets the particular condition asked about in this question."
     },
     {
       "id": "T7D07",
@@ -4589,7 +4887,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Voltage and resistance"
+      "explain": "Correct answer: C. Voltage and resistance",
+      "explanation": "Voltage and resistance meets the particular condition asked about in this question."
     },
     {
       "id": "T7D08",
@@ -4604,7 +4903,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Acid-core solder"
+      "explain": "Correct answer: A. Acid-core solder",
+      "explanation": "Acid-core solder meets the particular condition asked about in this question."
     },
     {
       "id": "T7D09",
@@ -4619,7 +4919,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. A rough or lumpy surface"
+      "explain": "Correct answer: C. A rough or lumpy surface",
+      "explanation": "A rough or lumpy surface is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T7D10",
@@ -4634,7 +4935,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Increasing resistance with time"
+      "explain": "Correct answer: A. Increasing resistance with time",
+      "explanation": "Increasing resistance with time is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T7D11",
@@ -4649,7 +4951,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Ensure that the circuit is not powered"
+      "explain": "Correct answer: B. Ensure that the circuit is not powered",
+      "explanation": "Ensure that the circuit is not powered meets the particular condition asked about in this question."
     },
     {
       "id": "T8A01",
@@ -4664,7 +4967,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Single sideband"
+      "explain": "Correct answer: C. Single sideband",
+      "explanation": "Single sideband meets the particular condition asked about in this question."
     },
     {
       "id": "T8A02",
@@ -4679,7 +4983,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. FM or PM"
+      "explain": "Correct answer: A. FM or PM",
+      "explanation": "FM or PM is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T8A03",
@@ -4694,7 +4999,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. SSB"
+      "explain": "Correct answer: C. SSB",
+      "explanation": "SSB meets the particular condition asked about in this question."
     },
     {
       "id": "T8A04",
@@ -4709,7 +5015,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. FM or PM"
+      "explain": "Correct answer: D. FM or PM",
+      "explanation": "FM or PM meets the particular condition asked about in this question."
     },
     {
       "id": "T8A05",
@@ -4724,7 +5031,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. CW"
+      "explain": "Correct answer: C. CW",
+      "explanation": "CW meets the particular condition asked about in this question."
     },
     {
       "id": "T8A06",
@@ -4739,7 +5047,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Upper sideband"
+      "explain": "Correct answer: A. Upper sideband",
+      "explanation": "Upper sideband is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T8A07",
@@ -4754,7 +5063,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. SSB signals have narrower bandwidth"
+      "explain": "Correct answer: C. SSB signals have narrower bandwidth",
+      "explanation": "SSB signals have narrower bandwidth is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T8A08",
@@ -4769,7 +5079,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 3 kHz"
+      "explain": "Correct answer: B. 3 kHz",
+      "explanation": "3 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T8A09",
@@ -4784,7 +5095,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Between 10 and 15 kHz"
+      "explain": "Correct answer: C. Between 10 and 15 kHz",
+      "explanation": "Between 10 and 15 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T8A10",
@@ -4799,7 +5111,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. About 6 MHz"
+      "explain": "Correct answer: B. About 6 MHz",
+      "explanation": "About 6 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T8A11",
@@ -4814,7 +5127,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 150 Hz"
+      "explain": "Correct answer: B. 150 Hz",
+      "explanation": "150 Hz is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8A12",
@@ -4829,7 +5143,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Only one signal can be received at a time"
+      "explain": "Correct answer: B. Only one signal can be received at a time",
+      "explanation": "Only one signal can be received at a time meets the particular condition asked about in this question."
     },
     {
       "id": "T8B01",
@@ -4844,7 +5159,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Health and status of the satellite"
+      "explain": "Correct answer: C. Health and status of the satellite",
+      "explanation": "Health and status of the satellite is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T8B02",
@@ -4859,7 +5175,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Blocking access by other users"
+      "explain": "Correct answer: B. Blocking access by other users",
+      "explanation": "Blocking access by other users is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8B03",
@@ -4874,7 +5191,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following are provided by satellite tracking programs, so “all these choices” is the complete answer."
     },
     {
       "id": "T8B04",
@@ -4889,7 +5207,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what mode of transmission is commonly used by amateur radio satellites, so “all these choices” is the complete answer."
     },
     {
       "id": "T8B05",
@@ -4904,7 +5223,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. A transmission from a satellite that contains status information"
+      "explain": "Correct answer: D. A transmission from a satellite that contains status information",
+      "explanation": "A transmission from a satellite that contains status information is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8B06",
@@ -4919,7 +5239,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. The Keplerian elements"
+      "explain": "Correct answer: B. The Keplerian elements",
+      "explanation": "The Keplerian elements meets the particular condition asked about in this question."
     },
     {
       "id": "T8B07",
@@ -4934,7 +5255,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. An observed change in signal frequency caused by relative motion between the satellite and Earth station"
+      "explain": "Correct answer: C. An observed change in signal frequency caused by relative motion between the satellite and Earth station",
+      "explanation": "An observed change in signal frequency caused by relative motion between the satellite and Earth station is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8B08",
@@ -4949,7 +5271,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band"
+      "explain": "Correct answer: B. The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band",
+      "explanation": "The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8B09",
@@ -4964,7 +5287,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Rotation of the satellite and its antennas"
+      "explain": "Correct answer: B. Rotation of the satellite and its antennas",
+      "explanation": "Rotation of the satellite and its antennas is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T8B10",
@@ -4979,7 +5303,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Low Earth Orbit, which has a period of around 100 minutes"
+      "explain": "Correct answer: D. Low Earth Orbit, which has a period of around 100 minutes",
+      "explanation": "Low Earth Orbit, which has a period of around 100 minutes is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8B11",
@@ -4994,7 +5319,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Anyone"
+      "explain": "Correct answer: A. Anyone",
+      "explanation": "Anyone is the person, group, or agency responsible for the role described in this question."
     },
     {
       "id": "T8B12",
@@ -5009,7 +5335,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Your signal strength on the downlink should be about the same as the beacon"
+      "explain": "Correct answer: C. Your signal strength on the downlink should be about the same as the beacon",
+      "explanation": "Your signal strength on the downlink should be about the same as the beacon meets the particular condition asked about in this question."
     },
     {
       "id": "T8C01",
@@ -5024,7 +5351,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Radio direction finding"
+      "explain": "Correct answer: C. Radio direction finding",
+      "explanation": "Radio direction finding meets the particular condition asked about in this question."
     },
     {
       "id": "T8C02",
@@ -5039,7 +5367,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. A directional antenna"
+      "explain": "Correct answer: B. A directional antenna",
+      "explanation": "A directional antenna meets the particular condition asked about in this question."
     },
     {
       "id": "T8C03",
@@ -5054,7 +5383,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Contesting"
+      "explain": "Correct answer: D. Contesting",
+      "explanation": "Contesting is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T8C04",
@@ -5069,7 +5399,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Sending only the minimum information needed for proper identification and the contest exchange"
+      "explain": "Correct answer: C. Sending only the minimum information needed for proper identification and the contest exchange",
+      "explanation": "Sending only the minimum information needed for proper identification and the contest exchange meets the particular condition asked about in this question."
     },
     {
       "id": "T8C05",
@@ -5084,7 +5415,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A letter-number designator assigned to a geographic location"
+      "explain": "Correct answer: A. A letter-number designator assigned to a geographic location",
+      "explanation": "A letter-number designator assigned to a geographic location is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8C06",
@@ -5099,7 +5431,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. By using Dual-Tone Multi-Frequency (DTMF) signals"
+      "explain": "Correct answer: B. By using Dual-Tone Multi-Frequency (DTMF) signals",
+      "explanation": "By using Dual-Tone Multi-Frequency (DTMF) signals describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T8C07",
@@ -5114,7 +5447,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. A method of delivering voice communications over the internet using digital techniques"
+      "explain": "Correct answer: D. A method of delivering voice communications over the internet using digital techniques",
+      "explanation": "A method of delivering voice communications over the internet using digital techniques is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8C08",
@@ -5129,7 +5463,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A technique to connect amateur radio systems, such as repeaters, via the internet"
+      "explain": "Correct answer: A. A technique to connect amateur radio systems, such as repeaters, via the internet",
+      "explanation": "A technique to connect amateur radio systems, such as repeaters, via the internet is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8C09",
@@ -5144,7 +5479,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. EchoLink"
+      "explain": "Correct answer: D. EchoLink",
+      "explanation": "EchoLink meets the particular condition asked about in this question."
     },
     {
       "id": "T8C10",
@@ -5159,7 +5495,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Register your call sign and provide proof of license"
+      "explain": "Correct answer: C. Register your call sign and provide proof of license",
+      "explanation": "Register your call sign and provide proof of license is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8C11",
@@ -5174,7 +5511,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A gateway"
+      "explain": "Correct answer: A. A gateway",
+      "explanation": "A gateway is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8D01",
@@ -5189,7 +5527,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following is a digital communications mode, so “all these choices” is the complete answer."
     },
     {
       "id": "T8D02",
@@ -5204,7 +5543,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. A digital mode capable of low signal-to-noise operation"
+      "explain": "Correct answer: B. A digital mode capable of low signal-to-noise operation",
+      "explanation": "A digital mode capable of low signal-to-noise operation is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8D03",
@@ -5219,7 +5559,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what kind of data can be transmitted by APRS, so “all these choices” is the complete answer."
     },
     {
       "id": "T8D04",
@@ -5234,7 +5575,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. An analog fast-scan color TV signal"
+      "explain": "Correct answer: C. An analog fast-scan color TV signal",
+      "explanation": "An analog fast-scan color TV signal is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8D05",
@@ -5249,7 +5591,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Providing real-time tactical digital communications in conjunction with a map showing the locations of stations"
+      "explain": "Correct answer: A. Providing real-time tactical digital communications in conjunction with a map showing the locations of stations",
+      "explanation": "Providing real-time tactical digital communications in conjunction with a map showing the locations of stations meets the particular condition asked about in this question."
     },
     {
       "id": "T8D06",
@@ -5264,7 +5607,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Phase Shift Keying"
+      "explain": "Correct answer: B. Phase Shift Keying",
+      "explanation": "Phase Shift Keying is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8D07",
@@ -5279,7 +5623,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel"
+      "explain": "Correct answer: A. A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel",
+      "explanation": "A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel meets the particular condition asked about in this question."
     },
     {
       "id": "T8D08",
@@ -5294,7 +5639,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following is included in packet radio transmissions, so “all these choices” is the complete answer."
     },
     {
       "id": "T8D09",
@@ -5309,7 +5655,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Another name for a Morse code transmission"
+      "explain": "Correct answer: D. Another name for a Morse code transmission",
+      "explanation": "Another name for a Morse code transmission is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8D10",
@@ -5324,7 +5671,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following operating activities is supported by digital mode software in the WSJT-X software suite, so “all these choices” is the complete answer."
     },
     {
       "id": "T8D11",
@@ -5339,7 +5687,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. An error correction method in which the receiving station detects errors and sends a request for retransmission"
+      "explain": "Correct answer: C. An error correction method in which the receiving station detects errors and sends a request for retransmission",
+      "explanation": "An error correction method in which the receiving station detects errors and sends a request for retransmission is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T8D12",
@@ -5354,7 +5703,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. An amateur-radio data network using commercial Wi-Fi equipment with modified firmware"
+      "explain": "Correct answer: A. An amateur-radio data network using commercial Wi-Fi equipment with modified firmware",
+      "explanation": "An amateur-radio data network using commercial Wi-Fi equipment with modified firmware meets the particular condition asked about in this question."
     },
     {
       "id": "T9A01",
@@ -5369,7 +5719,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. An antenna that concentrates signals in one direction"
+      "explain": "Correct answer: C. An antenna that concentrates signals in one direction",
+      "explanation": "An antenna that concentrates signals in one direction is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9A02",
@@ -5384,7 +5735,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Electrically lengthening by inserting inductors in radiating elements"
+      "explain": "Correct answer: A. Electrically lengthening by inserting inductors in radiating elements",
+      "explanation": "Electrically lengthening by inserting inductors in radiating elements meets the particular condition asked about in this question."
     },
     {
       "id": "T9A03",
@@ -5399,7 +5751,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. By the orientation of the electric field"
+      "explain": "Correct answer: B. By the orientation of the electric field",
+      "explanation": "By the orientation of the electric field describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T9A04",
@@ -5414,7 +5767,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. It has low efficiency"
+      "explain": "Correct answer: A. It has low efficiency",
+      "explanation": "It has low efficiency is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9A05",
@@ -5429,7 +5783,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Shortening it"
+      "explain": "Correct answer: C. Shortening it",
+      "explanation": "Shortening it meets the particular condition asked about in this question."
     },
     {
       "id": "T9A06",
@@ -5444,7 +5799,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Yagi"
+      "explain": "Correct answer: D. Yagi",
+      "explanation": "Yagi meets the particular condition asked about in this question."
     },
     {
       "id": "T9A07",
@@ -5459,7 +5815,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Signal strength is reduced due to the shielding effect of the vehicle"
+      "explain": "Correct answer: A. Signal strength is reduced due to the shielding effect of the vehicle",
+      "explanation": "Signal strength is reduced due to the shielding effect of the vehicle is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9A08",
@@ -5474,7 +5831,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. It is a resonant quarter-wave"
+      "explain": "Correct answer: C. It is a resonant quarter-wave",
+      "explanation": "It is a resonant quarter-wave explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T9A09",
@@ -5489,7 +5847,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. It has more gain"
+      "explain": "Correct answer: A. It has more gain",
+      "explanation": "It has more gain is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9A10",
@@ -5504,7 +5863,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Broadside to the antenna"
+      "explain": "Correct answer: D. Broadside to the antenna",
+      "explanation": "Broadside to the antenna meets the particular condition asked about in this question."
     },
     {
       "id": "T9A11",
@@ -5519,7 +5879,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The increase in signal strength in a specified direction compared to a reference antenna"
+      "explain": "Correct answer: C. The increase in signal strength in a specified direction compared to a reference antenna",
+      "explanation": "The increase in signal strength in a specified direction compared to a reference antenna is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9B01",
@@ -5534,7 +5895,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following connectors should be carefully taped for weather protection when used outdoors, so “all these choices” is the complete answer."
     },
     {
       "id": "T9B02",
@@ -5549,7 +5911,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 50 ohms"
+      "explain": "Correct answer: B. 50 ohms",
+      "explanation": "50 ohms is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9B03",
@@ -5564,7 +5927,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. It is easy to use and requires few special installation considerations"
+      "explain": "Correct answer: A. It is easy to use and requires few special installation considerations",
+      "explanation": "It is easy to use and requires few special installation considerations explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T9B04",
@@ -5579,7 +5943,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. It matches the antenna system impedance to the transceiver's output impedance"
+      "explain": "Correct answer: A. It matches the antenna system impedance to the transceiver's output impedance",
+      "explanation": "It matches the antenna system impedance to the transceiver's output impedance is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9B05",
@@ -5594,7 +5959,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. The loss increases"
+      "explain": "Correct answer: D. The loss increases",
+      "explanation": "The loss increases is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T9B06",
@@ -5609,7 +5975,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Type N"
+      "explain": "Correct answer: B. Type N",
+      "explanation": "Type N meets the particular condition asked about in this question."
     },
     {
       "id": "T9B07",
@@ -5624,7 +5991,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. They are commonly used at HF and VHF frequencies"
+      "explain": "Correct answer: C. They are commonly used at HF and VHF frequencies",
+      "explanation": "They are commonly used at HF and VHF frequencies meets the particular condition asked about in this question."
     },
     {
       "id": "T9B08",
@@ -5639,7 +6007,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following is a source of loss in coaxial feed line, so “all these choices” is the complete answer."
     },
     {
       "id": "T9B09",
@@ -5654,7 +6023,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Loose connection in the antenna or feed line"
+      "explain": "Correct answer: B. Loose connection in the antenna or feed line",
+      "explanation": "Loose connection in the antenna or feed line is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T9B10",
@@ -5669,7 +6039,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. RG-213 cable has less loss at a given frequency"
+      "explain": "Correct answer: C. RG-213 cable has less loss at a given frequency",
+      "explanation": "RG-213 cable has less loss at a given frequency is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T9B11",
@@ -5684,7 +6055,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Air-insulated hardline"
+      "explain": "Correct answer: C. Air-insulated hardline",
+      "explanation": "Air-insulated hardline meets the particular condition asked about in this question."
     },
     {
       "id": "T9B12",
@@ -5699,7 +6071,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. A measure of how well a load is matched to a transmission line"
+      "explain": "Correct answer: A. A measure of how well a load is matched to a transmission line",
+      "explanation": "A measure of how well a load is matched to a transmission line is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T0A01",
@@ -5714,7 +6087,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Shorting the terminals can cause burns, fire, or an explosion"
+      "explain": "Correct answer: B. Shorting the terminals can cause burns, fire, or an explosion",
+      "explanation": "Shorting the terminals can cause burns, fire, or an explosion meets the particular condition asked about in this question."
     },
     {
       "id": "T0A02",
@@ -5729,7 +6103,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what health hazard is posed by electrical current flowing through the body, so “all these choices” is the complete answer."
     },
     {
       "id": "T0A03",
@@ -5744,7 +6119,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Hot"
+      "explain": "Correct answer: B. Hot",
+      "explanation": "Hot is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0A04",
@@ -5759,7 +6135,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. To remove power in case of an overload"
+      "explain": "Correct answer: B. To remove power in case of an overload",
+      "explanation": "To remove power in case of an overload is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T0A05",
@@ -5774,7 +6151,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Excessive current could cause a fire"
+      "explain": "Correct answer: C. Excessive current could cause a fire",
+      "explanation": "Excessive current could cause a fire explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T0A06",
@@ -5789,7 +6167,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what is a good way to guard against electrical shock at your station, so “all these choices” is the complete answer."
     },
     {
       "id": "T0A07",
@@ -5804,7 +6183,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. On a grounded panel near where feed lines enter the building"
+      "explain": "Correct answer: D. On a grounded panel near where feed lines enter the building",
+      "explanation": "On a grounded panel near where feed lines enter the building is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0A08",
@@ -5819,7 +6199,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. In series with the hot conductor only"
+      "explain": "Correct answer: A. In series with the hot conductor only",
+      "explanation": "In series with the hot conductor only is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0A09",
@@ -5834,7 +6215,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Bond them together with heavy wire or conductive strap"
+      "explain": "Correct answer: C. Bond them together with heavy wire or conductive strap",
+      "explanation": "Bond them together with heavy wire or conductive strap is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0A10",
@@ -5849,7 +6231,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Overheating or out-gassing"
+      "explain": "Correct answer: A. Overheating or out-gassing",
+      "explanation": "Overheating or out-gassing is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0A11",
@@ -5864,7 +6247,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Charge stored in filter capacitors"
+      "explain": "Correct answer: D. Charge stored in filter capacitors",
+      "explanation": "Charge stored in filter capacitors is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0A12",
@@ -5879,7 +6263,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Ensure that the voltmeter and its leads are rated for use at the voltages being measured"
+      "explain": "Correct answer: B. Ensure that the voltmeter and its leads are rated for use at the voltages being measured",
+      "explanation": "Ensure that the voltmeter and its leads are rated for use at the voltages being measured meets the particular condition asked about in this question."
     },
     {
       "id": "T0B01",
@@ -5894,7 +6279,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Ensure that connections are short and direct"
+      "explain": "Correct answer: C. Ensure that connections are short and direct",
+      "explanation": "Ensure that connections are short and direct meets the particular condition asked about in this question."
     },
     {
       "id": "T0B02",
@@ -5909,7 +6295,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what is required when climbing an antenna tower, so “all these choices” is the complete answer."
     },
     {
       "id": "T0B03",
@@ -5924,7 +6311,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Never"
+      "explain": "Correct answer: D. Never",
+      "explanation": "Never is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0B04",
@@ -5939,7 +6327,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Look for and stay clear of any overhead electrical wires"
+      "explain": "Correct answer: C. Look for and stay clear of any overhead electrical wires",
+      "explanation": "Look for and stay clear of any overhead electrical wires meets the particular condition asked about in this question."
     },
     {
       "id": "T0B05",
@@ -5954,7 +6343,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Prevent loosening of the turnbuckle from vibration"
+      "explain": "Correct answer: B. Prevent loosening of the turnbuckle from vibration",
+      "explanation": "Prevent loosening of the turnbuckle from vibration is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T0B06",
@@ -5969,7 +6359,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires"
+      "explain": "Correct answer: D. Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires",
+      "explanation": "Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T0B07",
@@ -5984,7 +6375,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed"
+      "explain": "Correct answer: C. This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed",
+      "explanation": "This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed meets the particular condition asked about in this question."
     },
     {
       "id": "T0B08",
@@ -5999,7 +6391,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Separate eight-foot ground rods for each tower leg, bonded to the tower and each other"
+      "explain": "Correct answer: D. Separate eight-foot ground rods for each tower leg, bonded to the tower and each other",
+      "explanation": "Separate eight-foot ground rods for each tower leg, bonded to the tower and each other meets the particular condition asked about in this question."
     },
     {
       "id": "T0B09",
@@ -6014,7 +6407,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The antenna could contact high-voltage power lines"
+      "explain": "Correct answer: C. The antenna could contact high-voltage power lines",
+      "explanation": "The antenna could contact high-voltage power lines explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T0B10",
@@ -6029,7 +6423,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. Sharp bends must be avoided"
+      "explain": "Correct answer: C. Sharp bends must be avoided",
+      "explanation": "Sharp bends must be avoided meets the particular condition asked about in this question."
     },
     {
       "id": "T0B11",
@@ -6044,7 +6439,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. Local electrical codes"
+      "explain": "Correct answer: B. Local electrical codes",
+      "explanation": "Local electrical codes meets the particular condition asked about in this question."
     },
     {
       "id": "T0C01",
@@ -6059,7 +6455,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. Non-ionizing radiation"
+      "explain": "Correct answer: D. Non-ionizing radiation",
+      "explanation": "Non-ionizing radiation is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0C02",
@@ -6074,7 +6471,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. 50 MHz"
+      "explain": "Correct answer: B. 50 MHz",
+      "explanation": "50 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
     },
     {
       "id": "T0C03",
@@ -6089,7 +6487,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. It increases by a factor of 2"
+      "explain": "Correct answer: C. It increases by a factor of 2",
+      "explanation": "It increases by a factor of 2 describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T0C04",
@@ -6104,7 +6503,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to what factors affect the RF exposure of people near an amateur station antenna, so “all these choices” is the complete answer."
     },
     {
       "id": "T0C05",
@@ -6119,7 +6519,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. The human body absorbs more RF energy at some frequencies than at others"
+      "explain": "Correct answer: D. The human body absorbs more RF energy at some frequencies than at others",
+      "explanation": "The human body absorbs more RF energy at some frequencies than at others explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T0C06",
@@ -6134,7 +6535,8 @@ window.HAM_POOL = {
       ],
       "correct": 3,
       "figure": "",
-      "explain": "Correct answer: D. All these choices are correct"
+      "explain": "Correct answer: D. All these choices are correct",
+      "explanation": "Each listed option applies to which of the following is an acceptable method to determine whether your station complies with FCC RF exposure regulations, so “all these choices” is the complete answer."
     },
     {
       "id": "T0C07",
@@ -6149,7 +6551,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. RF burn to skin"
+      "explain": "Correct answer: B. RF burn to skin",
+      "explanation": "RF burn to skin is the option that matches the specific amateur-radio rule or concept described in this question."
     },
     {
       "id": "T0C08",
@@ -6164,7 +6567,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. Relocate antennas"
+      "explain": "Correct answer: A. Relocate antennas",
+      "explanation": "Relocate antennas meets the particular condition asked about in this question."
     },
     {
       "id": "T0C09",
@@ -6179,7 +6583,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. By re-evaluating the station whenever an item in the transmitter or antenna system is changed"
+      "explain": "Correct answer: B. By re-evaluating the station whenever an item in the transmitter or antenna system is changed",
+      "explanation": "By re-evaluating the station whenever an item in the transmitter or antenna system is changed describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T0C10",
@@ -6194,7 +6599,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. It affects the average exposure to radiation"
+      "explain": "Correct answer: A. It affects the average exposure to radiation",
+      "explanation": "It affects the average exposure to radiation explains the reason behind the operating practice described in this question."
     },
     {
       "id": "T0C11",
@@ -6209,7 +6615,8 @@ window.HAM_POOL = {
       ],
       "correct": 2,
       "figure": "",
-      "explain": "Correct answer: C. The percentage of time that a transmitter is transmitting"
+      "explain": "Correct answer: C. The percentage of time that a transmitter is transmitting",
+      "explanation": "The percentage of time that a transmitter is transmitting is the concept that matches the definition or function asked about here."
     },
     {
       "id": "T0C12",
@@ -6224,7 +6631,8 @@ window.HAM_POOL = {
       ],
       "correct": 0,
       "figure": "",
-      "explain": "Correct answer: A. RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA"
+      "explain": "Correct answer: A. RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA",
+      "explanation": "RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA describes the method or effect asked about, rather than the other listed possibilities."
     },
     {
       "id": "T0C13",
@@ -6239,7 +6647,8 @@ window.HAM_POOL = {
       ],
       "correct": 1,
       "figure": "",
-      "explain": "Correct answer: B. The station licensee"
+      "explain": "Correct answer: B. The station licensee",
+      "explanation": "The station licensee is the person, group, or agency responsible for the role described in this question."
     }
   ]
 };
