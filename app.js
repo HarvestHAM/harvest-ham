@@ -205,37 +205,7 @@
   }
 
   function teachingMoment(q) {
-    const notes = {
-      T5A01: "Current is the flow of electric charge, and it is measured in amperes (amps). A useful memory set is: volts = electrical pressure, amperes = current, ohms = resistance, and watts = power.",
-      T5A02: "Electrical power is the rate at which electrical energy is used, and it is measured in watts. Volts measure electrical pressure, while amperes measure current.",
-      T5A03: "Current means the flow of electric charge through a circuit. Voltage is the push that causes the flow; resistance opposes the flow.",
-      T5A04: "Resistance is measured in ohms. Resistance tells you how strongly a material or component opposes current flow.",
-      T5A05: "Voltage is the electrical 'push' or potential difference that causes current to flow. Current is the flow itself, not the force causing it.",
-      T5A06: "Frequency is measured in hertz (Hz), meaning cycles per second. A henry measures inductance and a farad measures capacitance.",
-      T5A07: "Metals conduct well because they have many electrons that can move freely through the material. Their density is not what makes them good conductors.",
-      T5A08: "Glass is an insulator because its electrons are not free to move easily. Copper, aluminum, and mercury are conductors.",
-      T5A09: "Alternating current repeatedly reverses direction, moving positive and negative over each cycle. Direct current keeps the same overall direction.",
-      T5A10: "Power describes how fast electrical energy is being used or delivered. It is measured in watts; current, voltage, and resistance describe different electrical properties.",
-      T5A11: "Resistance opposes current flow whether the current is DC, ordinary AC, or radio-frequency current. That is why 'all these choices' is correct.",
-      T5A12: "Frequency is the number of complete cycles that occur each second. One cycle per second equals one hertz."
-    };
-
-    if (notes[q.id]) return notes[q.id];
-
-    const correct = q.a[q.correct];
-    const section = pool.sections.find(s => q.group.startsWith(s.id));
-    const unitNotes = {
-      "Amperes":"Amperes measure electrical current — the flow of charge.",
-      "Volts":"Volts measure electrical potential or 'pressure.'",
-      "Watts":"Watts measure power — the rate energy is used or delivered.",
-      "Ohms":"Ohms measure resistance to current flow.",
-      "Hertz":"Hertz measure frequency, or cycles per second.",
-      "Farads":"Farads measure capacitance.",
-      "Henrys":"Henrys measure inductance."
-    };
-    if (unitNotes[correct]) return unitNotes[correct];
-
-    return `This is a ${section ? section.id + " " + section.title : "Technician"} concept. The key exam idea is “${correct}.” Watch for answer choices that describe a related term but do not match exactly what the question is asking.`;
+    return q.explanation || "Review the correct answer and the question wording carefully.";
   }
 
   async function syncRewards(subgroup=null, groupTotal=null, sessionScore=null, sessionTotal=null) {
