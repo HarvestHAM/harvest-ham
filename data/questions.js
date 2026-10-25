@@ -488,7 +488,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Technician, General, Amateur Extra",
-      "explanation": "Technician, General, Amateur Extra meets the particular condition asked about in this question."
+      "explanation": "The FCC currently issues new Technician, General and Amateur Extra licenses; older classes can remain valid but are not issued to new applicants."
     },
     {
       "id": "T1C02",
@@ -504,7 +504,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Any licensed amateur",
-      "explanation": "Any licensed amateur is the person, group, or agency responsible for the role described in this question."
+      "explanation": "A vanity call sign lets a licensed amateur request an available call sign, subject to the FCC's assignment rules."
     },
     {
       "id": "T1C03",
@@ -520,7 +520,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character",
-      "explanation": "Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "International amateur contacts are for radio-service purposes and personal remarks, not running a commercial business."
     },
     {
       "id": "T1C04",
@@ -536,7 +536,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Revocation of the station license or suspension of the operator license",
-      "explanation": "Revocation of the station license or suspension of the operator license is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "The FCC requires a reachable email address for official notices, so failing to receive notices can jeopardize the license."
     },
     {
       "id": "T1C05",
@@ -552,7 +552,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. KF1XXX",
-      "explanation": "KF1XXX meets the particular condition asked about in this question."
+      "explanation": "A Group D call sign can use a two-letter prefix, one call-area digit and a three-letter suffix, as in KF1XXX."
     },
     {
       "id": "T1C06",
@@ -568,7 +568,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. You may operate from a US-documented vessel with the master's permission",
-      "explanation": "You may operate from a US-documented vessel with the master's permission meets the particular condition asked about in this question."
+      "explanation": "A U.S.-documented vessel can host amateur operation with its master's permission because the master controls activities aboard."
     },
     {
       "id": "T1C07",
@@ -584,7 +584,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 90 days",
-      "explanation": "90 days describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Renewal applications can be filed during the 90 days before a license expires, avoiding a lapse in authorization."
     },
     {
       "id": "T1C08",
@@ -600,7 +600,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Ten years",
-      "explanation": "Ten years is the concept that matches the definition or function asked about here."
+      "explanation": "Amateur radio licenses normally last ten years from their grant or renewal date."
     },
     {
       "id": "T1C09",
@@ -616,7 +616,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Two years",
-      "explanation": "Two years is the concept that matches the definition or function asked about here."
+      "explanation": "An expired amateur license can be renewed within a two-year grace period, but it cannot be used to transmit during that period."
     },
     {
       "id": "T1C10",
@@ -632,7 +632,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. As soon as your operator/station license grant appears in the FCC’s license database",
-      "explanation": "As soon as your operator/station license grant appears in the FCC’s license database describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Passing the exam alone does not authorize transmitting: the FCC must first publish your license grant in its database."
     },
     {
       "id": "T1C11",
@@ -648,7 +648,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. No, you must wait until the license has been renewed",
-      "explanation": "No, you must wait until the license has been renewed is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "The two-year renewal grace period preserves the chance to renew, not the right to transmit on an expired license."
     },
     {
       "id": "T1D01",
@@ -664,7 +664,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications",
-      "explanation": "Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications meets the particular condition asked about in this question."
+      "explanation": "Amateurs ordinarily communicate internationally, except when another country's administration formally objects through the ITU."
     },
     {
       "id": "T1D02",
@@ -680,7 +680,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Broadcasting",
-      "explanation": "Broadcasting meets the particular condition asked about in this question."
+      "explanation": "Broadcasting targets the general public, while amateur transmissions are generally exchanges between stations rather than public programming."
     },
     {
       "id": "T1D03",
@@ -696,7 +696,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Only when transmitting control commands to space stations or model craft",
-      "explanation": "Only when transmitting control commands to space stations or model craft is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "The rules prohibit hiding message meanings except for authorized commands to space stations or model craft."
     },
     {
       "id": "T1D04",
@@ -712,7 +712,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. When incidental to an authorized retransmission of manned spacecraft communications",
-      "explanation": "When incidental to an authorized retransmission of manned spacecraft communications is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Music is generally prohibited on amateur frequencies, with a narrow exception when incidental to authorized spacecraft retransmissions."
     },
     {
       "id": "T1D05",
@@ -728,7 +728,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. When selling amateur radio equipment and not on a regular basis",
-      "explanation": "When selling amateur radio equipment and not on a regular basis is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Occasional offers of personally owned amateur equipment are permitted, but routine selling turns radio contacts into commercial advertising."
     },
     {
       "id": "T1D06",
@@ -744,7 +744,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Any such language is prohibited",
-      "explanation": "Any such language is prohibited is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Part 97 prohibits obscene or indecent language regardless of whether others nearby can hear it."
     },
     {
       "id": "T1D07",
@@ -760,7 +760,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter",
-      "explanation": "A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter meets the particular condition asked about in this question."
+      "explanation": "An auxiliary station links parts of a radio system, such as carrying a remote receiver's signal to the repeater transmitter."
     },
     {
       "id": "T1D08",
@@ -776,7 +776,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. When the communication is a part of classroom instruction at an educational institution",
-      "explanation": "When the communication is a part of classroom instruction at an educational institution meets the particular condition asked about in this question."
+      "explanation": "An amateur may be paid for operating a station when the communication is part of classroom instruction at an educational institution."
     },
     {
       "id": "T1D09",
@@ -792,7 +792,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. When such communications are directly related to the immediate safety of human life or protection of property",
-      "explanation": "When such communications are directly related to the immediate safety of human life or protection of property is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Immediate threats to life or property allow emergency communications that would ordinarily be restricted as support for broadcasting or news gathering."
     },
     {
       "id": "T1D10",
@@ -808,7 +808,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Transmissions intended for reception by the general public",
-      "explanation": "Transmissions intended for reception by the general public describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Broadcasting means sending transmissions intended for the public at large, not a two-way amateur contact."
     },
     {
       "id": "T1D11",
@@ -824,7 +824,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. When transmitting signals to control model craft",
-      "explanation": "When transmitting signals to control model craft is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Model craft control signals have a special exception from normal on-air station-identification requirements."
     },
     {
       "id": "T1D12",
@@ -840,7 +840,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Identify the transmitting station",
-      "explanation": "Identify the transmitting station meets the particular condition asked about in this question."
+      "explanation": "Even a short test transmission must identify its amateur station so others can tell who is transmitting."
     },
     {
       "id": "T1E01",
@@ -856,7 +856,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Never",
-      "explanation": "Never is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Every amateur transmission needs a designated control operator who is responsible for lawful operation."
     },
     {
       "id": "T1E02",
@@ -872,7 +872,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Any amateur allowed to transmit on the satellite uplink frequency",
-      "explanation": "Any amateur allowed to transmit on the satellite uplink frequency is the person, group, or agency responsible for the role described in this question."
+      "explanation": "For satellite work, the control operator must hold privileges for the transmitting uplink frequency, not merely the downlink."
     },
     {
       "id": "T1E03",
@@ -888,7 +888,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The station licensee",
-      "explanation": "The station licensee is the person, group, or agency responsible for the role described in this question."
+      "explanation": "The station licensee selects a control operator and remains accountable for how the station is used."
     },
     {
       "id": "T1E04",
@@ -904,7 +904,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. The class of operator license held by the control operator",
-      "explanation": "The class of operator license held by the control operator is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "The control operator's license class determines what frequencies the station may transmit on, even when someone else owns it."
     },
     {
       "id": "T1E05",
@@ -920,7 +920,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. The location at which the control operator function is performed",
-      "explanation": "The location at which the control operator function is performed is the concept that matches the definition or function asked about here."
+      "explanation": "The control point is where the operator actually performs the control function, whether at the radio or remotely."
     },
     {
       "id": "T1E06",
@@ -936,7 +936,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. At no time",
-      "explanation": "At no time is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A Technician cannot use Amateur Extra-only frequencies just because the equipment or station belongs to an Extra licensee."
     },
     {
       "id": "T1E07",
@@ -952,7 +952,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. The control operator and the station licensee",
-      "explanation": "The control operator and the station licensee is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "When the owner and operator differ, both share responsibility for the station's compliance with the rules."
     },
     {
       "id": "T1E08",
@@ -968,7 +968,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Repeater operation",
-      "explanation": "Repeater operation meets the particular condition asked about in this question."
+      "explanation": "An unattended repeater can automatically receive and retransmit signals using control equipment rather than continuous human action."
     },
     {
       "id": "T1E09",
@@ -984,7 +984,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Any station",
-      "explanation": "Any station meets the particular condition asked about in this question."
+      "explanation": "Amateur stations may be remotely controlled if the responsible operator retains adequate control over their operation."
     },
     {
       "id": "T1E10",
@@ -1000,7 +1000,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Operating the station over the internet",
-      "explanation": "Operating the station over the internet meets the particular condition asked about in this question."
+      "explanation": "Controlling a station across an internet connection is remote control because the operator is away from the transmitter."
     },
     {
       "id": "T1E11",
@@ -1016,7 +1016,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station",
-      "explanation": "An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station is the concept that matches the definition or function asked about here."
+      "explanation": "A control operator is the licensed person designated to supervise transmissions and keep the station within FCC rules."
     },
     {
       "id": "T1F01",
@@ -1032,7 +1032,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. At any time upon request by an FCC representative",
-      "explanation": "At any time upon request by an FCC representative is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "FCC representatives may inspect amateur station equipment and records upon request as part of compliance oversight."
     },
     {
       "id": "T1F02",
@@ -1048,7 +1048,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. At least every 10 minutes during and at the end of a communication",
-      "explanation": "At least every 10 minutes during and at the end of a communication describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Tactical names help organize events but never replace the requirement to identify using the FCC call sign at least every ten minutes and at the end."
     },
     {
       "id": "T1F03",
@@ -1064,7 +1064,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. At least every 10 minutes during and at the end of a communication",
-      "explanation": "At least every 10 minutes during and at the end of a communication is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Call signs identify the responsible station, so transmit yours at least every ten minutes and when the contact ends."
     },
     {
       "id": "T1F04",
@@ -1080,7 +1080,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. English",
-      "explanation": "English is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Phone-mode station identification must use English so other operators and regulators can understand the call sign."
     },
     {
       "id": "T1F05",
@@ -1096,7 +1096,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Send the call sign using a CW or phone emission",
-      "explanation": "Send the call sign using a CW or phone emission is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A station transmitting voice may identify by speaking its call sign or sending it in Morse code."
     },
     {
       "id": "T1F06",
@@ -1112,7 +1112,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following self-assigned indicators are acceptable when using a phone transmission, so “all these choices” is the complete answer."
+      "explanation": "Permitted self-assigned identifiers such as mobile or portable may accompany a call sign, but they do not replace it."
     },
     {
       "id": "T1F07",
@@ -1128,7 +1128,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. The foreign station must be in a country with which the U.S. has a third-party agreement",
-      "explanation": "The foreign station must be in a country with which the U.S. has a third-party agreement meets the particular condition asked about in this question."
+      "explanation": "Third-party contacts across national borders require a qualifying agreement with the other country unless a specific exception applies."
     },
     {
       "id": "T1F08",
@@ -1144,7 +1144,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A message from a control operator to another amateur station control operator on behalf of another person",
-      "explanation": "A message from a control operator to another amateur station control operator on behalf of another person is the concept that matches the definition or function asked about here."
+      "explanation": "Third-party traffic is a message sent on behalf of someone else, rather than the licensed operators' own conversation."
     },
     {
       "id": "T1F09",
@@ -1160,7 +1160,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Repeater station",
-      "explanation": "Repeater station is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A repeater automatically receives on one channel and retransmits on another so distant users can communicate."
     },
     {
       "id": "T1F10",
@@ -1176,7 +1176,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The control operator of the originating station",
-      "explanation": "The control operator of the originating station is the person, group, or agency responsible for the role described in this question."
+      "explanation": "The person who originated an illegal transmission remains accountable even if a repeater unknowingly relays it."
     },
     {
       "id": "T1F11",
@@ -1192,7 +1192,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. The club must have at least four members",
-      "explanation": "The club must have at least four members meets the particular condition asked about in this question."
+      "explanation": "A club must have at least four members to qualify for a separate amateur club-station license."
     },
     {
       "id": "T2A01",
@@ -1208,7 +1208,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Plus or minus 600 kHz",
-      "explanation": "Plus or minus 600 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "A standard 2-meter repeater receives and transmits 600 kHz apart, so radios shift frequency when transmitting through it."
     },
     {
       "id": "T2A02",
@@ -1224,7 +1224,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. 146.520 MHz",
-      "explanation": "146.520 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "146.520 MHz is the widely recognized national 2-meter FM simplex calling frequency, used without a repeater."
     },
     {
       "id": "T2A03",
@@ -1240,7 +1240,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Plus or minus 5 MHz",
-      "explanation": "Plus or minus 5 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "On the 70-centimeter band, repeaters commonly use a 5 MHz difference between their input and output frequencies."
     },
     {
       "id": "T2A04",
@@ -1256,7 +1256,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Say the station's call sign, then identify with your call sign",
-      "explanation": "Say the station's call sign, then identify with your call sign is the concept that matches the definition or function asked about here."
+      "explanation": "Call the desired station first and then give your own call sign so listeners know whom you are calling and who is speaking."
     },
     {
       "id": "T2A05",
@@ -1272,7 +1272,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Transmit the other station’s call sign followed by your call sign",
-      "explanation": "Transmit the other station’s call sign followed by your call sign describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Answer CQ by giving the calling station's call sign followed by yours, which identifies both parties clearly."
     },
     {
       "id": "T2A06",
@@ -1288,7 +1288,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary",
-      "explanation": "Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary is the concept that matches the definition or function asked about here."
+      "explanation": "CQ means an invitation for any station to reply; pause after calling so other operators have time to answer."
     },
     {
       "id": "T2A07",
@@ -1304,7 +1304,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The difference between a repeater’s transmit and receive frequencies",
-      "explanation": "The difference between a repeater’s transmit and receive frequencies is the concept that matches the definition or function asked about here."
+      "explanation": "Offset is the gap between a repeater's input and output frequencies: your radio listens on one and transmits on the other."
     },
     {
       "id": "T2A08",
@@ -1320,7 +1320,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Calling any station",
-      "explanation": "Calling any station is the concept that matches the definition or function asked about here."
+      "explanation": "CQ is a general call to anyone listening, rather than an attempt to reach one named station."
     },
     {
       "id": "T2A09",
@@ -1336,7 +1336,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. The station’s call sign followed by the word “listening”",
-      "explanation": "The station’s call sign followed by the word “listening” meets the particular condition asked about in this question."
+      "explanation": "Giving your call sign followed by “listening” tells repeater users that you are available for a contact without repeatedly calling CQ."
     },
     {
       "id": "T2A10",
@@ -1352,7 +1352,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A voluntary guideline for using different modes or activities within an amateur band",
-      "explanation": "A voluntary guideline for using different modes or activities within an amateur band is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Band plans are voluntary agreements that help separate voice, data, repeaters and other activities to reduce conflicts."
     },
     {
       "id": "T2A11",
@@ -1368,7 +1368,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Simplex",
-      "explanation": "Simplex is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Simplex means both stations transmit and receive on the same frequency without a repeater's frequency shift."
     },
     {
       "id": "T2B01",
@@ -1384,7 +1384,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. To listen on a repeater’s input frequency",
-      "explanation": "To listen on a repeater’s input frequency is the concept that matches the definition or function asked about here."
+      "explanation": "The reverse button lets you hear a repeater's input, showing whether you can receive another user's direct signal."
     },
     {
       "id": "T2B02",
@@ -1400,7 +1400,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. CTCSS",
-      "explanation": "CTCSS is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "CTCSS adds a low-frequency tone to your transmission so receivers with matching tone squelch will open."
     },
     {
       "id": "T2B03",
@@ -1416,7 +1416,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network",
-      "explanation": "A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network meets the particular condition asked about in this question."
+      "explanation": "Linked repeaters pass traffic among multiple sites, letting one user's transmission be heard across the connected network."
     },
     {
       "id": "T2B04",
@@ -1432,7 +1432,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following could be the reason you are unable to access a repeater whose output you can hear, so “all these choices” is the complete answer."
+      "explanation": "A wrong offset, tone, or poor signal can prevent access even when you clearly hear the repeater's output."
     },
     {
       "id": "T2B05",
@@ -1448,7 +1448,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. You are talking too loudly",
-      "explanation": "You are talking too loudly meets the particular condition asked about in this question."
+      "explanation": "Speaking too loudly into an FM microphone can over-deviate the signal and cause clipped or distorted speech."
     },
     {
       "id": "T2B06",
@@ -1464,7 +1464,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. DTMF",
-      "explanation": "DTMF is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "DTMF sends two audio tones at once, like telephone keypad signals, to control repeater functions."
     },
     {
       "id": "T2B07",
@@ -1480,7 +1480,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Program your radio with the group’s ID or code",
-      "explanation": "Program your radio with the group’s ID or code describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Digital systems use talkgroup IDs to direct traffic to the selected group; the radio must be programmed for that ID."
     },
     {
       "id": "T2B08",
@@ -1496,7 +1496,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The stations should negotiate continued use of the frequency",
-      "explanation": "The stations should negotiate continued use of the frequency meets the particular condition asked about in this question."
+      "explanation": "When two stations interfere on the same shared channel, polite coordination is better than trying to overpower one another."
     },
     {
       "id": "T2B09",
@@ -1512,7 +1512,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. So stations within range of each other can communicate without tying up a repeater",
-      "explanation": "So stations within range of each other can communicate without tying up a repeater explains the reason behind the operating practice described in this question."
+      "explanation": "Simplex channels allow nearby amateurs to talk directly without occupying a repeater that others may need."
     },
     {
       "id": "T2B10",
@@ -1528,7 +1528,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. QRM",
-      "explanation": "QRM meets the particular condition asked about in this question."
+      "explanation": "QRM is the Q code for interference caused by other stations, while QRN refers to natural noise."
     },
     {
       "id": "T2B11",
@@ -1544,7 +1544,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. QSY",
-      "explanation": "QSY meets the particular condition asked about in this question."
+      "explanation": "QSY tells another operator that you are moving to a different operating frequency."
     },
     {
       "id": "T2B12",
@@ -1560,7 +1560,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. An access code which must be programmed into a DMR transmitter to access a specific repeater",
-      "explanation": "An access code which must be programmed into a DMR transmitter to access a specific repeater is the concept that matches the definition or function asked about here."
+      "explanation": "DMR color codes act like access identifiers; a matching code helps ensure the radio reaches the intended repeater."
     },
     {
       "id": "T2B13",
@@ -1576,7 +1576,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Mute the receiver audio when a signal is not present",
-      "explanation": "Mute the receiver audio when a signal is not present is the concept that matches the definition or function asked about here."
+      "explanation": "Squelch silences background hiss when no usable signal is received and unmutes audio when a signal appears."
     },
     {
       "id": "T2B14",
@@ -1592,7 +1592,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic",
-      "explanation": "An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic meets the particular condition asked about in this question."
+      "explanation": "A talkgroup is a digital routing identifier that lets listeners follow one conversation group without hearing every DMR transmission."
     },
     {
       "id": "T2C01",
@@ -1608,7 +1608,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. FCC rules always apply",
-      "explanation": "FCC rules always apply is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Part 97 continues to apply to amateur stations, including during emergencies, although specific emergency exceptions exist."
     },
     {
       "id": "T2C02",
@@ -1624,7 +1624,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Call the net to order and direct communications between stations checking in",
-      "explanation": "Call the net to order and direct communications between stations checking in meets the particular condition asked about in this question."
+      "explanation": "A net control station organizes check-ins and directs who transmits, helping a group communicate in an orderly way."
     },
     {
       "id": "T2C03",
@@ -1640,7 +1640,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Spell the words using a standard phonetic alphabet",
-      "explanation": "Spell the words using a standard phonetic alphabet is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A standard phonetic alphabet replaces easily confused letter sounds with clear words such as Alpha and Bravo."
     },
     {
       "id": "T2C04",
@@ -1656,7 +1656,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. An FCC Part 97 amateur radio service for civil defense communications during national emergencies",
-      "explanation": "An FCC Part 97 amateur radio service for civil defense communications during national emergencies is the concept that matches the definition or function asked about here."
+      "explanation": "RACES is an FCC-regulated amateur service for authorized civil-defense emergency communications."
     },
     {
       "id": "T2C05",
@@ -1672,7 +1672,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Formal messages exchanged by net stations",
-      "explanation": "Formal messages exchanged by net stations is the concept that matches the definition or function asked about here."
+      "explanation": "In a message net, “traffic” means formal messages being passed among operators, not road congestion or signal interference."
     },
     {
       "id": "T2C06",
@@ -1688,7 +1688,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service",
-      "explanation": "A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service is the concept that matches the definition or function asked about here."
+      "explanation": "ARES consists of volunteer licensed amateurs who prepare to provide public-service and emergency communications."
     },
     {
       "id": "T2C07",
@@ -1704,7 +1704,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Unless you are reporting an emergency, transmit only when directed by the net control station",
-      "explanation": "Unless you are reporting an emergency, transmit only when directed by the net control station meets the particular condition asked about in this question."
+      "explanation": "In a controlled net, wait for net control's direction before transmitting unless you need to report an emergency."
     },
     {
       "id": "T2C08",
@@ -1720,7 +1720,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Winlink",
-      "explanation": "Winlink meets the particular condition asked about in this question."
+      "explanation": "Winlink uses amateur radio and internet links to move email-style messages, often when ordinary connections are unavailable."
     },
     {
       "id": "T2C09",
@@ -1736,7 +1736,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Yes, but only in situations involving the immediate safety of human life or protection of property",
-      "explanation": "Yes, but only in situations involving the immediate safety of human life or protection of property is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Part 97 allows transmitting beyond ordinary license privileges only for immediate threats to human life or property when normal communications are unavailable."
     },
     {
       "id": "T2C10",
@@ -1752,7 +1752,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Information needed to track the message",
-      "explanation": "Information needed to track the message is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "The preamble records handling details such as message number, origin, date and routing so the message can be traced."
     },
     {
       "id": "T2C11",
@@ -1768,7 +1768,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The number of words or word equivalents in the text portion of the message",
-      "explanation": "The number of words or word equivalents in the text portion of the message is the concept that matches the definition or function asked about here."
+      "explanation": "A radiogram's “check” counts the words or equivalents in its message text to help the recipient confirm accuracy."
     },
     {
       "id": "T2C12",
@@ -1784,7 +1784,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. RACES",
-      "explanation": "RACES meets the particular condition asked about in this question."
+      "explanation": "RACES participation requires certification by the appropriate civil defense organization rather than merely joining a volunteer group."
     },
     {
       "id": "T3A01",
@@ -1800,7 +1800,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Multipath propagation cancels or reinforces signals",
-      "explanation": "Multipath propagation cancels or reinforces signals explains the reason behind the operating practice described in this question."
+      "explanation": "VHF signals may arrive along several reflected paths; moving an antenna a few feet can change how those waves add or cancel."
     },
     {
       "id": "T3A02",
@@ -1816,7 +1816,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Absorbs signals, leading to poor reception of weak signals",
-      "explanation": "Absorbs signals, leading to poor reception of weak signals describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Leaves and other vegetation absorb higher-frequency signals, weakening UHF and microwave communications."
     },
     {
       "id": "T3A03",
@@ -1832,7 +1832,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Horizontal",
-      "explanation": "Horizontal is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Weak-signal VHF/UHF SSB and CW operators commonly use horizontal antennas to match polarization and reduce losses."
     },
     {
       "id": "T3A04",
@@ -1848,7 +1848,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Received signal strength is reduced",
-      "explanation": "Received signal strength is reduced is the concept that matches the definition or function asked about here."
+      "explanation": "When one antenna is vertical and the other horizontal, polarization mismatch greatly weakens the received signal."
     },
     {
       "id": "T3A05",
@@ -1864,7 +1864,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Try to find a path that reflects signals to the repeater",
-      "explanation": "Try to find a path that reflects signals to the repeater describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "A directional antenna may exploit reflections from a building or hillside when a repeater is beyond direct line of sight."
     },
     {
       "id": "T3A06",
@@ -1880,7 +1880,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Rapid flutter on mobile signals due to multipath propagation",
-      "explanation": "Rapid flutter on mobile signals due to multipath propagation is the concept that matches the definition or function asked about here."
+      "explanation": "Picket fencing is rapid mobile-signal flutter when reflected waves alternately reinforce and cancel each other."
     },
     {
       "id": "T3A07",
@@ -1896,7 +1896,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Precipitation",
-      "explanation": "Precipitation is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Rain and other precipitation can absorb or scatter microwave energy, shortening communication range."
     },
     {
       "id": "T3A08",
@@ -1912,7 +1912,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Random combining of signals arriving via different paths",
-      "explanation": "Random combining of signals arriving via different paths is the concept that matches the definition or function asked about here."
+      "explanation": "HF signals taking different ionospheric paths can arrive out of phase and combine unpredictably, causing fading."
     },
     {
       "id": "T3A09",
@@ -1928,7 +1928,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Either vertically or horizontally polarized antennas may be used for transmission or reception",
-      "explanation": "Either vertically or horizontally polarized antennas may be used for transmission or reception meets the particular condition asked about in this question."
+      "explanation": "Ionospheric travel can rotate polarization, so both vertical and horizontal antennas can work for long-distance HF paths."
     },
     {
       "id": "T3A10",
@@ -1944,7 +1944,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Error rates are likely to increase",
-      "explanation": "Error rates are likely to increase is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Multiple copies of a digital signal arriving at different times can corrupt symbols and increase errors."
     },
     {
       "id": "T3A11",
@@ -1960,7 +1960,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. The ionosphere",
-      "explanation": "The ionosphere meets the particular condition asked about in this question."
+      "explanation": "The ionosphere contains charged particles that can refract HF radio signals back toward Earth over long distances."
     },
     {
       "id": "T3A12",
@@ -1976,7 +1976,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Little effect",
-      "explanation": "Little effect is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Ordinary fog and rain have little effect on 10- and 6-meter signals compared with their effects on microwave signals."
     },
     {
       "id": "T3B01",
@@ -1992,7 +1992,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. They are at right angles",
-      "explanation": "They are at right angles is the concept that matches the definition or function asked about here."
+      "explanation": "The changing electric and magnetic fields in a radio wave point at right angles to each other as the wave travels."
     },
     {
       "id": "T3B02",
@@ -2008,7 +2008,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The orientation of the electric field",
-      "explanation": "The orientation of the electric field is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Polarization refers to the direction of a radio wave's electric field, which should generally match the receiving antenna."
     },
     {
       "id": "T3B03",
@@ -2024,7 +2024,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Electric and magnetic fields",
-      "explanation": "Electric and magnetic fields is the concept that matches the definition or function asked about here."
+      "explanation": "Radio waves are electromagnetic: changing electric and magnetic fields carry energy through space."
     },
     {
       "id": "T3B04",
@@ -2040,7 +2040,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Speed of light",
-      "explanation": "Speed of light is the concept that matches the definition or function asked about here."
+      "explanation": "In a vacuum, radio waves are electromagnetic waves that move at the same speed as light."
     },
     {
       "id": "T3B05",
@@ -2056,7 +2056,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Wavelength gets shorter as frequency increases",
-      "explanation": "Wavelength gets shorter as frequency increases is the concept that matches the definition or function asked about here."
+      "explanation": "Frequency and wavelength are inversely related: more cycles per second mean a shorter distance per cycle."
     },
     {
       "id": "T3B06",
@@ -2072,7 +2072,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Wavelength in meters equals 300 divided by frequency in megahertz",
-      "explanation": "Wavelength in meters equals 300 divided by frequency in megahertz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Divide 300 by frequency in megahertz to estimate wavelength in meters; for example 150 MHz is about 2 meters."
     },
     {
       "id": "T3B07",
@@ -2088,7 +2088,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The approximate wavelength in meters",
-      "explanation": "The approximate wavelength in meters is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Band names like 2 meters and 70 centimeters refer to approximate radio wavelengths rather than the antenna's height."
     },
     {
       "id": "T3B08",
@@ -2104,7 +2104,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 30 MHz to 300 MHz",
-      "explanation": "30 MHz to 300 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "VHF means Very High Frequency and covers 30 through 300 MHz, including the amateur 6- and 2-meter bands."
     },
     {
       "id": "T3B09",
@@ -2120,7 +2120,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. 300 to 3000 MHz",
-      "explanation": "300 to 3000 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "UHF means Ultra High Frequency and spans 300 through 3000 MHz, including the 70-centimeter amateur band."
     },
     {
       "id": "T3B10",
@@ -2136,7 +2136,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 3 to 30 MHz",
-      "explanation": "3 to 30 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "HF means High Frequency and covers 3 through 30 MHz, where ionospheric long-distance contacts are common."
     },
     {
       "id": "T3B11",
@@ -2152,7 +2152,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 300,000,000 meters per second",
-      "explanation": "300,000,000 meters per second is the concept that matches the definition or function asked about here."
+      "explanation": "Light and radio waves travel about 300 million meters per second through empty space."
     },
     {
       "id": "T3B12",
@@ -2168,7 +2168,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All radio frequencies travel at the same velocity",
-      "explanation": "All radio frequencies travel at the same velocity meets the particular condition asked about in this question."
+      "explanation": "All radio frequencies propagate at the speed of light in free space, even though their wavelengths differ."
     },
     {
       "id": "T3C01",
@@ -2184,7 +2184,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. UHF signals are usually not propagated by the ionosphere",
-      "explanation": "UHF signals are usually not propagated by the ionosphere explains the reason behind the operating practice described in this question."
+      "explanation": "UHF usually travels by direct paths rather than ionospheric reflection, so Earth’s curvature limits ordinary simplex range."
     },
     {
       "id": "T3C02",
@@ -2200,7 +2200,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Long-distance ionospheric propagation is far more common on HF",
-      "explanation": "Long-distance ionospheric propagation is far more common on HF is the concept that matches the definition or function asked about here."
+      "explanation": "HF can bend back toward Earth through the ionosphere, making long-distance contacts far more common than on VHF."
     },
     {
       "id": "T3C03",
@@ -2216,7 +2216,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. They are distorted, with a characteristic raspy sound",
-      "explanation": "They are distorted, with a characteristic raspy sound is the concept that matches the definition or function asked about here."
+      "explanation": "Auroral backscatter reflects signals from irregular ionized regions near the aurora, producing a rough or raspy sound."
     },
     {
       "id": "T3C04",
@@ -2232,7 +2232,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Sporadic E",
-      "explanation": "Sporadic E meets the particular condition asked about in this question."
+      "explanation": "Sporadic E is temporary dense ionization in the E layer that can reflect signals on 10, 6 and sometimes 2 meters."
     },
     {
       "id": "T3C05",
@@ -2248,7 +2248,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Knife-edge diffraction",
-      "explanation": "Knife-edge diffraction meets the particular condition asked about in this question."
+      "explanation": "Knife-edge diffraction bends some radio energy around the sharp edge of an obstruction, allowing a weak signal beyond it."
     },
     {
       "id": "T3C06",
@@ -2264,7 +2264,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Tropospheric ducting",
-      "explanation": "Tropospheric ducting is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Tropospheric ducting traps radio waves in atmospheric layers and can carry VHF/UHF signals hundreds of miles."
     },
     {
       "id": "T3C07",
@@ -2280,7 +2280,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 6 meters",
-      "explanation": "6 meters is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "The 6-meter band works well for meteor scatter because brief ionized meteor trails can reflect its signals."
     },
     {
       "id": "T3C08",
@@ -2296,7 +2296,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Temperature inversions in the atmosphere",
-      "explanation": "Temperature inversions in the atmosphere is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A temperature inversion changes how radio waves bend through the lower atmosphere, sometimes forming a long-distance duct."
     },
     {
       "id": "T3C09",
@@ -2312,7 +2312,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. From dawn to shortly after sunset during periods of high sunspot activity",
-      "explanation": "From dawn to shortly after sunset during periods of high sunspot activity is the concept that matches the definition or function asked about here."
+      "explanation": "Strong sunlight and high sunspot activity increase F-layer ionization, often improving daytime 10-meter contacts."
     },
     {
       "id": "T3C10",
@@ -2328,7 +2328,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. 6 and 10 meters",
-      "explanation": "6 and 10 meters is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Near solar maximum, greater F-layer ionization can support unusually long-distance propagation on 6 and 10 meters."
     },
     {
       "id": "T3C11",
@@ -2344,7 +2344,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. The atmosphere refracts radio waves slightly",
-      "explanation": "The atmosphere refracts radio waves slightly explains the reason behind the operating practice described in this question."
+      "explanation": "Atmospheric refraction bends VHF/UHF waves slightly downward, extending the radio horizon beyond the visible horizon."
     },
     {
       "id": "T4A01",
