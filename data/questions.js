@@ -2360,7 +2360,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. 13.8 volts at 12 amperes",
-      "explanation": "13.8 volts at 12 amperes meets the particular condition asked about in this question."
+      "explanation": "A 50-watt mobile transmitter draws more than 50 watts from its supply, so 13.8 volts at 12 amps provides appropriate operating current."
     },
     {
       "id": "T4A02",
@@ -2376,7 +2376,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The frequency and power level at which the measurements will be made",
-      "explanation": "The frequency and power level at which the measurements will be made meets the particular condition asked about in this question."
+      "explanation": "An SWR meter must handle the frequency and transmitter power being measured or its readings may be wrong or the meter damaged."
     },
     {
       "id": "T4A03",
@@ -2392,7 +2392,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. To minimize voltage drop when transmitting",
-      "explanation": "To minimize voltage drop when transmitting explains the reason behind the operating practice described in this question."
+      "explanation": "Thick, short DC leads have less resistance, preventing voltage from sagging when the radio draws heavy transmit current."
     },
     {
       "id": "T4A04",
@@ -2408,7 +2408,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. To the audio output and input of a computer running FT8 software",
-      "explanation": "To the audio output and input of a computer running FT8 software describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "FT8 software sends and receives encoded audio tones through the transceiver's audio paths to carry digital messages."
     },
     {
       "id": "T4A05",
@@ -2424,7 +2424,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. In the feed line, between the transmitter and antenna",
-      "explanation": "In the feed line, between the transmitter and antenna is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A power meter goes between the transmitter and antenna so it can measure the RF energy traveling along the feed line."
     },
     {
       "id": "T4A06",
@@ -2440,7 +2440,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Receive audio, transmit audio, and transmitter keying",
-      "explanation": "Receive audio, transmit audio, and transmitter keying is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Digital interfaces route received sound, computer-generated transmit sound, and a signal to key the transmitter."
     },
     {
       "id": "T4A07",
@@ -2456,7 +2456,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Computer “line in” to transceiver speaker connector",
-      "explanation": "Computer “line in” to transceiver speaker connector meets the particular condition asked about in this question."
+      "explanation": "Connecting radio speaker audio to the computer's line input lets software decode incoming digital tones."
     },
     {
       "id": "T4A08",
@@ -2472,7 +2472,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Flat copper strap",
-      "explanation": "Flat copper strap meets the particular condition asked about in this question."
+      "explanation": "Wide, flat copper strap has low radio-frequency impedance, helping bond equipment and conduct unwanted RF currents."
     },
     {
       "id": "T4A09",
@@ -2488,7 +2488,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Divide the battery ampere-hour rating by the average current draw of the equipment",
-      "explanation": "Divide the battery ampere-hour rating by the average current draw of the equipment describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Battery life in hours is roughly amp-hours divided by average current in amps; a 12 Ah battery at 2 A lasts about six hours ideally."
     },
     {
       "id": "T4A10",
@@ -2504,7 +2504,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Communication with a digital voice or data network",
-      "explanation": "Communication with a digital voice or data network is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A hotspot links a nearby low-power digital radio to a wider voice or data network, often using the internet."
     },
     {
       "id": "T4A11",
@@ -2520,7 +2520,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. At the 12-volt battery chassis ground",
-      "explanation": "At the 12-volt battery chassis ground is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Using the vehicle's battery chassis-ground return helps provide a solid DC reference and avoids problematic return paths."
     },
     {
       "id": "T4A12",
@@ -2536,7 +2536,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. A device that assists in manual sending of Morse code",
-      "explanation": "A device that assists in manual sending of Morse code is the concept that matches the definition or function asked about here."
+      "explanation": "An electronic keyer creates properly spaced Morse dots and dashes when the operator moves a paddle."
     },
     {
       "id": "T4B01",
@@ -2552,7 +2552,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Distorted transmitted audio",
-      "explanation": "Distorted transmitted audio is the concept that matches the definition or function asked about here."
+      "explanation": "Too much microphone gain overloads the SSB speech path, producing distortion and sometimes unnecessary interference."
     },
     {
       "id": "T4B02",
@@ -2568,7 +2568,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The keypad or VFO knob",
-      "explanation": "The keypad or VFO knob meets the particular condition asked about in this question."
+      "explanation": "A radio frequency can usually be entered directly with a keypad or adjusted continuously with the VFO tuning knob."
     },
     {
       "id": "T4B03",
@@ -2584,7 +2584,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Set the squelch threshold so that receiver output audio is on all the time",
-      "explanation": "Set the squelch threshold so that receiver output audio is on all the time describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Lowering the squelch threshold lets weak signals pass through instead of being muted as background noise."
     },
     {
       "id": "T4B04",
@@ -2600,7 +2600,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. The audio becomes distorted",
-      "explanation": "The audio becomes distorted is the concept that matches the definition or function asked about here."
+      "explanation": "FM receivers work best on the signal's center frequency; tuning off center can distort the demodulated audio."
     },
     {
       "id": "T4B05",
@@ -2616,7 +2616,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Tunes through a range of frequencies to check for activity",
-      "explanation": "Tunes through a range of frequencies to check for activity is the concept that matches the definition or function asked about here."
+      "explanation": "Scanning automatically checks selected frequencies or channels for activity instead of requiring manual tuning."
     },
     {
       "id": "T4B06",
@@ -2632,7 +2632,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. The RIT or Clarifier",
-      "explanation": "The RIT or Clarifier meets the particular condition asked about in this question."
+      "explanation": "RIT, or receiver incremental tuning, shifts the receive frequency slightly to make an SSB voice sound natural without moving your transmit frequency."
     },
     {
       "id": "T4B07",
@@ -2648,7 +2648,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Configuration data loaded onto your radio to access repeaters and talkgroups",
-      "explanation": "Configuration data loaded onto your radio to access repeaters and talkgroups is the concept that matches the definition or function asked about here."
+      "explanation": "A DMR code plug stores channel, repeater, contact and talkgroup settings so the radio knows where to transmit and listen."
     },
     {
       "id": "T4B08",
@@ -2664,7 +2664,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Permits noise or interference reduction by selecting a bandwidth matching the mode",
-      "explanation": "Permits noise or interference reduction by selecting a bandwidth matching the mode is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Choosing a filter just wide enough for the mode blocks extra noise and adjacent signals without cutting off wanted information."
     },
     {
       "id": "T4B09",
@@ -2680,7 +2680,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. By entering the group’s identification code",
-      "explanation": "By entering the group’s identification code describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "A DMR talkgroup identification code routes the voice traffic to the group of users you want to contact."
     },
     {
       "id": "T4B10",
@@ -2696,7 +2696,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 2400 Hz",
-      "explanation": "2400 Hz meets the particular condition asked about in this question."
+      "explanation": "About 2400 Hz passes the useful speech frequencies of typical SSB while excluding much unnecessary noise."
     },
     {
       "id": "T4B11",
@@ -2712,7 +2712,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Your call sign",
-      "explanation": "Your call sign meets the particular condition asked about in this question."
+      "explanation": "D-STAR carries a station's call sign in its digital signaling, so the radio must be programmed with yours."
     },
     {
       "id": "T5A01",
@@ -2904,7 +2904,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 1500 milliamperes",
-      "explanation": "1500 milliamperes describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "One ampere equals 1000 milliamperes, so multiplying 1.5 by 1000 gives 1500 mA."
     },
     {
       "id": "T5B02",
@@ -2920,7 +2920,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. 1500 kHz",
-      "explanation": "1500 kHz meets the particular condition asked about in this question."
+      "explanation": "One kilohertz equals 1000 hertz, so 1,500,000 Hz divided by 1000 is 1500 kHz."
     },
     {
       "id": "T5B03",
@@ -2936,7 +2936,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. One thousand volts",
-      "explanation": "One thousand volts meets the particular condition asked about in this question."
+      "explanation": "The prefix kilo means one thousand, making 1 kilovolt equal 1000 volts."
     },
     {
       "id": "T5B04",
@@ -2952,7 +2952,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. One one-millionth of a volt",
-      "explanation": "One one-millionth of a volt meets the particular condition asked about in this question."
+      "explanation": "The prefix micro means one millionth, so 1 microvolt is 0.000001 volt."
     },
     {
       "id": "T5B05",
@@ -2968,7 +2968,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 0.5 watts",
-      "explanation": "0.5 watts meets the particular condition asked about in this question."
+      "explanation": "Milli means one thousandth: 500 milliwatts divided by 1000 equals 0.5 watt."
     },
     {
       "id": "T5B06",
@@ -2984,7 +2984,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. 3 amperes",
-      "explanation": "3 amperes meets the particular condition asked about in this question."
+      "explanation": "Converting milliamperes to amperes requires dividing by 1000, so 3000 mA is 3 A."
     },
     {
       "id": "T5B07",
@@ -3000,7 +3000,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 3525 kHz",
-      "explanation": "3525 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "A megahertz is 1000 kilohertz, so 3.525 MHz becomes 3525 kHz."
     },
     {
       "id": "T5B08",
@@ -3016,7 +3016,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 1 microfarad",
-      "explanation": "1 microfarad meets the particular condition asked about in this question."
+      "explanation": "A microfarad contains one million picofarads because micro is 10⁻⁶ and pico is 10⁻¹²."
     },
     {
       "id": "T5B09",
@@ -3032,7 +3032,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 3 dB",
-      "explanation": "3 dB meets the particular condition asked about in this question."
+      "explanation": "Doubling power gives approximately a 3 dB increase, so 5 watts becoming 10 watts is +3 dB."
     },
     {
       "id": "T5B10",
@@ -3048,7 +3048,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. -6 dB",
-      "explanation": "-6 dB meets the particular condition asked about in this question."
+      "explanation": "Reducing power from 12 to 3 watts divides it by four, equivalent to two successive 3 dB drops or about −6 dB."
     },
     {
       "id": "T5B11",
@@ -3064,7 +3064,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. 10 dB",
-      "explanation": "10 dB meets the particular condition asked about in this question."
+      "explanation": "A tenfold increase in power equals +10 dB, and 200 watts is ten times 20 watts."
     },
     {
       "id": "T5B12",
@@ -3080,7 +3080,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. 28.400 MHz",
-      "explanation": "28.400 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "There are 1000 kHz in 1 MHz, so 28,400 kHz divided by 1000 equals 28.400 MHz."
     },
     {
       "id": "T5B13",
@@ -3096,7 +3096,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 2.425 GHz",
-      "explanation": "2.425 GHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "There are 1000 MHz in 1 GHz, so 2425 MHz divided by 1000 equals 2.425 GHz."
     },
     {
       "id": "T5C01",
@@ -3112,7 +3112,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Capacitance",
-      "explanation": "Capacitance is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Capacitance describes how much charge and energy a component can store in an electric field between conductors."
     },
     {
       "id": "T5C02",
@@ -3128,7 +3128,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Farad",
-      "explanation": "Farad is the measurement unit for the electrical or radio quantity named in the question."
+      "explanation": "The farad is the SI unit of capacitance, although practical radio circuits often use microfarads or picofarads."
     },
     {
       "id": "T5C03",
@@ -3144,7 +3144,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Inductance",
-      "explanation": "Inductance is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Inductance stores energy in a magnetic field created when current flows through a coil or conductor."
     },
     {
       "id": "T5C04",
@@ -3160,7 +3160,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Henry",
-      "explanation": "Henry is the measurement unit for the electrical or radio quantity named in the question."
+      "explanation": "The henry measures inductance, which describes how a component opposes changes in current."
     },
     {
       "id": "T5C05",
@@ -3176,7 +3176,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Ohm",
-      "explanation": "Ohm is the measurement unit for the electrical or radio quantity named in the question."
+      "explanation": "Impedance is opposition to alternating current, measured in ohms just like resistance."
     },
     {
       "id": "T5C06",
@@ -3192,7 +3192,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. kHz",
-      "explanation": "KHz is the concept that matches the definition or function asked about here."
+      "explanation": "The prefix kilo means one thousand, so kHz means thousands of cycles per second."
     },
     {
       "id": "T5C07",
@@ -3208,7 +3208,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. MHz",
-      "explanation": "MHz is the concept that matches the definition or function asked about here."
+      "explanation": "The prefix mega means one million, so MHz means millions of cycles per second."
     },
     {
       "id": "T5C08",
@@ -3224,7 +3224,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. P = I x E",
-      "explanation": "P = I x E is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Electrical power is voltage multiplied by current, written P = E × I when E is volts and I is amperes."
     },
     {
       "id": "T5C09",
@@ -3240,7 +3240,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. 138 watts",
-      "explanation": "138 watts describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Multiplying 13.8 volts by 10 amperes gives 138 watts of electrical power."
     },
     {
       "id": "T5C10",
@@ -3256,7 +3256,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 30 watts",
-      "explanation": "30 watts describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Power equals volts times amps, so 12 × 2.5 gives 30 watts."
     },
     {
       "id": "T5C11",
@@ -3272,7 +3272,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 10 amperes",
-      "explanation": "10 amperes describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Rearrange power = voltage × current to current = power ÷ voltage: 120 ÷ 12 = 10 amperes."
     },
     {
       "id": "T5C12",
@@ -3288,7 +3288,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The opposition to AC current flow",
-      "explanation": "The opposition to AC current flow is the concept that matches the definition or function asked about here."
+      "explanation": "Impedance combines resistance and frequency-dependent effects of capacitance and inductance that oppose AC flow."
     },
     {
       "id": "T5D01",
@@ -3304,7 +3304,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. I = E / R",
-      "explanation": "I = E / R is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Ohm's law says current equals voltage divided by resistance: I = E/R."
     },
     {
       "id": "T5D02",
@@ -3320,7 +3320,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. E = I x R",
-      "explanation": "E = I x R is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Ohm's law gives voltage as current times resistance: E = I × R."
     },
     {
       "id": "T5D03",
@@ -3336,7 +3336,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. R = E / I",
-      "explanation": "R = E / I is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Rearranging E = I × R gives resistance as voltage divided by current, R = E/I."
     },
     {
       "id": "T5D04",
@@ -3352,7 +3352,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 30 ohms",
-      "explanation": "30 ohms is the concept that matches the definition or function asked about here."
+      "explanation": "Using Ohm's law, divide 90 volts by 3 amps to get 30 ohms."
     },
     {
       "id": "T5D05",
@@ -3368,7 +3368,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 8 ohms",
-      "explanation": "8 ohms is the concept that matches the definition or function asked about here."
+      "explanation": "The resistance is 12 volts divided by 1.5 amperes, which equals 8 ohms."
     },
     {
       "id": "T5D06",
@@ -3384,7 +3384,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. 3 ohms",
-      "explanation": "3 ohms is the concept that matches the definition or function asked about here."
+      "explanation": "Dividing 12 volts by 4 amperes gives a resistance of 3 ohms."
     },
     {
       "id": "T5D07",
@@ -3400,7 +3400,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. 1.5 amperes",
-      "explanation": "1.5 amperes is the concept that matches the definition or function asked about here."
+      "explanation": "Current equals 120 volts divided by 80 ohms, or 1.5 amperes."
     },
     {
       "id": "T5D08",
@@ -3416,7 +3416,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 2 amperes",
-      "explanation": "2 amperes is the concept that matches the definition or function asked about here."
+      "explanation": "By Ohm's law, 200 volts divided by 100 ohms gives 2 amperes."
     },
     {
       "id": "T5D09",
@@ -3432,7 +3432,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 10 amperes",
-      "explanation": "10 amperes is the concept that matches the definition or function asked about here."
+      "explanation": "The current is 240 volts divided by 24 ohms, giving 10 amperes."
     },
     {
       "id": "T5D10",
@@ -3448,7 +3448,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. 1 volt",
-      "explanation": "1 volt is the concept that matches the definition or function asked about here."
+      "explanation": "Voltage equals current times resistance, so 0.5 A × 2 Ω = 1 volt."
     },
     {
       "id": "T5D11",
@@ -3464,7 +3464,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 10 volts",
-      "explanation": "10 volts is the concept that matches the definition or function asked about here."
+      "explanation": "One ampere through 10 ohms creates 1 × 10 = 10 volts."
     },
     {
       "id": "T5D12",
@@ -3480,7 +3480,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. 20 volts",
-      "explanation": "20 volts is the concept that matches the definition or function asked about here."
+      "explanation": "Two amperes through 10 ohms create 2 × 10 = 20 volts."
     },
     {
       "id": "T5D13",
@@ -3496,7 +3496,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Series",
-      "explanation": "Series meets the particular condition asked about in this question."
+      "explanation": "In a series circuit every component shares one unbranched path, so the same current passes through each."
     },
     {
       "id": "T5D14",
@@ -3512,7 +3512,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Parallel",
-      "explanation": "Parallel meets the particular condition asked about in this question."
+      "explanation": "Parallel components connect across the same two points, so they each experience the same voltage."
     },
     {
       "id": "T6A01",
@@ -3528,7 +3528,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Resistor",
-      "explanation": "Resistor is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A resistor limits electric current by opposing the movement of charge through the circuit."
     },
     {
       "id": "T6A02",
@@ -3544,7 +3544,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Potentiometer",
-      "explanation": "Potentiometer is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A potentiometer has an adjustable contact on a resistive track, useful for varying volume or voltage."
     },
     {
       "id": "T6A03",
@@ -3560,7 +3560,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Resistance",
-      "explanation": "Resistance is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Turning a potentiometer moves its contact and changes the resistance between its terminals."
     },
     {
       "id": "T6A04",
@@ -3576,7 +3576,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Capacitor",
-      "explanation": "Capacitor is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A capacitor stores electric charge and energy in the electric field between its conducting plates."
     },
     {
       "id": "T6A05",
@@ -3592,7 +3592,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Capacitor",
-      "explanation": "Capacitor is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A capacitor consists of two conductors separated by an insulating material called a dielectric."
     },
     {
       "id": "T6A06",
@@ -3608,7 +3608,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Inductor",
-      "explanation": "Inductor is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "An inductor stores energy in a magnetic field when current flows through it."
     },
     {
       "id": "T6A07",
@@ -3624,7 +3624,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Inductor",
-      "explanation": "Inductor is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Coiling wire concentrates the magnetic field, making the component function as an inductor."
     },
     {
       "id": "T6A08",
@@ -3640,7 +3640,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. A single circuit is switched between one of two other circuits",
-      "explanation": "A single circuit is switched between one of two other circuits is the concept that matches the definition or function asked about here."
+      "explanation": "Single-pole double-throw means one common switch connection can select either of two circuits."
     },
     {
       "id": "T6A09",
@@ -3656,7 +3656,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: A. Single-pole single-throw",
-      "explanation": "Single-pole single-throw is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "The figure's single-pole single-throw switch simply opens or closes one electrical path."
     },
     {
       "id": "T6A10",
@@ -3672,7 +3672,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following battery chemistries is rechargeable, so “all these choices” is the complete answer."
+      "explanation": "The listed rechargeable chemistries use reversible chemical reactions, allowing energy to be restored by charging."
     },
     {
       "id": "T6A11",
@@ -3688,7 +3688,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Carbon-zinc",
-      "explanation": "Carbon-zinc meets the particular condition asked about in this question."
+      "explanation": "Carbon-zinc primary batteries are designed for one-time use and should not be recharged."
     },
     {
       "id": "T6B01",
@@ -3704,7 +3704,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. It is lower in some diode types than in others",
-      "explanation": "It is lower in some diode types than in others meets the particular condition asked about in this question."
+      "explanation": "Different semiconductor materials and diode designs have different forward-voltage drops, such as roughly 0.3 V for germanium and 0.7 V for silicon."
     },
     {
       "id": "T6B02",
@@ -3720,7 +3720,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Diode",
-      "explanation": "Diode is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A diode normally conducts when forward-biased and blocks current in the opposite direction."
     },
     {
       "id": "T6B03",
@@ -3736,7 +3736,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Transistor",
-      "explanation": "Transistor meets the particular condition asked about in this question."
+      "explanation": "A transistor can use a small control signal to switch a larger current on or off."
     },
     {
       "id": "T6B04",
@@ -3752,7 +3752,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Transistor",
-      "explanation": "Transistor meets the particular condition asked about in this question."
+      "explanation": "Many transistors have three semiconductor regions that control current flow and permit switching or amplification."
     },
     {
       "id": "T6B05",
@@ -3768,7 +3768,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Field-effect",
-      "explanation": "Field-effect is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A field-effect transistor controls conduction through a channel using its gate, with source and drain terminals."
     },
     {
       "id": "T6B06",
@@ -3784,7 +3784,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. With a stripe",
-      "explanation": "With a stripe describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "A stripe on a typical diode body marks its cathode end, helping you install it with correct polarity."
     },
     {
       "id": "T6B07",
@@ -3800,7 +3800,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Forward current",
-      "explanation": "Forward current is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "When forward current flows through an LED, charge carriers recombine and release energy as visible or infrared light."
     },
     {
       "id": "T6B08",
@@ -3816,7 +3816,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Field Effect Transistor",
-      "explanation": "Field Effect Transistor is the concept that matches the definition or function asked about here."
+      "explanation": "FET stands for field-effect transistor because voltage at its gate controls current through an electric field."
     },
     {
       "id": "T6B09",
@@ -3832,7 +3832,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Anode and cathode",
-      "explanation": "Anode and cathode is the concept that matches the definition or function asked about here."
+      "explanation": "A diode has an anode and cathode; conventional current normally flows from anode to cathode when forward-biased."
     },
     {
       "id": "T6B10",
@@ -3848,7 +3848,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Transistor",
-      "explanation": "Transistor meets the particular condition asked about in this question."
+      "explanation": "A transistor uses a controlling signal to provide a larger output signal, with energy supplied by its power source."
     },
     {
       "id": "T6B11",
@@ -3864,7 +3864,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what does the term gain mean in amplifiers, so “all these choices” is the complete answer."
+      "explanation": "Amplifier gain compares output with input; depending on the measurement it can mean increased voltage, current, or power."
     },
     {
       "id": "T6B12",
@@ -3880,7 +3880,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Emitter, base, collector",
-      "explanation": "Emitter, base, collector is the concept that matches the definition or function asked about here."
+      "explanation": "A bipolar junction transistor has emitter, base and collector terminals that control current amplification."
     },
     {
       "id": "T6C01",
@@ -3896,7 +3896,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Schematic",
-      "explanation": "Schematic is the concept that matches the definition or function asked about here."
+      "explanation": "A schematic uses standard symbols and connecting lines to show how a circuit works rather than where parts sit physically."
     },
     {
       "id": "T6C02",
@@ -3912,7 +3912,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: A. Resistor",
-      "explanation": "Resistor is the concept that matches the definition or function asked about here."
+      "explanation": "In figure T-1, component 1 uses the standard resistor symbol, representing a device that limits current."
     },
     {
       "id": "T6C03",
@@ -3928,7 +3928,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: B. Transistor",
-      "explanation": "Transistor is the concept that matches the definition or function asked about here."
+      "explanation": "In figure T-1, component 2 uses the transistor symbol, which identifies the current-controlling semiconductor."
     },
     {
       "id": "T6C04",
@@ -3944,7 +3944,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: C. Lamp",
-      "explanation": "Lamp is the concept that matches the definition or function asked about here."
+      "explanation": "In figure T-1, component 3 represents a lamp, which converts electrical energy into visible light."
     },
     {
       "id": "T6C05",
@@ -3960,7 +3960,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: D. Battery",
-      "explanation": "Battery is the concept that matches the definition or function asked about here."
+      "explanation": "In figure T-1, component 4 is a battery symbol showing the circuit's DC energy source."
     },
     {
       "id": "T6C06",
@@ -3976,7 +3976,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: B. Capacitor",
-      "explanation": "Capacitor is the concept that matches the definition or function asked about here."
+      "explanation": "The paired-plate symbol at position 6 in figure T-2 represents a capacitor that stores charge."
     },
     {
       "id": "T6C07",
@@ -3992,7 +3992,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: D. Light emitting diode",
-      "explanation": "Light emitting diode is the concept that matches the definition or function asked about here."
+      "explanation": "Figure T-2's component 8 is an LED: the diode symbol has arrows pointing outward to show emitted light."
     },
     {
       "id": "T6C08",
@@ -4008,7 +4008,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: C. Variable resistor",
-      "explanation": "Variable resistor is the concept that matches the definition or function asked about here."
+      "explanation": "The resistor symbol with an adjustment arrow at position 9 in figure T-2 indicates a variable resistor."
     },
     {
       "id": "T6C09",
@@ -4024,7 +4024,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-2.png",
       "explain": "Correct answer: D. Transformer",
-      "explanation": "Transformer is the concept that matches the definition or function asked about here."
+      "explanation": "The coupled coils at position 4 in figure T-2 form a transformer that transfers energy magnetically."
     },
     {
       "id": "T6C10",
@@ -4040,7 +4040,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-3.png",
       "explain": "Correct answer: D. Variable inductor",
-      "explanation": "Variable inductor is the concept that matches the definition or function asked about here."
+      "explanation": "Figure T-3 shows an adjustable coil at component 3, the symbol for a variable inductor."
     },
     {
       "id": "T6C11",
@@ -4056,7 +4056,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-3.png",
       "explain": "Correct answer: A. Antenna",
-      "explanation": "Antenna is the concept that matches the definition or function asked about here."
+      "explanation": "Component 4 in figure T-3 represents the antenna that radiates or receives radio energy."
     },
     {
       "id": "T6C12",
@@ -4072,7 +4072,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Component connections",
-      "explanation": "Component connections meets the particular condition asked about in this question."
+      "explanation": "Schematics explain which component terminals are electrically connected, even when physical part placement differs."
     },
     {
       "id": "T6D01",
@@ -4088,7 +4088,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Rectifier",
-      "explanation": "Rectifier meets the particular condition asked about in this question."
+      "explanation": "A rectifier uses diodes to allow mainly one-direction current, converting AC into pulsating DC."
     },
     {
       "id": "T6D02",
@@ -4104,7 +4104,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. An electrically-controlled switch",
-      "explanation": "An electrically-controlled switch is the concept that matches the definition or function asked about here."
+      "explanation": "A relay uses electricity to operate a switch, letting a small control circuit switch a separate load."
     },
     {
       "id": "T6D03",
@@ -4120,7 +4120,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. To prevent coupling of unwanted signals to or from the wire",
-      "explanation": "To prevent coupling of unwanted signals to or from the wire meets the particular condition asked about in this question."
+      "explanation": "The conductive shield intercepts interfering electric fields, reducing unwanted signal pickup or radiation."
     },
     {
       "id": "T6D04",
@@ -4136,7 +4136,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Meter",
-      "explanation": "Meter meets the particular condition asked about in this question."
+      "explanation": "A digital meter converts a measurement into a numerical display so its value can be read directly."
     },
     {
       "id": "T6D05",
@@ -4152,7 +4152,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Regulator",
-      "explanation": "Regulator is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A voltage regulator holds output voltage near a desired value even when input or load conditions change."
     },
     {
       "id": "T6D06",
@@ -4168,7 +4168,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Transformer",
-      "explanation": "Transformer is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A transformer uses magnetic coupling between coils to raise or lower AC voltage; it does not directly transform steady DC."
     },
     {
       "id": "T6D07",
@@ -4184,7 +4184,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. LED",
-      "explanation": "LED meets the particular condition asked about in this question."
+      "explanation": "An LED emits light when current passes in the forward direction, making it useful as a power or status indicator."
     },
     {
       "id": "T6D08",
@@ -4200,7 +4200,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Capacitor",
-      "explanation": "Capacitor meets the particular condition asked about in this question."
+      "explanation": "An inductor and capacitor exchange magnetic and electric field energy at a resonant frequency, forming a tuned circuit."
     },
     {
       "id": "T6D09",
@@ -4216,7 +4216,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Integrated circuit",
-      "explanation": "Integrated circuit is the concept that matches the definition or function asked about here."
+      "explanation": "An integrated circuit combines multiple semiconductor devices and connections on one small chip."
     },
     {
       "id": "T6D10",
@@ -4232,7 +4232,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "https://raw.githubusercontent.com/russolsen/ham_radio_question_pool/main/technician-2026-2030/t-1.png",
       "explain": "Correct answer: C. Control the flow of current",
-      "explanation": "Control the flow of current is the concept that matches the definition or function asked about here."
+      "explanation": "A transistor controls current flow through a circuit by responding to a signal at its control terminal."
     },
     {
       "id": "T6D11",
@@ -4248,7 +4248,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. An inductor and a capacitor in series or parallel",
-      "explanation": "An inductor and a capacitor in series or parallel meets the particular condition asked about in this question."
+      "explanation": "A capacitor and inductor together can resonate at one frequency because each alternately stores and releases energy."
     },
     {
       "id": "T7A01",
