@@ -4264,7 +4264,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Sensitivity",
-      "explanation": "Sensitivity meets the particular condition asked about in this question."
+      "explanation": "Sensitivity is a receiver's ability to detect weak signals, which matters when stations are far apart."
     },
     {
       "id": "T7A02",
@@ -4280,7 +4280,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A device that combines a receiver and transmitter",
-      "explanation": "A device that combines a receiver and transmitter is the concept that matches the definition or function asked about here."
+      "explanation": "A transceiver puts a transmitter and receiver in one unit so a station can both send and hear signals."
     },
     {
       "id": "T7A03",
@@ -4296,7 +4296,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Mixer",
-      "explanation": "Mixer meets the particular condition asked about in this question."
+      "explanation": "A mixer combines a signal with a local oscillator to shift it to a different frequency for processing."
     },
     {
       "id": "T7A04",
@@ -4312,7 +4312,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Selectivity",
-      "explanation": "Selectivity meets the particular condition asked about in this question."
+      "explanation": "Selectivity means rejecting nearby unwanted signals while still receiving the frequency you want."
     },
     {
       "id": "T7A05",
@@ -4328,7 +4328,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Oscillator",
-      "explanation": "Oscillator is the concept that matches the definition or function asked about here."
+      "explanation": "An oscillator produces a repeating electrical signal at a chosen frequency, often as a frequency reference."
     },
     {
       "id": "T7A06",
@@ -4344,7 +4344,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Transverter",
-      "explanation": "Transverter is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A transverter converts both transmitted and received signals between radio bands so one transceiver can cover another band."
     },
     {
       "id": "T7A07",
@@ -4360,7 +4360,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Switches transceiver from receive to transmit when grounded",
-      "explanation": "Switches transceiver from receive to transmit when grounded is the concept that matches the definition or function asked about here."
+      "explanation": "PTT means push-to-talk: grounding the control input switches the radio from receiving to transmitting."
     },
     {
       "id": "T7A08",
@@ -4376,7 +4376,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Modulation",
-      "explanation": "Modulation meets the particular condition asked about in this question."
+      "explanation": "Modulation places voice or data information onto a radio-frequency carrier so it can travel over the air."
     },
     {
       "id": "T7A09",
@@ -4392,7 +4392,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Set the amplifier for proper operation in the selected mode",
-      "explanation": "Set the amplifier for proper operation in the selected mode is the concept that matches the definition or function asked about here."
+      "explanation": "Amplifiers must be configured for the chosen mode because SSB needs more linear amplification than FM or CW."
     },
     {
       "id": "T7A10",
@@ -4408,7 +4408,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. An RF power amplifier",
-      "explanation": "An RF power amplifier is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "An RF amplifier boosts the transmitter's radio-frequency signal, using additional electrical power to raise output."
     },
     {
       "id": "T7A11",
@@ -4424,7 +4424,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Set the receive and transmit frequency",
-      "explanation": "Set the receive and transmit frequency is the concept that matches the definition or function asked about here."
+      "explanation": "The VFO changes the oscillator frequency, letting you tune the radio's transmitting and receiving frequencies."
     },
     {
       "id": "T7B01",
@@ -4440,7 +4440,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Talk farther away from the microphone",
-      "explanation": "Talk farther away from the microphone is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Speaking farther from the microphone lowers audio drive, reducing excessive FM frequency deviation."
     },
     {
       "id": "T7B02",
@@ -4456,7 +4456,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. The receiver is unable to reject strong signals outside the AM or FM band",
-      "explanation": "The receiver is unable to reject strong signals outside the AM or FM band is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A poorly selective broadcast receiver may accidentally detect a strong nearby amateur transmission outside its intended band."
     },
     {
       "id": "T7B03",
@@ -4472,7 +4472,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following can cause radio frequency interference, so “all these choices” is the complete answer."
+      "explanation": "Unwanted RF can arise from spurious transmitter emissions, receiver overload, or signals coupling into nearby electronics."
     },
     {
       "id": "T7B04",
@@ -4488,7 +4488,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. High SWR",
-      "explanation": "High SWR meets the particular condition asked about in this question."
+      "explanation": "High SWR means excessive reflected RF power, causing many solid-state radios to reduce output to protect their transistors."
     },
     {
       "id": "T7B05",
@@ -4504,7 +4504,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Block the amateur signal with a filter at the antenna input of the affected receiver",
-      "explanation": "Block the amateur signal with a filter at the antenna input of the affected receiver meets the particular condition asked about in this question."
+      "explanation": "A suitable input filter rejects the unwanted amateur signal before it overloads the affected broadcast receiver."
     },
     {
       "id": "T7B06",
@@ -4520,7 +4520,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel",
-      "explanation": "Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel meets the particular condition asked about in this question."
+      "explanation": "First check your station for faults or unintended emissions instead of assuming the neighbor's receiver is the only problem."
     },
     {
       "id": "T7B07",
@@ -4536,7 +4536,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Installing a band-reject filter",
-      "explanation": "Installing a band-reject filter is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "A band-reject filter blocks strong commercial FM broadcast frequencies while passing wanted 2-meter signals."
     },
     {
       "id": "T7B08",
@@ -4552,7 +4552,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what should you do if something in a neighbor’s home is causing harmful interference to your amateur station, so “all these choices” is the complete answer."
+      "explanation": "Good interference troubleshooting includes cooperating with the neighbor, checking equipment and identifying the actual source."
     },
     {
       "id": "T7B09",
@@ -4568,7 +4568,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Be sure all TV feed line coaxial connectors are installed properly",
-      "explanation": "Be sure all TV feed line coaxial connectors are installed properly is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Loose or poorly installed coax connectors can let amateur RF leak into cable-TV equipment and cause interference."
     },
     {
       "id": "T7B10",
@@ -4584,7 +4584,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what might be a problem if you receive a report that your audio signal through an FM repeater is distorted or unintelligible, so “all these choices” is the complete answer."
+      "explanation": "Distorted repeater audio can result from too much microphone gain, inadequate signal strength or other radio setup problems."
     },
     {
       "id": "T7B11",
@@ -4600,7 +4600,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter",
-      "explanation": "Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter meets the particular condition asked about in this question."
+      "explanation": "A ferrite choke impedes unwanted RF currents traveling along the microphone cable and feeding back into the audio circuit."
     },
     {
       "id": "T7C01",
@@ -4616,7 +4616,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. To prevent transmitting signals over the air when making tests",
-      "explanation": "To prevent transmitting signals over the air when making tests is the concept that matches the definition or function asked about here."
+      "explanation": "A dummy load absorbs a transmitter's RF power as heat, allowing tests without radiating signals through an antenna."
     },
     {
       "id": "T7C02",
@@ -4632,7 +4632,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. An antenna analyzer",
-      "explanation": "An antenna analyzer meets the particular condition asked about in this question."
+      "explanation": "An antenna analyzer measures impedance and resonance across frequencies, helping find where an antenna works best."
     },
     {
       "id": "T7C03",
@@ -4648,7 +4648,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. A 50-ohm non-inductive resistor mounted on a heat sink",
-      "explanation": "A 50-ohm non-inductive resistor mounted on a heat sink is the concept that matches the definition or function asked about here."
+      "explanation": "A 50-ohm non-inductive resistor safely absorbs RF power while a heat sink carries away the resulting heat."
     },
     {
       "id": "T7C04",
@@ -4664,7 +4664,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. 1:1",
-      "explanation": "1:1 is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "An SWR of 1:1 means no power is reflected by an impedance mismatch at that measurement point."
     },
     {
       "id": "T7C05",
@@ -4680,7 +4680,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. To protect the RF output amplifier transistors",
-      "explanation": "To protect the RF output amplifier transistors explains the reason behind the operating practice described in this question."
+      "explanation": "High SWR reflects extra RF toward the transmitter, so automatic power reduction helps protect output transistors."
     },
     {
       "id": "T7C06",
@@ -4696,7 +4696,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Impedance mismatch",
-      "explanation": "Impedance mismatch is the concept that matches the definition or function asked about here."
+      "explanation": "An SWR of 4:1 shows the feed line and load are mismatched, so some forward power is reflected."
     },
     {
       "id": "T7C07",
@@ -4712,7 +4712,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. It is converted into heat",
-      "explanation": "It is converted into heat is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Coax and other feed lines waste some RF energy through conductor and dielectric losses, turning that energy into heat."
     },
     {
       "id": "T7C08",
@@ -4728,7 +4728,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Directional wattmeter",
-      "explanation": "Directional wattmeter meets the particular condition asked about in this question."
+      "explanation": "A directional wattmeter measures forward and reflected RF power, from which standing-wave ratio can be determined."
     },
     {
       "id": "T7C09",
@@ -4744,7 +4744,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Moisture contamination",
-      "explanation": "Moisture contamination meets the particular condition asked about in this question."
+      "explanation": "Water entering coax changes its electrical properties and may corrode conductors, causing increasing loss or failure."
     },
     {
       "id": "T7C10",
@@ -4760,7 +4760,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Ultraviolet light can damage the jacket and allow water to enter the cable",
-      "explanation": "Ultraviolet light can damage the jacket and allow water to enter the cable explains the reason behind the operating practice described in this question."
+      "explanation": "Sunlight can break down an unprotected coax jacket, allowing rainwater to enter and damage the cable."
     },
     {
       "id": "T7C11",
@@ -4776,7 +4776,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. It has less loss per foot",
-      "explanation": "It has less loss per foot is the concept that matches the definition or function asked about here."
+      "explanation": "Foamed insulation reduces dielectric loss, so foam-dielectric coax generally wastes less signal per foot than comparable solid dielectric."
     },
     {
       "id": "T7D01",
@@ -4792,7 +4792,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. A voltmeter",
-      "explanation": "A voltmeter meets the particular condition asked about in this question."
+      "explanation": "A voltmeter measures electrical potential difference, or the electrical push between two points."
     },
     {
       "id": "T7D02",
@@ -4808,7 +4808,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. In parallel",
-      "explanation": "In parallel describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Connecting a voltmeter in parallel places it across the component so it measures the voltage between both ends."
     },
     {
       "id": "T7D03",
@@ -4824,7 +4824,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. In series",
-      "explanation": "In series describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "To measure current, a meter must be placed in series so the circuit's current flows through the meter."
     },
     {
       "id": "T7D04",
@@ -4840,7 +4840,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. An ammeter",
-      "explanation": "An ammeter meets the particular condition asked about in this question."
+      "explanation": "An ammeter measures electrical current in amperes, meaning how much charge flows each second."
     },
     {
       "id": "T7D05",
@@ -4856,7 +4856,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. By applying a small current and measuring the resulting voltage",
-      "explanation": "By applying a small current and measuring the resulting voltage describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "An ohmmeter applies a small known signal and uses the resulting response to determine resistance."
     },
     {
       "id": "T7D06",
@@ -4872,7 +4872,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Attempting to measure voltage when using the resistance setting",
-      "explanation": "Attempting to measure voltage when using the resistance setting meets the particular condition asked about in this question."
+      "explanation": "Resistance mode is not designed for an energized circuit, so applying an external voltage may damage the meter."
     },
     {
       "id": "T7D07",
@@ -4888,7 +4888,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Voltage and resistance",
-      "explanation": "Voltage and resistance meets the particular condition asked about in this question."
+      "explanation": "A multimeter combines several instruments, commonly measuring voltage, resistance and often current."
     },
     {
       "id": "T7D08",
@@ -4904,7 +4904,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Acid-core solder",
-      "explanation": "Acid-core solder meets the particular condition asked about in this question."
+      "explanation": "Acid-core solder contains corrosive flux that can damage electronics, unlike solder intended for electrical work."
     },
     {
       "id": "T7D09",
@@ -4920,7 +4920,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. A rough or lumpy surface",
-      "explanation": "A rough or lumpy surface is the concept that matches the definition or function asked about here."
+      "explanation": "A rough, grainy or lumpy tin-lead solder joint may mean the solder cooled before bonding properly."
     },
     {
       "id": "T7D10",
@@ -4936,7 +4936,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Increasing resistance with time",
-      "explanation": "Increasing resistance with time is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "As an ohmmeter charges a discharged capacitor, current falls and the displayed resistance rises."
     },
     {
       "id": "T7D11",
@@ -4952,7 +4952,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Ensure that the circuit is not powered",
-      "explanation": "Ensure that the circuit is not powered meets the particular condition asked about in this question."
+      "explanation": "Turn power off before measuring resistance because the ohmmeter supplies its own test current and external power is unsafe."
     },
     {
       "id": "T8A01",
@@ -4968,7 +4968,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Single sideband",
-      "explanation": "Single sideband meets the particular condition asked about in this question."
+      "explanation": "SSB is an amplitude-modulation method that removes the carrier and one sideband to use less power and bandwidth."
     },
     {
       "id": "T8A02",
@@ -4984,7 +4984,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. FM or PM",
-      "explanation": "FM or PM is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "VHF packet data often modulates an FM or phase-modulated carrier with audio tones representing bits."
     },
     {
       "id": "T8A03",
@@ -5000,7 +5000,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. SSB",
-      "explanation": "SSB meets the particular condition asked about in this question."
+      "explanation": "SSB concentrates signal power into a narrow bandwidth, helping weak long-distance VHF/UHF voice contacts."
     },
     {
       "id": "T8A04",
@@ -5016,7 +5016,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. FM or PM",
-      "explanation": "FM or PM meets the particular condition asked about in this question."
+      "explanation": "FM and PM tolerate ordinary mobile noise well, making them common choices for VHF/UHF voice repeaters."
     },
     {
       "id": "T8A05",
@@ -5032,7 +5032,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. CW",
-      "explanation": "CW meets the particular condition asked about in this question."
+      "explanation": "CW Morse code uses very narrow on-off keyed signals, needing less bandwidth than normal voice modes."
     },
     {
       "id": "T8A06",
@@ -5048,7 +5048,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Upper sideband",
-      "explanation": "Upper sideband is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Amateurs normally use upper sideband for SSB on 10 meters and higher bands as a common operating convention."
     },
     {
       "id": "T8A07",
@@ -5064,7 +5064,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. SSB signals have narrower bandwidth",
-      "explanation": "SSB signals have narrower bandwidth is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "SSB removes redundant parts of an AM signal and generally occupies less spectrum than FM voice."
     },
     {
       "id": "T8A08",
@@ -5080,7 +5080,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 3 kHz",
-      "explanation": "3 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Normal SSB speech is about 3 kHz wide, fitting understandable voice information into a narrow channel."
     },
     {
       "id": "T8A09",
@@ -5096,7 +5096,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Between 10 and 15 kHz",
-      "explanation": "Between 10 and 15 kHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "A typical VHF repeater FM voice signal occupies roughly 10–15 kHz because its carrier shifts with audio."
     },
     {
       "id": "T8A10",
@@ -5112,7 +5112,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. About 6 MHz",
-      "explanation": "About 6 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "Fast-scan analog television transmits picture and sound signals needing several megahertz, roughly 6 MHz."
     },
     {
       "id": "T8A11",
@@ -5128,7 +5128,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 150 Hz",
-      "explanation": "150 Hz is the concept that matches the definition or function asked about here."
+      "explanation": "CW can be copied using a very narrow receiver filter, with roughly 150 Hz as the test-pool bandwidth."
     },
     {
       "id": "T8A12",
@@ -5144,7 +5144,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Only one signal can be received at a time",
-      "explanation": "Only one signal can be received at a time meets the particular condition asked about in this question."
+      "explanation": "With ordinary FM capture, a receiver tends to favor the stronger of two simultaneous signals rather than combining both conversations."
     },
     {
       "id": "T8B01",
@@ -5160,7 +5160,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Health and status of the satellite",
-      "explanation": "Health and status of the satellite is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Satellite telemetry reports battery, temperature, operating mode and other health information so ground stations can monitor it."
     },
     {
       "id": "T8B02",
@@ -5176,7 +5176,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Blocking access by other users",
-      "explanation": "Blocking access by other users is the concept that matches the definition or function asked about here."
+      "explanation": "An excessively strong uplink can dominate a satellite transponder and prevent weaker stations from being heard."
     },
     {
       "id": "T8B03",
@@ -5192,7 +5192,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following are provided by satellite tracking programs, so “all these choices” is the complete answer."
+      "explanation": "Tracking programs combine orbital data and your location to predict passes, pointing angles and Doppler changes."
     },
     {
       "id": "T8B04",
@@ -5208,7 +5208,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what mode of transmission is commonly used by amateur radio satellites, so “all these choices” is the complete answer."
+      "explanation": "Amateur satellites may use FM voice, SSB/CW or digital transmissions depending on their equipment and mission."
     },
     {
       "id": "T8B05",
@@ -5224,7 +5224,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. A transmission from a satellite that contains status information",
-      "explanation": "A transmission from a satellite that contains status information is the concept that matches the definition or function asked about here."
+      "explanation": "A satellite beacon is a recurring transmission that supplies identification or condition information to ground listeners."
     },
     {
       "id": "T8B06",
@@ -5240,7 +5240,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. The Keplerian elements",
-      "explanation": "The Keplerian elements meets the particular condition asked about in this question."
+      "explanation": "Keplerian elements describe a satellite's orbit and let tracking software predict its position over time."
     },
     {
       "id": "T8B07",
@@ -5256,7 +5256,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. An observed change in signal frequency caused by relative motion between the satellite and Earth station",
-      "explanation": "An observed change in signal frequency caused by relative motion between the satellite and Earth station is the concept that matches the definition or function asked about here."
+      "explanation": "A fast-moving satellite changes the apparent radio frequency as it approaches or recedes, just like a passing siren changes pitch."
     },
     {
       "id": "T8B08",
@@ -5272,7 +5272,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band",
-      "explanation": "The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band is the concept that matches the definition or function asked about here."
+      "explanation": "In U/V mode, signals go up to the satellite on UHF (70 centimeters) and return on VHF (2 meters)."
     },
     {
       "id": "T8B09",
@@ -5288,7 +5288,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Rotation of the satellite and its antennas",
-      "explanation": "Rotation of the satellite and its antennas is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A spinning satellite changes antenna orientation relative to Earth, so received signal strength rises and falls."
     },
     {
       "id": "T8B10",
@@ -5304,7 +5304,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Low Earth Orbit, which has a period of around 100 minutes",
-      "explanation": "Low Earth Orbit, which has a period of around 100 minutes is the concept that matches the definition or function asked about here."
+      "explanation": "LEO satellites orbit relatively close to Earth, usually completing a trip in roughly 100 minutes."
     },
     {
       "id": "T8B11",
@@ -5320,7 +5320,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Anyone",
-      "explanation": "Anyone is the person, group, or agency responsible for the role described in this question."
+      "explanation": "Satellite telemetry broadcasts can be received by anyone with suitable equipment; no transmitting license is needed just to listen."
     },
     {
       "id": "T8B12",
@@ -5336,7 +5336,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Your signal strength on the downlink should be about the same as the beacon",
-      "explanation": "Your signal strength on the downlink should be about the same as the beacon meets the particular condition asked about in this question."
+      "explanation": "Matching your downlink signal strength roughly to the satellite beacon helps avoid overdriving the shared transponder."
     },
     {
       "id": "T8C01",
@@ -5352,7 +5352,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Radio direction finding",
-      "explanation": "Radio direction finding meets the particular condition asked about in this question."
+      "explanation": "Direction finding compares received signal strength from different directions to locate a transmitter or interference source."
     },
     {
       "id": "T8C02",
@@ -5368,7 +5368,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. A directional antenna",
-      "explanation": "A directional antenna meets the particular condition asked about in this question."
+      "explanation": "A directional antenna receives more strongly from some directions, giving clues about where a hidden transmitter is located."
     },
     {
       "id": "T8C03",
@@ -5384,7 +5384,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Contesting",
-      "explanation": "Contesting is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Contesting is a timed radio activity in which operators try to complete contacts with many stations under specific rules."
     },
     {
       "id": "T8C04",
@@ -5400,7 +5400,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Sending only the minimum information needed for proper identification and the contest exchange",
-      "explanation": "Sending only the minimum information needed for proper identification and the contest exchange meets the particular condition asked about in this question."
+      "explanation": "Short contest exchanges reduce frequency crowding while still providing call signs and the required contest information."
     },
     {
       "id": "T8C05",
@@ -5416,7 +5416,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A letter-number designator assigned to a geographic location",
-      "explanation": "A letter-number designator assigned to a geographic location is the concept that matches the definition or function asked about here."
+      "explanation": "A Maidenhead grid locator is a standardized letter-and-number code for a geographic area, useful for mapping contacts."
     },
     {
       "id": "T8C06",
@@ -5432,7 +5432,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. By using Dual-Tone Multi-Frequency (DTMF) signals",
-      "explanation": "By using Dual-Tone Multi-Frequency (DTMF) signals describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "IRLP nodes can be commanded by radio using DTMF keypad tones, similar to dialing a telephone."
     },
     {
       "id": "T8C07",
@@ -5448,7 +5448,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. A method of delivering voice communications over the internet using digital techniques",
-      "explanation": "A method of delivering voice communications over the internet using digital techniques is the concept that matches the definition or function asked about here."
+      "explanation": "VoIP turns voice into digital data packets sent over the internet rather than carrying the whole path as analog radio."
     },
     {
       "id": "T8C08",
@@ -5464,7 +5464,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A technique to connect amateur radio systems, such as repeaters, via the internet",
-      "explanation": "A technique to connect amateur radio systems, such as repeaters, via the internet is the concept that matches the definition or function asked about here."
+      "explanation": "IRLP links repeaters and other amateur radio systems through the internet to allow contacts across long distances."
     },
     {
       "id": "T8C09",
@@ -5480,7 +5480,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. EchoLink",
-      "explanation": "EchoLink meets the particular condition asked about in this question."
+      "explanation": "EchoLink lets verified licensed amateurs access connected repeaters or stations using a computer or phone application."
     },
     {
       "id": "T8C10",
@@ -5496,7 +5496,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Register your call sign and provide proof of license",
-      "explanation": "Register your call sign and provide proof of license is the concept that matches the definition or function asked about here."
+      "explanation": "EchoLink verifies your amateur license and call sign before granting access to its internet-linked radio network."
     },
     {
       "id": "T8C11",
@@ -5512,7 +5512,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A gateway",
-      "explanation": "A gateway is the concept that matches the definition or function asked about here."
+      "explanation": "A gateway bridges local amateur radio signals to an internet-based network, connecting radio users with remote systems."
     },
     {
       "id": "T8D01",
@@ -5528,7 +5528,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following is a digital communications mode, so “all these choices” is the complete answer."
+      "explanation": "Digital modes carry information as encoded symbols or bits, with different methods suited to text, images or weak-signal contacts."
     },
     {
       "id": "T8D02",
@@ -5544,7 +5544,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. A digital mode capable of low signal-to-noise operation",
-      "explanation": "A digital mode capable of low signal-to-noise operation is the concept that matches the definition or function asked about here."
+      "explanation": "FT8 sends short, timed digital messages designed to be decoded even when a signal is too weak for voice."
     },
     {
       "id": "T8D03",
@@ -5560,7 +5560,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what kind of data can be transmitted by APRS, so “all these choices” is the complete answer."
+      "explanation": "APRS packets may carry position, messages, weather and telemetry rather than only GPS location."
     },
     {
       "id": "T8D04",
@@ -5576,7 +5576,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. An analog fast-scan color TV signal",
-      "explanation": "An analog fast-scan color TV signal is the concept that matches the definition or function asked about here."
+      "explanation": "NTSC is a traditional analog color television standard, including the fast-scan video signals used by some amateurs."
     },
     {
       "id": "T8D05",
@@ -5592,7 +5592,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Providing real-time tactical digital communications in conjunction with a map showing the locations of stations",
-      "explanation": "Providing real-time tactical digital communications in conjunction with a map showing the locations of stations meets the particular condition asked about in this question."
+      "explanation": "APRS can put stations and short data messages on a map, useful for tracking and coordinating events."
     },
     {
       "id": "T8D06",
@@ -5608,7 +5608,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Phase Shift Keying",
-      "explanation": "Phase Shift Keying is the concept that matches the definition or function asked about here."
+      "explanation": "Phase Shift Keying encodes bits by changing the phase of a radio carrier rather than changing only its strength."
     },
     {
       "id": "T8D07",
@@ -5624,7 +5624,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel",
-      "explanation": "A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel meets the particular condition asked about in this question."
+      "explanation": "DMR's time-division system shares one 12.5-kHz channel between two alternating digital voice time slots."
     },
     {
       "id": "T8D08",
@@ -5640,7 +5640,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following is included in packet radio transmissions, so “all these choices” is the complete answer."
+      "explanation": "Packet radio includes address and control information alongside data so a receiving station can interpret the message."
     },
     {
       "id": "T8D09",
@@ -5656,7 +5656,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Another name for a Morse code transmission",
-      "explanation": "Another name for a Morse code transmission is the concept that matches the definition or function asked about here."
+      "explanation": "CW means continuous wave and is the conventional name for on-off keyed Morse-code radio transmission."
     },
     {
       "id": "T8D10",
@@ -5672,7 +5672,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following operating activities is supported by digital mode software in the WSJT-X software suite, so “all these choices” is the complete answer."
+      "explanation": "WSJT-X includes specialized weak-signal digital modes such as FT8 and tools for contacts that ordinary voice cannot support."
     },
     {
       "id": "T8D11",
@@ -5688,7 +5688,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. An error correction method in which the receiving station detects errors and sends a request for retransmission",
-      "explanation": "An error correction method in which the receiving station detects errors and sends a request for retransmission is the concept that matches the definition or function asked about here."
+      "explanation": "ARQ checks data for errors and asks the sender to repeat damaged pieces, improving message accuracy."
     },
     {
       "id": "T8D12",
@@ -5704,7 +5704,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. An amateur-radio data network using commercial Wi-Fi equipment with modified firmware",
-      "explanation": "An amateur-radio data network using commercial Wi-Fi equipment with modified firmware meets the particular condition asked about in this question."
+      "explanation": "Amateur mesh networks link multiple radio nodes into a local data network, often using modified Wi-Fi equipment."
     },
     {
       "id": "T9A01",
@@ -5720,7 +5720,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. An antenna that concentrates signals in one direction",
-      "explanation": "An antenna that concentrates signals in one direction is the concept that matches the definition or function asked about here."
+      "explanation": "A beam antenna concentrates its transmitted and received signals toward one direction to increase useful gain."
     },
     {
       "id": "T9A02",
@@ -5736,7 +5736,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Electrically lengthening by inserting inductors in radiating elements",
-      "explanation": "Electrically lengthening by inserting inductors in radiating elements meets the particular condition asked about in this question."
+      "explanation": "Loading coils make a physically short antenna act electrically longer, helping it resonate at lower frequencies."
     },
     {
       "id": "T9A03",
@@ -5752,7 +5752,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. By the orientation of the electric field",
-      "explanation": "By the orientation of the electric field describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "An antenna's polarization follows the electric-field orientation of the radio wave it radiates."
     },
     {
       "id": "T9A04",
@@ -5768,7 +5768,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. It has low efficiency",
-      "explanation": "It has low efficiency is the concept that matches the definition or function asked about here."
+      "explanation": "A short rubber-duck antenna is much smaller than an efficient quarter-wave antenna and therefore often radiates less effectively."
     },
     {
       "id": "T9A05",
@@ -5784,7 +5784,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Shortening it",
-      "explanation": "Shortening it meets the particular condition asked about in this question."
+      "explanation": "Shortening a dipole reduces its electrical length, so a higher frequency is needed for resonance."
     },
     {
       "id": "T9A06",
@@ -5800,7 +5800,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Yagi",
-      "explanation": "Yagi meets the particular condition asked about in this question."
+      "explanation": "A Yagi uses multiple elements to focus radio energy in one direction, providing more gain than simple antennas."
     },
     {
       "id": "T9A07",
@@ -5816,7 +5816,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Signal strength is reduced due to the shielding effect of the vehicle",
-      "explanation": "Signal strength is reduced due to the shielding effect of the vehicle is the concept that matches the definition or function asked about here."
+      "explanation": "Metal in a vehicle body blocks and reflects signals, so an external antenna usually works better than a handheld inside."
     },
     {
       "id": "T9A08",
@@ -5832,7 +5832,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. It is a resonant quarter-wave",
-      "explanation": "It is a resonant quarter-wave explains the reason behind the operating practice described in this question."
+      "explanation": "At about 146 MHz, a quarter-wavelength is approximately 19 inches, making that length useful for a 2-meter whip."
     },
     {
       "id": "T9A09",
@@ -5848,7 +5848,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. It has more gain",
-      "explanation": "It has more gain is the concept that matches the definition or function asked about here."
+      "explanation": "A 5/8-wave vertical concentrates more signal toward the horizon than a basic quarter-wave antenna."
     },
     {
       "id": "T9A10",
@@ -5864,7 +5864,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Broadside to the antenna",
-      "explanation": "Broadside to the antenna meets the particular condition asked about in this question."
+      "explanation": "A half-wave dipole radiates most strongly out to its sides and weakly off its two ends."
     },
     {
       "id": "T9A11",
@@ -5880,7 +5880,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. The increase in signal strength in a specified direction compared to a reference antenna",
-      "explanation": "The increase in signal strength in a specified direction compared to a reference antenna is the concept that matches the definition or function asked about here."
+      "explanation": "Antenna gain compares signal strength in one direction with a reference, reflecting how radiation is concentrated."
     },
     {
       "id": "T9B01",
@@ -5896,7 +5896,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following connectors should be carefully taped for weather protection when used outdoors, so “all these choices” is the complete answer."
+      "explanation": "Outdoor RF connectors need weather sealing because water entering the connection can cause corrosion, loss and poor SWR."
     },
     {
       "id": "T9B02",
@@ -5912,7 +5912,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 50 ohms",
-      "explanation": "50 ohms is the concept that matches the definition or function asked about here."
+      "explanation": "Most amateur transceivers and their coaxial feed lines are designed around 50-ohm impedance for an efficient match."
     },
     {
       "id": "T9B03",
@@ -5928,7 +5928,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. It is easy to use and requires few special installation considerations",
-      "explanation": "It is easy to use and requires few special installation considerations explains the reason behind the operating practice described in this question."
+      "explanation": "Coax surrounds a center conductor with insulation and shielding, making it relatively easy to route near other objects."
     },
     {
       "id": "T9B04",
@@ -5944,7 +5944,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. It matches the antenna system impedance to the transceiver's output impedance",
-      "explanation": "It matches the antenna system impedance to the transceiver's output impedance is the concept that matches the definition or function asked about here."
+      "explanation": "An antenna tuner changes the impedance seen by the transmitter, helping it match the antenna system and feed line."
     },
     {
       "id": "T9B05",
@@ -5960,7 +5960,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. The loss increases",
-      "explanation": "The loss increases is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Coaxial cable loss generally rises with frequency, so higher-frequency transmissions can lose more power over the same distance."
     },
     {
       "id": "T9B06",
@@ -5976,7 +5976,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Type N",
-      "explanation": "Type N meets the particular condition asked about in this question."
+      "explanation": "Type N connectors maintain better RF performance at UHF frequencies and often handle weather exposure well."
     },
     {
       "id": "T9B07",
@@ -5992,7 +5992,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. They are commonly used at HF and VHF frequencies",
-      "explanation": "They are commonly used at HF and VHF frequencies meets the particular condition asked about in this question."
+      "explanation": "PL-259 connectors are widespread on HF and lower-VHF amateur equipment but are less ideal at higher UHF frequencies."
     },
     {
       "id": "T9B08",
@@ -6008,7 +6008,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following is a source of loss in coaxial feed line, so “all these choices” is the complete answer."
+      "explanation": "Feed-line loss comes from conductor resistance, dielectric heating and imperfections in the cable and connectors."
     },
     {
       "id": "T9B09",
@@ -6024,7 +6024,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Loose connection in the antenna or feed line",
-      "explanation": "Loose connection in the antenna or feed line is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A loose feed-line connection makes impedance change as it moves, causing SWR readings to jump unexpectedly."
     },
     {
       "id": "T9B10",
@@ -6040,7 +6040,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. RG-213 cable has less loss at a given frequency",
-      "explanation": "RG-213 cable has less loss at a given frequency is the concept that matches the definition or function asked about here."
+      "explanation": "Thicker RG-213 normally has less RF attenuation than thinner RG-58 over an equal length at the same frequency."
     },
     {
       "id": "T9B11",
@@ -6056,7 +6056,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Air-insulated hardline",
-      "explanation": "Air-insulated hardline meets the particular condition asked about in this question."
+      "explanation": "Air-insulated hardline minimizes dielectric and conductor losses, making it efficient for long antenna feeds."
     },
     {
       "id": "T9B12",
@@ -6072,7 +6072,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. A measure of how well a load is matched to a transmission line",
-      "explanation": "A measure of how well a load is matched to a transmission line is the concept that matches the definition or function asked about here."
+      "explanation": "SWR compares forward and reflected waves on a feed line and indicates how closely its load is impedance-matched."
     },
     {
       "id": "T0A01",
@@ -6088,7 +6088,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Shorting the terminals can cause burns, fire, or an explosion",
-      "explanation": "Shorting the terminals can cause burns, fire, or an explosion meets the particular condition asked about in this question."
+      "explanation": "Even a 12-volt battery can supply enormous short-circuit current, heating metal enough to cause severe burns or fire."
     },
     {
       "id": "T0A02",
@@ -6104,7 +6104,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what health hazard is posed by electrical current flowing through the body, so “all these choices” is the complete answer."
+      "explanation": "Electrical current through the body can disrupt the heart, contract muscles and heat tissue, so all the listed hazards matter."
     },
     {
       "id": "T0A03",
@@ -6120,7 +6120,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Hot",
-      "explanation": "Hot is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "In a standard U.S. 120-volt cable, black normally marks the energized hot conductor, not neutral or safety ground."
     },
     {
       "id": "T0A04",
@@ -6136,7 +6136,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. To remove power in case of an overload",
-      "explanation": "To remove power in case of an overload is the concept that matches the definition or function asked about here."
+      "explanation": "A correctly rated fuse melts under excessive current, opening the circuit before conductors overheat."
     },
     {
       "id": "T0A05",
@@ -6152,7 +6152,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Excessive current could cause a fire",
-      "explanation": "Excessive current could cause a fire explains the reason behind the operating practice described in this question."
+      "explanation": "A 20-amp fuse allows much more fault current than a 5-amp circuit was designed to carry, potentially starting a fire."
     },
     {
       "id": "T0A06",
@@ -6168,7 +6168,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what is a good way to guard against electrical shock at your station, so “all these choices” is the complete answer."
+      "explanation": "Insulation, protective grounding and safe equipment practices all reduce the chance that hazardous current passes through a person."
     },
     {
       "id": "T0A07",
@@ -6184,7 +6184,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. On a grounded panel near where feed lines enter the building",
-      "explanation": "On a grounded panel near where feed lines enter the building is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A lightning arrester belongs near the cable entry on a properly grounded panel so surges can be diverted outside."
     },
     {
       "id": "T0A08",
@@ -6200,7 +6200,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. In series with the hot conductor only",
-      "explanation": "In series with the hot conductor only is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A fuse must interrupt the hot wire so a blown fuse actually disconnects the energized supply from the load."
     },
     {
       "id": "T0A09",
@@ -6216,7 +6216,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Bond them together with heavy wire or conductive strap",
-      "explanation": "Bond them together with heavy wire or conductive strap is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Bonding grounding electrodes together reduces dangerous voltage differences and provides a common discharge path."
     },
     {
       "id": "T0A10",
@@ -6232,7 +6232,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Overheating or out-gassing",
-      "explanation": "Overheating or out-gassing is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Fast charging or discharging produces heat and may release gases, creating fire or pressure hazards in unprotected batteries."
     },
     {
       "id": "T0A11",
@@ -6248,7 +6248,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Charge stored in filter capacitors",
-      "explanation": "Charge stored in filter capacitors is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Power-supply filter capacitors can hold a dangerous voltage even after the equipment has been unplugged."
     },
     {
       "id": "T0A12",
@@ -6264,7 +6264,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Ensure that the voltmeter and its leads are rated for use at the voltages being measured",
-      "explanation": "Ensure that the voltmeter and its leads are rated for use at the voltages being measured meets the particular condition asked about in this question."
+      "explanation": "High-voltage measurements require properly rated meters and leads because unsuitable insulation may fail and cause shock."
     },
     {
       "id": "T0B01",
@@ -6280,7 +6280,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Ensure that connections are short and direct",
-      "explanation": "Ensure that connections are short and direct meets the particular condition asked about in this question."
+      "explanation": "Short, direct grounding paths reduce inductance and help lightning currents reach ground without large voltage rises."
     },
     {
       "id": "T0B02",
@@ -6296,7 +6296,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what is required when climbing an antenna tower, so “all these choices” is the complete answer."
+      "explanation": "Tower climbing requires appropriate fall protection, training and safe procedures because a slip can be fatal."
     },
     {
       "id": "T0B03",
@@ -6312,7 +6312,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Never",
-      "explanation": "Never is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "A helper or observer is essential for tower work so someone can respond quickly if the climber is injured."
     },
     {
       "id": "T0B04",
@@ -6328,7 +6328,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Look for and stay clear of any overhead electrical wires",
-      "explanation": "Look for and stay clear of any overhead electrical wires meets the particular condition asked about in this question."
+      "explanation": "Overhead power wires can energize a falling antenna or tower, so keep the entire installation safely away from them."
     },
     {
       "id": "T0B05",
@@ -6344,7 +6344,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Prevent loosening of the turnbuckle from vibration",
-      "explanation": "Prevent loosening of the turnbuckle from vibration is the concept that matches the definition or function asked about here."
+      "explanation": "A safety wire stops vibration from unscrewing a turnbuckle that keeps a tower's guy wire tensioned."
     },
     {
       "id": "T0B06",
@@ -6360,7 +6360,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires",
-      "explanation": "Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires is the concept that matches the definition or function asked about here."
+      "explanation": "Plan for the entire antenna or mast to fall without approaching within ten feet of power wires."
     },
     {
       "id": "T0B07",
@@ -6376,7 +6376,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed",
-      "explanation": "This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed meets the particular condition asked about in this question."
+      "explanation": "A crank-up tower must be fully retracted or mechanically locked before climbing because a moving section can collapse."
     },
     {
       "id": "T0B08",
@@ -6392,7 +6392,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Separate eight-foot ground rods for each tower leg, bonded to the tower and each other",
-      "explanation": "Separate eight-foot ground rods for each tower leg, bonded to the tower and each other meets the particular condition asked about in this question."
+      "explanation": "Bonded ground rods at the tower legs provide several paths for lightning current while keeping the legs at similar potential."
     },
     {
       "id": "T0B09",
@@ -6408,7 +6408,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. The antenna could contact high-voltage power lines",
-      "explanation": "The antenna could contact high-voltage power lines explains the reason behind the operating practice described in this question."
+      "explanation": "Utility poles can carry deadly high-voltage wires, and attaching amateur antennas risks accidental contact."
     },
     {
       "id": "T0B10",
@@ -6424,7 +6424,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Sharp bends must be avoided",
-      "explanation": "Sharp bends must be avoided meets the particular condition asked about in this question."
+      "explanation": "Sharp ground-wire bends increase impedance to fast lightning surges and may encourage arcing across nearby materials."
     },
     {
       "id": "T0B11",
@@ -6440,7 +6440,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Local electrical codes",
-      "explanation": "Local electrical codes meets the particular condition asked about in this question."
+      "explanation": "Grounding installations must follow local electrical codes, which establish required protection and bonding methods."
     },
     {
       "id": "T0C01",
@@ -6456,7 +6456,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Non-ionizing radiation",
-      "explanation": "Non-ionizing radiation is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Radio waves are non-ionizing because their individual photons lack the energy to ionize atoms as X-rays can."
     },
     {
       "id": "T0C02",
@@ -6472,7 +6472,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. 50 MHz",
-      "explanation": "50 MHz is the frequency or band that meets the specific operating range or privilege described in the question."
+      "explanation": "The FCC's exposure limits vary by frequency because the human body absorbs RF energy differently across bands."
     },
     {
       "id": "T0C03",
@@ -6488,7 +6488,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. It increases by a factor of 2",
-      "explanation": "It increases by a factor of 2 describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Halving transmit time halves average power exposure, so a transmitter may meet a power-density limit twice as high during on periods."
     },
     {
       "id": "T0C04",
@@ -6504,7 +6504,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what factors affect the RF exposure of people near an amateur station antenna, so “all these choices” is the complete answer."
+      "explanation": "Power, antenna gain, distance and transmission time all affect how much RF energy a person absorbs."
     },
     {
       "id": "T0C05",
@@ -6520,7 +6520,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. The human body absorbs more RF energy at some frequencies than at others",
-      "explanation": "The human body absorbs more RF energy at some frequencies than at others explains the reason behind the operating practice described in this question."
+      "explanation": "RF absorption varies with frequency as the body's tissues and dimensions interact differently with electromagnetic waves."
     },
     {
       "id": "T0C06",
@@ -6536,7 +6536,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to which of the following is an acceptable method to determine whether your station complies with FCC RF exposure regulations, so “all these choices” is the complete answer."
+      "explanation": "You can assess compliance using recognized calculations, computer modeling or appropriate measurements of RF fields."
     },
     {
       "id": "T0C07",
@@ -6552,7 +6552,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. RF burn to skin",
-      "explanation": "RF burn to skin is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Touching an antenna while transmitting can cause localized RF heating and painful skin burns."
     },
     {
       "id": "T0C08",
@@ -6568,7 +6568,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Relocate antennas",
-      "explanation": "Relocate antennas meets the particular condition asked about in this question."
+      "explanation": "Moving an antenna farther from people lowers exposure because field strength generally decreases with distance."
     },
     {
       "id": "T0C09",
@@ -6584,7 +6584,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. By re-evaluating the station whenever an item in the transmitter or antenna system is changed",
-      "explanation": "By re-evaluating the station whenever an item in the transmitter or antenna system is changed describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Changing power, antenna gain, location or operating mode can change RF exposure, so the station must be reassessed."
     },
     {
       "id": "T0C10",
@@ -6600,7 +6600,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. It affects the average exposure to radiation",
-      "explanation": "It affects the average exposure to radiation explains the reason behind the operating practice described in this question."
+      "explanation": "Duty cycle tells how often a transmitter is on, determining its average RF energy over the exposure interval."
     },
     {
       "id": "T0C11",
@@ -6616,7 +6616,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. The percentage of time that a transmitter is transmitting",
-      "explanation": "The percentage of time that a transmitter is transmitting is the concept that matches the definition or function asked about here."
+      "explanation": "A 25-percent duty cycle means a transmitter emits for one quarter of the total averaging period."
     },
     {
       "id": "T0C12",
@@ -6632,7 +6632,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA",
-      "explanation": "RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA describes the method or effect asked about, rather than the other listed possibilities."
+      "explanation": "Radio-frequency photons do not carry enough energy individually to ionize molecules or directly damage DNA the way ionizing radiation can."
     },
     {
       "id": "T0C13",
@@ -6648,7 +6648,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. The station licensee",
-      "explanation": "The station licensee is the person, group, or agency responsible for the role described in this question."
+      "explanation": "The station licensee must evaluate RF exposure and ensure people are not subjected to levels exceeding FCC limits."
     }
   ]
 };
