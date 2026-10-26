@@ -617,7 +617,7 @@
       <div class="breakdown"><h3>Section Breakdown</h3>${rows}</div>
       <div class="mission-actions"><button id="home" class="btn">Mission Control</button><button id="again" class="btn alt">Take Another Exam</button>${missed.length ? `<button id="fix" class="btn alt">Practice These ${missed.length} Missed</button>` : ""}</div>
     </div>
-    ${missed.length ? `<div class="panel" style="margin-top:18px"><h3>Questions Missed</h3>${missed.map(x=>`<div class="review-item"><b>${esc(x.q.id)}</b> ${esc(x.q.q)}<div class="muted">Correct: ${String.fromCharCode(65+x.q.correct)}. ${esc(x.q.a[x.q.correct])}</div></div>`).join("")}</div>` : ""}`;
+    ${missed.length ? `<div class="panel" style="margin-top:18px"><h3>Questions Missed</h3>${missed.map(x=>`<div class="review-item"><b>${esc(x.q.id)}</b> ${esc(x.q.q)}<div class="muted">Correct: ${String.fromCharCode(65+x.q.correct)}. ${esc(x.q.a[x.q.correct])}</div><div class="micro-lesson"><span class="lesson-label">WHY IT WORKS</span><p>${esc(teachingMoment(x.q))}</p></div></div>`).join("")}</div>` : ""}`;
 
     document.getElementById("home").onclick = () => { state.view="home"; render(); };
     document.getElementById("again").onclick = startExam;
