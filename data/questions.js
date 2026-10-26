@@ -2728,7 +2728,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Amperes",
-      "explanation": "Amperes meets the particular condition asked about in this question."
+      "explanation": "Electric current measures the flow of electrical charge, and one ampere represents one coulomb of charge passing a point each second."
     },
     {
       "id": "T5A02",
@@ -2744,7 +2744,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Watts",
-      "explanation": "Watts meets the particular condition asked about in this question."
+      "explanation": "Watts measure electrical power, meaning the rate at which energy is delivered or used; one watt equals one joule per second."
     },
     {
       "id": "T5A03",
@@ -2760,7 +2760,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. Current",
-      "explanation": "Current is the concept that matches the definition or function asked about here."
+      "explanation": "Current is the movement of electric charge through a circuit, while voltage is the push that causes that movement."
     },
     {
       "id": "T5A04",
@@ -2776,7 +2776,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Frequency",
-      "explanation": "Frequency is the option that matches the specific amateur-radio rule or concept described in this question."
+      "explanation": "Frequency counts how many complete AC cycles occur each second; for example, 60 Hz power changes through 60 cycles per second."
     },
     {
       "id": "T5A05",
@@ -2792,7 +2792,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Voltage",
-      "explanation": "Voltage meets the particular condition asked about in this question."
+      "explanation": "Voltage is the electrical potential difference that pushes charge through a circuit, much like pressure pushes water through a pipe."
     },
     {
       "id": "T5A06",
@@ -2808,7 +2808,7 @@ window.HAM_POOL = {
       "correct": 0,
       "figure": "",
       "explain": "Correct answer: A. Hertz",
-      "explanation": "Hertz is the measurement unit for the electrical or radio quantity named in the question."
+      "explanation": "Hertz measure frequency as cycles per second, so a signal at 100 Hz repeats its cycle 100 times every second."
     },
     {
       "id": "T5A07",
@@ -2824,7 +2824,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. They have many free electrons",
-      "explanation": "They have many free electrons explains the reason behind the operating practice described in this question."
+      "explanation": "Metals contain mobile electrons that move through the material under an applied voltage, allowing electric current to flow easily."
     },
     {
       "id": "T5A08",
@@ -2840,7 +2840,7 @@ window.HAM_POOL = {
       "correct": 1,
       "figure": "",
       "explain": "Correct answer: B. Glass",
-      "explanation": "Glass meets the particular condition asked about in this question."
+      "explanation": "Glass holds its electrons tightly and resists electric current, unlike conductive metals such as copper and aluminum."
     },
     {
       "id": "T5A09",
@@ -2856,7 +2856,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Current that alternates between positive and negative directions",
-      "explanation": "Current that alternates between positive and negative directions meets the particular condition asked about in this question."
+      "explanation": "Alternating current repeatedly reverses its direction of flow, while direct current flows in one overall direction."
     },
     {
       "id": "T5A10",
@@ -2872,7 +2872,7 @@ window.HAM_POOL = {
       "correct": 2,
       "figure": "",
       "explain": "Correct answer: C. Power",
-      "explanation": "Power meets the particular condition asked about in this question."
+      "explanation": "Electrical power is the rate energy is transferred or used, calculated in a DC circuit by multiplying volts by amperes."
     },
     {
       "id": "T5A11",
@@ -2888,7 +2888,7 @@ window.HAM_POOL = {
       "correct": 3,
       "figure": "",
       "explain": "Correct answer: D. All these choices are correct",
-      "explanation": "Each listed option applies to what type of current flow is opposed by resistance, so “all these choices” is the complete answer."
+      "explanation": "Resistance opposes the flow of charge in DC, AC and radio-frequency circuits, converting some electrical energy into heat."
     },
     {
       "id": "T5B01",
