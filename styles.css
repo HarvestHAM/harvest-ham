@@ -335,3 +335,9 @@ body:before{
 .learner-progress .learning-section summary{font-size:13px}
 @media(min-width:800px){.learner-progress{min-width:0}.learner-progress .learning-summary{grid-template-columns:1fr}}
 @media(max-width:560px){.learner-progress .learning-summary{grid-template-columns:1fr}}
+
+/* Give an opened student report enough room to read comfortably. */
+.grid>.card.progress-open{grid-column:1/-1}
+.grid>.card.progress-open .learner-progress .learning-summary{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid>.card.progress-open .learner-progress .learning-list{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));display:grid}
+@media(max-width:560px){.grid>.card.progress-open .learner-progress .learning-summary{grid-template-columns:1fr}}
