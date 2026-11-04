@@ -687,14 +687,12 @@
     return { data: rows, error: null };
   }
 
-  function setupLearningProgress(learners, attempts) {
-    const studentSelect = document.getElementById("progressStudent");
-    const periodSelect = document.getElementById("progressPeriod");
-    const report = document.getElementById("progressReport");
-    if (!studentSelect || !report) return;
+  function setupLearningProgress(learnerId, attempts, card) {
+    const periodSelect = card.querySelector(".progressPeriod");
+    const report = card.querySelector(".progressReport");
+    if (!periodSelect || !report) return;
 
     function renderReport() {
-      const learnerId = studentSelect.value;
       const days = Number(periodSelect.value);
       const threshold = days ? Date.now() - days * 86400000 : 0;
       const selectedAttempts = attempts.filter(a =>
@@ -770,7 +768,6 @@
         '<div class="learning-list">' + sectionHtml + '</div>' +
         '<h4>Most frequently missed questions</h4><div class="learning-missed-list">' + troubleHtml + '</div>';
     }
-    studentSelect.addEventListener("change", renderReport);
     periodSelect.addEventListener("change", renderReport);
     renderReport();
   }
@@ -788,8 +785,6 @@
 
     if (learnersRes.error) {
       root.innerHTML = `<div class="panel"><h2>Teacher Dashboard</h2><div class="feedback">Could not load teacher data: ${esc(learnersRes.error.message)}</div><button id="logoutTeacher" class="btn">Log out</button></div>`;
-      setupLearningProgress(learners, attempts);
-
     document.getElementById("logoutTeacher").onclick = async () => { await db.auth.signOut(); state.teacher=false; state.view="login"; render(); };
       return;
     }
@@ -823,11 +818,13 @@
         <div class="toolbar"><div><b>${esc(l.first_name)}</b><div class="muted">${esc(l.team)}</div></div><span class="badge">${lp} pts</span></div>
         <div class="learner-metrics"><span>${la.length} answered</span><span>${accuracy}% accuracy</span><span>Best exam: ${best===null ? "-" : best+"/35"}</span><span>Last practice: ${latest}</span></div>
         <div class="subnav">
+          <button class="subbtn progressBtn" data-id="${l.id}" aria-expanded="false">View Progress</button>
           <button class="subbtn bonusBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">+ Bonus</button>
           <button class="subbtn pinBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Change PIN</button>
           <button class="subbtn resetBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Reset Progress</button>
           <button class="subbtn danger deleteBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Delete</button>
         </div>
+        <div class="learner-progress" hidden></div>
       </div>`;
     }).join("");
 
@@ -853,20 +850,6 @@
         ${scoreboard()}
       </div>
 
-      <div class="panel learning-panel" style="margin-top:22px">
-        <h3>Learning Progress</h3>
-        <p class="muted">See where each student needs more practice, from entire sections down to individual questions.</p>
-        <div class="learning-controls">
-          <label>Student<select id="progressStudent">${learners.map(l => `<option value="${esc(l.id)}">${esc(l.first_name)} (${esc(l.team)})</option>`).join("")}</select></label>
-          <label>Practice period<select id="progressPeriod">
-            <option value="0">All time</option>
-            <option value="30">Last 30 days</option>
-            <option value="7">Last 7 days</option>
-          </select></label>
-        </div>
-        <div id="progressReport" aria-live="polite"></div>
-      </div>
-
       <div class="toolbar" style="margin-top:24px"><h3 style="margin:0">Roster</h3><span class="muted">${learners.length} total accounts</span></div>
       <div class="grid">${learnerRows || '<div class="card muted">No learners yet. Add the first one above.</div>'}</div>`;
 
@@ -889,6 +872,30 @@
       if(r.error){e.submitter.disabled=false;return showMessage(r.error.message,"error");}
       showMessage("Learner added!","success");
       setTimeout(()=>renderTeacher(),500);
+    });
+
+    root.querySelectorAll(".progressBtn").forEach(button => button.onclick = () => {
+      const card = button.closest(".card");
+      const panel = card.querySelector(".learner-progress");
+      const opening = panel.hidden;
+      root.querySelectorAll(".learner-progress").forEach(p => { p.hidden = true; p.innerHTML = ""; });
+      root.querySelectorAll(".progressBtn").forEach(b => {
+        b.textContent = "View Progress";
+        b.setAttribute("aria-expanded", "false");
+      });
+      if (!opening) return;
+      panel.hidden = false;
+      button.textContent = "Hide Progress";
+      button.setAttribute("aria-expanded", "true");
+      panel.innerHTML = `<h4>Learning Progress</h4>
+        <label class="progress-period-label">Practice period
+          <select class="progressPeriod">
+            <option value="0">All time</option>
+            <option value="30">Last 30 days</option>
+            <option value="7">Last 7 days</option>
+          </select>
+        </label><div class="progressReport" aria-live="polite"></div>`;
+      setupLearningProgress(button.dataset.id, attempts, card);
     });
 
     root.querySelectorAll(".bonusBtn").forEach(b=>b.onclick=async()=>{
