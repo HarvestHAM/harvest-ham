@@ -670,12 +670,114 @@
     });
   }
 
+
+  // Fetch every attempt: Supabase returns at most 1,000 rows by default.
+  async function loadTeacherAttempts() {
+    const rows = [];
+    const pageSize = 1000;
+    for (let offset = 0; ; offset += pageSize) {
+      const result = await db.from("attempts")
+        .select("learner_id,question_id,subgroup,correct,mode,attempted_at")
+        .order("attempted_at", { ascending: false })
+        .range(offset, offset + pageSize - 1);
+      if (result.error) return { data: null, error: result.error };
+      rows.push(...(result.data || []));
+      if (!result.data || result.data.length < pageSize) break;
+    }
+    return { data: rows, error: null };
+  }
+
+  function setupLearningProgress(learnerId, attempts, card) {
+    const periodSelect = card.querySelector(".progressPeriod");
+    const report = card.querySelector(".progressReport");
+    if (!periodSelect || !report) return;
+
+    function renderReport() {
+      const days = Number(periodSelect.value);
+      const threshold = days ? Date.now() - days * 86400000 : 0;
+      const selectedAttempts = attempts.filter(a =>
+        a.learner_id === learnerId &&
+        (!threshold || new Date(a.attempted_at).getTime() >= threshold)
+      );
+      if (!selectedAttempts.length) {
+        report.innerHTML = '<p class="muted">No saved answers for this student in this period yet. Try All time after the student completes a quiz.</p>';
+        return;
+      }
+
+      // The newest response for each question is the best measure of present understanding.
+      const latest = new Map();
+      const misses = new Map();
+      for (const answer of selectedAttempts) {
+        if (!latest.has(answer.question_id)) latest.set(answer.question_id, answer);
+        if (!answer.correct) misses.set(answer.question_id, (misses.get(answer.question_id) || 0) + 1);
+      }
+      const current = [...latest.values()];
+      const totalCorrect = current.filter(a => a.correct).length;
+      const percent = (hits, total) => total ? Math.round(100 * hits / total) : 0;
+      const statsFor = rows => ({
+        answered: rows.length,
+        right: rows.filter(a => a.correct).length,
+        pct: percent(rows.filter(a => a.correct).length, rows.length)
+      });
+      const allMisses = selectedAttempts.filter(a => !a.correct).length;
+      const coverage = percent(current.length, pool.questions.length);
+      const stats = pool.sections.map(section => {
+        const rows = current.filter(a => (a.subgroup || a.question_id.slice(0, 3)).startsWith(section.id));
+        const history = selectedAttempts.filter(a => (a.subgroup || a.question_id.slice(0, 3)).startsWith(section.id));
+        return { section, ...statsFor(rows), mistakes: history.filter(a => !a.correct).length,
+          groups: section.groups.map(group => {
+            const groupRows = rows.filter(a => (a.subgroup || a.question_id.slice(0, 3)) === group);
+            const groupHistory = history.filter(a => (a.subgroup || a.question_id.slice(0, 3)) === group);
+            return { group, ...statsFor(groupRows), mistakes: groupHistory.filter(a => !a.correct).length };
+          })
+        };
+      }).filter(s => s.answered).sort((a, b) => a.pct - b.pct || b.mistakes - a.mistakes);
+
+      const bar = (value) => '<div class="learning-track"><div class="learning-fill ' +
+        (value < 60 ? 'needs-work' : value < 80 ? 'developing' : 'strong') +
+        '" style="width:' + value + '%"></div></div>';
+      const sectionHtml = stats.map(s =>
+        '<details class="learning-section"><summary><span><b>' + esc(s.section.id + " · " + s.section.title) +
+        '</b><small>' + s.answered + ' different questions · ' + s.mistakes + ' missed attempts</small></span>' +
+        '<span class="learning-score">' + s.pct + '%</span></summary>' +
+        bar(s.pct) +
+        '<div class="learning-subgroups">' + s.groups.filter(g => g.answered).sort((a,b) => a.pct - b.pct)
+          .map(g => '<div class="learning-subgroup"><span><b>' + esc(g.group) + '</b> · ' +
+            g.answered + ' questions · ' + g.mistakes + ' missed</span><b>' + g.pct + '%</b></div>' +
+            bar(g.pct)).join('') +
+        '</div></details>'
+      ).join('');
+
+      const trouble = [...misses.entries()].map(([id, count]) =>
+        ({ question: questionById(id), id, count, current: latest.get(id) })
+      ).filter(item => item.question).sort((a,b) => b.count - a.count ||
+        Number(a.current.correct) - Number(b.current.correct)).slice(0, 10);
+      const troubleHtml = trouble.length ? trouble.map(item =>
+        '<div class="learning-missed"><div><b>' + esc(item.id) +
+        '</b> <span class="muted">· ' + item.count + ' incorrect attempt' + (item.count === 1 ? '' : 's') +
+        ' · Latest: ' + (item.current.correct ? 'Correct ✓' : 'Incorrect') + '</span></div>' +
+        '<div>' + esc(item.question.q) + '</div></div>'
+      ).join('') : '<p class="muted">No missed questions in this period!</p>';
+      report.innerHTML =
+        '<div class="learning-summary"><div><strong>' + current.length + '</strong><span>Different questions tried (' + coverage + '% of pool)</span></div>' +
+        '<div><strong>' + percent(totalCorrect, current.length) + '%</strong><span>Current accuracy (latest answer)</span></div>' +
+        '<div><strong>' + selectedAttempts.length + '</strong><span>Total attempts (' + allMisses + ' incorrect)</span></div></div>' +
+        '<p class="muted learning-hint">Sections are sorted by lowest latest-answer accuracy. ' +
+        'Only questions answered during the selected period count; each question counts once toward accuracy. ' +
+        'Click a section to see its smaller study groups.</p>' +
+        '<div class="learning-list">' + sectionHtml + '</div>' +
+        '<h4>Most frequently missed questions</h4><div class="learning-missed-list">' + troubleHtml + '</div>';
+    }
+    periodSelect.addEventListener("change", renderReport);
+    renderReport();
+  }
+
   async function renderTeacher() {
     root.innerHTML = '<div class="login panel"><h2>Loading teacher dashboard…</h2></div>';
 
     const [learnersRes, attemptsRes, pointsRes, scoresRes, examsRes] = await Promise.all([
       db.from("learners").select("id,first_name,team,active,created_at").order("team").order("first_name"),
-      db.from("attempts").select("learner_id,question_id,subgroup,correct,mode,attempted_at"),
+      loadTeacherAttempts(),
       db.from("points_ledger").select("learner_id,points,reason,source,created_at"),
       db.rpc("get_team_scores"),
       db.from("exam_results").select("learner_id,score,total,passed,completed_at")
@@ -683,7 +785,16 @@
 
     if (learnersRes.error) {
       root.innerHTML = `<div class="panel"><h2>Teacher Dashboard</h2><div class="feedback">Could not load teacher data: ${esc(learnersRes.error.message)}</div><button id="logoutTeacher" class="btn">Log out</button></div>`;
-      document.getElementById("logoutTeacher").onclick = async () => { await db.auth.signOut(); state.teacher=false; state.view="login"; render(); };
+    document.getElementById("logoutTeacher").onclick = async () => { await db.auth.signOut(); state.teacher=false; state.view="login"; render(); };
+      return;
+    }
+
+    if (attemptsRes.error) {
+      root.innerHTML = '<div class="panel"><h2>Teacher Dashboard</h2><div class="feedback">Could not load question history: ' +
+        esc(attemptsRes.error.message) + '</div><button id="logoutTeacher" class="btn">Log out</button></div>';
+      document.getElementById("logoutTeacher").onclick = async () => {
+        await db.auth.signOut(); state.teacher=false; state.view="login"; render();
+      };
       return;
     }
 
@@ -700,18 +811,31 @@
       const la = attempts.filter(a => a.learner_id===l.id);
       const lp = ledger.filter(p => p.learner_id===l.id).reduce((n,p)=>n+Number(p.points||0),0);
       const le = exams.filter(e => e.learner_id===l.id);
-      const accuracy = la.length ? Math.round(100*la.filter(a=>a.correct).length/la.length) : 0;
+      // Attempts are ordered newest-first; count each distinct question only once
+      // when estimating current understanding, while reporting repeats separately.
+      const latestByQuestion = new Map();
+      for (const answer of la) {
+        if (!latestByQuestion.has(answer.question_id)) {
+          latestByQuestion.set(answer.question_id, answer);
+        }
+      }
+      const distinctQuestions = [...latestByQuestion.values()];
+      const accuracy = distinctQuestions.length
+        ? Math.round(100 * distinctQuestions.filter(a => a.correct).length / distinctQuestions.length)
+        : null;
       const best = le.length ? Math.max(...le.map(e=>Number(e.score))) : null;
       const latest = la.length ? new Date(Math.max(...la.map(a=>new Date(a.attempted_at).getTime()))).toLocaleDateString() : "Not yet";
       return `<div class="card">
         <div class="toolbar"><div><b>${esc(l.first_name)}</b><div class="muted">${esc(l.team)}</div></div><span class="badge">${lp} pts</span></div>
-        <div class="learner-metrics"><span>${la.length} answered</span><span>${accuracy}% accuracy</span><span>Best exam: ${best===null ? "-" : best+"/35"}</span><span>Last practice: ${latest}</span></div>
+        <div class="learner-metrics"><span>${distinctQuestions.length} questions practiced</span><span>${la.length} total attempts</span><span>Current accuracy: ${accuracy===null ? "-" : accuracy+"%"}</span><span>Best exam: ${best===null ? "-" : best+"/35"}</span><span>Last practice: ${latest}</span></div>
         <div class="subnav">
+          <button class="subbtn progressBtn" data-id="${l.id}" aria-expanded="false">View Progress</button>
           <button class="subbtn bonusBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">+ Bonus</button>
           <button class="subbtn pinBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Change PIN</button>
           <button class="subbtn resetBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Reset Progress</button>
           <button class="subbtn danger deleteBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">Delete</button>
         </div>
+        <div class="learner-progress" hidden></div>
       </div>`;
     }).join("");
 
@@ -759,6 +883,32 @@
       if(r.error){e.submitter.disabled=false;return showMessage(r.error.message,"error");}
       showMessage("Learner added!","success");
       setTimeout(()=>renderTeacher(),500);
+    });
+
+    root.querySelectorAll(".progressBtn").forEach(button => button.onclick = () => {
+      const card = button.closest(".card");
+      const panel = card.querySelector(".learner-progress");
+      const opening = panel.hidden;
+      root.querySelectorAll(".learner-progress").forEach(p => { p.hidden = true; p.innerHTML = ""; });
+      root.querySelectorAll(".progress-open").forEach(c => c.classList.remove("progress-open"));
+      root.querySelectorAll(".progressBtn").forEach(b => {
+        b.textContent = "View Progress";
+        b.setAttribute("aria-expanded", "false");
+      });
+      if (!opening) return;
+      panel.hidden = false;
+      card.classList.add("progress-open");
+      button.textContent = "Hide Progress";
+      button.setAttribute("aria-expanded", "true");
+      panel.innerHTML = `<h4>Learning Progress</h4>
+        <label class="progress-period-label">Practice period
+          <select class="progressPeriod">
+            <option value="0">All time</option>
+            <option value="30">Last 30 days</option>
+            <option value="7">Last 7 days</option>
+          </select>
+        </label><div class="progressReport" aria-live="polite"></div>`;
+      setupLearningProgress(button.dataset.id, attempts, card);
     });
 
     root.querySelectorAll(".bonusBtn").forEach(b=>b.onclick=async()=>{
