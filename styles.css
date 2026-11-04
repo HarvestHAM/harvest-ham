@@ -320,3 +320,18 @@ body:before{
 .learning-missed{padding:12px;background:var(--paper);border:1px solid var(--line);border-radius:10px;font-size:13px;line-height:1.5}
 .learning-missed>div:first-child{margin-bottom:4px}
 @media(max-width:560px){.learning-summary{grid-template-columns:1fr}.learning-controls{flex-direction:column;gap:10px}}
+
+/* Expanded per-student learning report inside the roster card */
+.learner-progress[hidden]{display:none}
+.learner-progress{border-top:1px solid var(--line);margin-top:16px;padding-top:16px}
+.learner-progress h4{margin:0 0 12px}
+.progress-period-label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:700;margin-bottom:14px}
+.progress-period-label select{max-width:260px;padding:9px;border:1px solid var(--line);border-radius:9px;background:white}
+.learner-progress .learning-summary{grid-template-columns:repeat(3,minmax(0,1fr))}
+.learner-progress .learning-summary strong{font-size:20px}
+.learner-progress .learning-summary>div{padding:9px}
+.learner-progress .learning-summary span{font-size:11px}
+.learner-progress .learning-section{padding:10px}
+.learner-progress .learning-section summary{font-size:13px}
+@media(min-width:800px){.learner-progress{min-width:0}.learner-progress .learning-summary{grid-template-columns:1fr}}
+@media(max-width:560px){.learner-progress .learning-summary{grid-template-columns:1fr}}
