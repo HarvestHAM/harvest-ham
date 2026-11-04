@@ -879,12 +879,14 @@
       const panel = card.querySelector(".learner-progress");
       const opening = panel.hidden;
       root.querySelectorAll(".learner-progress").forEach(p => { p.hidden = true; p.innerHTML = ""; });
+      root.querySelectorAll(".progress-open").forEach(c => c.classList.remove("progress-open"));
       root.querySelectorAll(".progressBtn").forEach(b => {
         b.textContent = "View Progress";
         b.setAttribute("aria-expanded", "false");
       });
       if (!opening) return;
       panel.hidden = false;
+      card.classList.add("progress-open");
       button.textContent = "Hide Progress";
       button.setAttribute("aria-expanded", "true");
       panel.innerHTML = `<h4>Learning Progress</h4>
