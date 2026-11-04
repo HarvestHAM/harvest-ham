@@ -760,8 +760,8 @@
       ).join('') : '<p class="muted">No missed questions in this period!</p>';
       report.innerHTML =
         '<div class="learning-summary"><div><strong>' + current.length + '</strong><span>Different questions tried (' + coverage + '% of pool)</span></div>' +
-        '<div><strong>' + percent(totalCorrect, current.length) + '%</strong><span>Latest-answer accuracy</span></div>' +
-        '<div><strong>' + allMisses + '</strong><span>Total incorrect attempts</span></div></div>' +
+        '<div><strong>' + percent(totalCorrect, current.length) + '%</strong><span>Current accuracy (latest answer)</span></div>' +
+        '<div><strong>' + selectedAttempts.length + '</strong><span>Total attempts (' + allMisses + ' incorrect)</span></div></div>' +
         '<p class="muted learning-hint">Sections are sorted by lowest latest-answer accuracy. ' +
         'Only questions answered during the selected period count; each question counts once toward accuracy. ' +
         'Click a section to see its smaller study groups.</p>' +
@@ -811,12 +811,23 @@
       const la = attempts.filter(a => a.learner_id===l.id);
       const lp = ledger.filter(p => p.learner_id===l.id).reduce((n,p)=>n+Number(p.points||0),0);
       const le = exams.filter(e => e.learner_id===l.id);
-      const accuracy = la.length ? Math.round(100*la.filter(a=>a.correct).length/la.length) : 0;
+      // Attempts are ordered newest-first; count each distinct question only once
+      // when estimating current understanding, while reporting repeats separately.
+      const latestByQuestion = new Map();
+      for (const answer of la) {
+        if (!latestByQuestion.has(answer.question_id)) {
+          latestByQuestion.set(answer.question_id, answer);
+        }
+      }
+      const distinctQuestions = [...latestByQuestion.values()];
+      const accuracy = distinctQuestions.length
+        ? Math.round(100 * distinctQuestions.filter(a => a.correct).length / distinctQuestions.length)
+        : null;
       const best = le.length ? Math.max(...le.map(e=>Number(e.score))) : null;
       const latest = la.length ? new Date(Math.max(...la.map(a=>new Date(a.attempted_at).getTime()))).toLocaleDateString() : "Not yet";
       return `<div class="card">
         <div class="toolbar"><div><b>${esc(l.first_name)}</b><div class="muted">${esc(l.team)}</div></div><span class="badge">${lp} pts</span></div>
-        <div class="learner-metrics"><span>${la.length} answered</span><span>${accuracy}% accuracy</span><span>Best exam: ${best===null ? "-" : best+"/35"}</span><span>Last practice: ${latest}</span></div>
+        <div class="learner-metrics"><span>${distinctQuestions.length} questions practiced</span><span>${la.length} total attempts</span><span>Current accuracy: ${accuracy===null ? "-" : accuracy+"%"}</span><span>Best exam: ${best===null ? "-" : best+"/35"}</span><span>Last practice: ${latest}</span></div>
         <div class="subnav">
           <button class="subbtn progressBtn" data-id="${l.id}" aria-expanded="false">View Progress</button>
           <button class="subbtn bonusBtn" data-id="${l.id}" data-name="${esc(l.first_name)}">+ Bonus</button>
